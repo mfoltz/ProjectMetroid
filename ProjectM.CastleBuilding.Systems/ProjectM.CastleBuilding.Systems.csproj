@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="Current">
+  <!--Project was exported from assembly: C:\Users\mitch\.nuget\packages\vrising.unhollowed.client\0.6.5.57575090\lib\net6.0\ProjectM.CastleBuilding.Systems.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BEE99BB8-967F-46F1-9C3A-52AEBA37A499}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>ProjectM.CastleBuilding.Systems</AssemblyName>
+    <ApplicationVersion>0.0.0.0</ApplicationVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Il2CppInterop.Common">
+      <HintPath>lib\Il2CppInterop.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>lib\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>lib\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectM">
+      <HintPath>lib\ProjectM.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectM.Shared">
+      <HintPath>lib\ProjectM.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="Stunlock.Core">
+      <HintPath>lib\Stunlock.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>lib\Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities">
+      <HintPath>lib\Unity.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.Hybrid">
+      <HintPath>lib\Unity.Entities.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>lib\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Physics">
+      <HintPath>lib\Unity.Physics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rendering.Hybrid">
+      <HintPath>lib\Unity.Rendering.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Transforms">
+      <HintPath>lib\Unity.Transforms.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>lib\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="_PrivateImplementationDetails_.cs" />
+    <Compile Include="__JobReflectionRegistrationOutput__4225508582.cs" />
+    <Compile Include="ObjectPrivateAbstractSealedInVo9.cs" />
+    <Compile Include="Il2CppMicrosoft\CodeAnalysis\EmbeddedAttribute.cs" />
+    <Compile Include="Il2CppSystem\Runtime\CompilerServices\IsReadOnlyAttribute.cs" />
+    <Compile Include="Il2CppSystem\Runtime\CompilerServices\IsUnmanagedAttribute.cs" />
+    <Compile Include="ProjectM\CastleBuffsSettings.cs" />
+    <Compile Include="ProjectM\CastleBuffsSettingsComponent.cs" />
+    <Compile Include="ProjectM\CastleBuffsSystem.cs" />
+    <Compile Include="ProjectM\CastleBuffsTickSystem.cs" />
+    <Compile Include="ProjectM\CastleBuffsHelper.cs" />
+    <Compile Include="ProjectM\CastleRepairSystem.cs" />
+    <Compile Include="ProjectM\CastleRepairBuffDestroySystem.cs" />
+    <Compile Include="ProjectM\IDebugWorldTileBounds.cs" />
+    <Compile Include="ProjectM\DebugWorldTileCollisionBounds.cs" />
+    <Compile Include="ProjectM\DebugWorldTilePlacementBounds.cs" />
+    <Compile Include="ProjectM\DebugWorldSurfaceFluffBounds.cs" />
+    <Compile Include="ProjectM\DebugWorldLineOfSightBounds.cs" />
+    <Compile Include="ProjectM\DebugWorldPathfindingBounds.cs" />
+    <Compile Include="ProjectM\DebugWorldTileHeightBounds.cs" />
+    <Compile Include="ProjectM\DebugWorldCastleAreaBounds.cs" />
+    <Compile Include="ProjectM\DebugWorldRestrictionAreaBounds.cs" />
+    <Compile Include="ProjectM\DebugWorldTileCollisionBoundsSystem.cs" />
+    <Compile Include="ProjectM\DebugWorldTilePlacementBoundsSystem.cs" />
+    <Compile Include="ProjectM\DebugWorldSurfaceFluffBoundsSystem.cs" />
+    <Compile Include="ProjectM\DebugWorldLineOfSightBoundsSystem.cs" />
+    <Compile Include="ProjectM\DebugWorldPathfindingBoundsSystem.cs" />
+    <Compile Include="ProjectM\DebugWorldTileHeightBoundsSystem.cs" />
+    <Compile Include="ProjectM\DebugWorldRestrictionAreaBoundsSystem.cs" />
+    <Compile Include="ProjectM\DebugWorldTileBoundsSystem`2.cs" />
+    <Compile Include="ProjectM\DrawTileBoundsInBounds.cs" />
+    <Compile Include="ProjectM\Terrain\ChunkMapZoneSpawnOnLoad.cs" />
+    <Compile Include="ProjectM\Terrain\MapZoneDebugSystem.cs" />
+    <Compile Include="ProjectM\Terrain\TerritorySpawnSystem.cs" />
+    <Compile Include="ProjectM\Terrain\TerritoryManagerSpawnSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\CastleBuildingAttachmentBuffSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\CastleBuildingAttachmentCleanup.cs" />
+    <Compile Include="ProjectM\CastleBuilding\CastleBuildingAttachmentAddedEventsClearSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\CastleBuildingAttachmentRemovedEventsClearSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\BuildDebugCastleSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\DebugCastlePrefabEntities.cs" />
+    <Compile Include="ProjectM\CastleBuilding\DebugCastlePrefabsCollectionSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\CastleBuildingDeadCleanup.cs" />
+    <Compile Include="ProjectM\CastleBuilding\CastleIncrementCountOnSpawnSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\CastleDecrementCountOnDestroySystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\CastleHasItemsOnSpawnSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\CastleHasItemsOnDestroySystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\CastleFallingSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\CastleTerritoryHeightsSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\DisableShowOnlyInPreviewSystem_Server.cs" />
+    <Compile Include="ProjectM\CastleBuilding\DisableShowOnlyInPreviewSystem_Client.cs" />
+    <Compile Include="ProjectM\CastleBuilding\OnlyShowInBuildModeSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\RepairBlueprintSpawnChainsNotOnFloorsSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\RoomRoofDebugSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\RoomRoofUpdateSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\DestroyRoofOnFloorDestroySystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\AfterLoadRemoveDisabledFromRoomSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\CastleRoomEventType.cs" />
+    <Compile Include="ProjectM\CastleBuilding\CastleRoomEvent.cs" />
+    <Compile Include="ProjectM\CastleBuilding\CastleBuildingClearRoomEventsSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\CastleBuildingSearchRoomSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\NativeListExtension.cs" />
+    <Compile Include="ProjectM\CastleBuilding\CastleWorkstationEvents.cs" />
+    <Compile Include="ProjectM\CastleBuilding\CastleWorkstationUpdateEvents.cs" />
+    <Compile Include="ProjectM\CastleBuilding\CastleBuildingWorkstationsSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\DrawCastleTerritorySystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\TerritoryTileComponent.cs" />
+    <Compile Include="ProjectM\CastleBuilding\TerritoryTile.cs" />
+    <Compile Include="ProjectM\CastleBuilding\Placement\DeserializeCastleHeartSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\Placement\DestroyCastleHeartSystem_Client.cs" />
+    <Compile Include="ProjectM\CastleBuilding\Placement\RemapCastleHeartTerritoryConnectionOnPersistenceLo.cs" />
+    <Compile Include="ProjectM\CastleBuilding\Placement\SetTerritoryWorldRegionSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\Teleporters\CastleTeleporterConnectSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\Teleporters\CastleTeleporterDisconnectSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\Systems\AssetSwapFloorUpdateSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\Systems\AssetSwappingSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\Systems\CastleRailingsCollection.cs" />
+    <Compile Include="ProjectM\CastleBuilding\Systems\CastleRailingsSystem.cs" />
+    <Compile Include="ProjectM\CastleBuilding\Systems\CastleRailingsRegisterOnPersistenceLoad.cs" />
+    <Compile Include="ProjectM\CastleBuilding\Systems\RegisterRailingsJob.cs" />
+    <Compile Include="ProjectM\Shared\Systems\DebugVisualizeRoomsSystem.cs" />
+    <Compile Include="ProjectM\Roofs\RoofSetConversionSystem.cs" />
+    <Compile Include="ProjectM\Roofs\RoofTileData.cs" />
+    <Compile Include="ProjectM\Roofs\RoofInstanceTypeId.cs" />
+    <Compile Include="ProjectM\Roofs\RoofTileAuthoring.cs" />
+    <Compile Include="ProjectM\Roofs\TileBlobDefinition.cs" />
+    <Compile Include="ProjectM\Roofs\TileBlobType.cs" />
+    <Compile Include="ProjectM\Roofs\TileBlobRootType.cs" />
+    <Compile Include="ProjectM\Roofs\TileBlob.cs" />
+    <Compile Include="ProjectM\Roofs\TileBlobUtilities.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

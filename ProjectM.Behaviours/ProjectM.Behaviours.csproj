@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="Current">
+  <!--Project was exported from assembly: C:\Users\mitch\.nuget\packages\vrising.unhollowed.client\0.6.5.57575090\lib\net6.0\ProjectM.Behaviours.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B3473F8A-80FE-4BAE-B4D9-E451DA5C640C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>ProjectM.Behaviours</AssemblyName>
+    <ApplicationVersion>0.0.0.0</ApplicationVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Il2CppInterop.Common">
+      <HintPath>lib\Il2CppInterop.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>lib\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>lib\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Malee.ReorderableList">
+      <HintPath>lib\Malee.ReorderableList.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectM">
+      <HintPath>lib\ProjectM.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectM.CodeGeneration">
+      <HintPath>lib\ProjectM.CodeGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectM.Pathfinding">
+      <HintPath>lib\ProjectM.Pathfinding.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectM.Shared">
+      <HintPath>lib\ProjectM.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="Sequencer">
+      <HintPath>lib\Sequencer.dll</HintPath>
+    </Reference>
+    <Reference Include="Stunlock.Core">
+      <HintPath>lib\Stunlock.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>lib\Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities">
+      <HintPath>lib\Unity.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.Hybrid">
+      <HintPath>lib\Unity.Entities.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>lib\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Transforms">
+      <HintPath>lib\Unity.Transforms.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>lib\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>lib\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="__f__AnonymousType0`2.cs" />
+    <Compile Include="__f__AnonymousType1`2.cs" />
+    <Compile Include="__f__AnonymousType2`2.cs" />
+    <Compile Include="__JobReflectionRegistrationOutput__1370248550.cs" />
+    <Compile Include="ObjectPrivateAbstractSealedInVo13.cs" />
+    <Compile Include="Il2CppMicrosoft\CodeAnalysis\EmbeddedAttribute.cs" />
+    <Compile Include="Il2CppSystem\Runtime\CompilerServices\IsReadOnlyAttribute.cs" />
+    <Compile Include="ProjectM\AggroDamageHistorySystem.cs" />
+    <Compile Include="ProjectM\AggroBufferComparer.cs" />
+    <Compile Include="ProjectM\AggroSystem.cs" />
+    <Compile Include="ProjectM\AiMoveComponent.cs" />
+    <Compile Include="ProjectM\AiPrioritizationSystem.cs" />
+    <Compile Include="ProjectM\AlertBufferComparer.cs" />
+    <Compile Include="ProjectM\AlertSystem.cs" />
+    <Compile Include="ProjectM\BehaviourTreeBindingAuthoring.cs" />
+    <Compile Include="ProjectM\BehaviourTreeBindingSystem_Spawn.cs" />
+    <Compile Include="ProjectM\BehaviourTreeShared.cs" />
+    <Compile Include="ProjectM\CombatServantBehaviourComponent.cs" />
+    <Compile Include="ProjectM\FleeingServantBehaviourComponent.cs" />
+    <Compile Include="ProjectM\GenericEnemyBehaviourComponent.cs" />
+    <Compile Include="ProjectM\GenericFleeingBehaviourComponent.cs" />
+    <Compile Include="ProjectM\HorseBehaviourComponent.cs" />
+    <Compile Include="ProjectM\MinerBehaviourComponent.cs" />
+    <Compile Include="ProjectM\NullBehaviourComponent.cs" />
+    <Compile Include="ProjectM\ServantBehaviourComponent.cs" />
+    <Compile Include="ProjectM\VillagerBehaviourComponent.cs" />
+    <Compile Include="ProjectM\GatherAggroCandidatesSystem.cs" />
+    <Compile Include="ProjectM\GetOwnerPrimaryAggroTargetOnSpawn.cs" />
+    <Compile Include="ProjectM\GetOwnerPrimaryAggroTargetOnSpawnAuthoring.cs" />
+    <Compile Include="ProjectM\GetOwnerPrimaryAggroTargetOnSpawnSystem.cs" />
+    <Compile Include="ProjectM\MinionSpawnSystem.cs" />
+    <Compile Include="ProjectM\LinkMinionToOwnerOnSpawnSystem.cs" />
+    <Compile Include="ProjectM\MinionUpdateSystem.cs" />
+    <Compile Include="ProjectM\KillMinionsOnMasterDeathSystem.cs" />
+    <Compile Include="ProjectM\KillAllMinionsEventSystem.cs" />
+    <Compile Include="ProjectM\ShowAiSystem.cs" />
+    <Compile Include="ProjectM\BehaviourTreeDebugDraw.cs" />
+    <Compile Include="ProjectM\BehaviourTreeDebugDrawComponent.cs" />
+    <Compile Include="ProjectM\Behaviours\CastOptionCandidateSorters.cs" />
+    <Compile Include="ProjectM\Behaviours\CastOptionBuffer.cs" />
+    <Compile Include="ProjectM\Behaviours\CastOptionGroupBuffer.cs" />
+    <Compile Include="ProjectM\Behaviours\CastOptionStateBuffer.cs" />
+    <Compile Include="ProjectM\Behaviours\CastOptionRange.cs" />
+    <Compile Include="ProjectM\Behaviours\CastOptionCooldown_Editor.cs" />
+    <Compile Include="ProjectM\Behaviours\CastOptionCooldown.cs" />
+    <Compile Include="ProjectM\Behaviours\CastOptionTieBreakerSource.cs" />
+    <Compile Include="ProjectM\Behaviours\CastOptionTieBreakerPick.cs" />
+    <Compile Include="ProjectM\Behaviours\CastOptionIgnoreCooldown.cs" />
+    <Compile Include="ProjectM\Behaviours\CastOptionLineOfSightRequirement.cs" />
+    <Compile Include="ProjectM\Behaviours\CastOptionTieBreaker.cs" />
+    <Compile Include="ProjectM\Behaviours\CastOptionAggroFilter.cs" />
+    <Compile Include="ProjectM\Behaviours\CastOptionAngleRequirement.cs" />
+    <Compile Include="ProjectM\Behaviours\CastOptionsAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\CastOptionRoot.cs" />
+    <Compile Include="ProjectM\Behaviours\CastOptionsRootAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\AiAbilityHelpers.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTree.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTreeBlob.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTreeNode.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTreeNode_DebugData.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTreeBlobBuilder.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTreeComponent.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTreeNodeAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\FailerAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\AlertAlliesAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\ApproachEntityAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\ApproachPositionAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\AttackEntityCastOptionAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Bool_IsTrueInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\Bool_IsTrueInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Bool_IsTrueMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\Bool_IsTrueMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Bool_SetAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\ClearAggroAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\ClearEntityAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\CopyEntityReferenceAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\CurrentPositionToBlackboardAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\DamageTakenInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\DamageTakenInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\DamageTakenMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\DamageTakenMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\DeaggroReasonEqualsInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\DeaggroReasonEqualsInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\DeaggroReasonEqualsMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\DeaggroReasonEqualsMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\DelayAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\DelayUntilDamageTakenAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\DelayUntilDamageTakenConstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\DestroyEntityIfExistsAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\ElapsedTimeToBlackboardAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\EntityInConeInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\EntityInConeInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\EntityInConeMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\EntityInConeMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\EntityInLineOfSightInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\EntityInLineOfSightInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\EntityInLineOfSightMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\EntityInLineOfSightMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\EntityInPathfindingLineOfSightInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\EntityInPathfindingLineOfSightInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\EntityInPathfindingLineOfSightMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\EntityInPathfindingLineOfSightMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\EntityMoveSpeedToBlackboardAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\EntityPositionToBlackboardAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\EntityVelocityToBlackboardAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\EvaluateCastOptionsAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\FailAfterTicksAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\FailAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\FindFleeDistanceAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\FindPathAwayFromPositionAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\FindPathToPositionAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Float2_SetAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Float3_AddAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Float3_CopyAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Float3_DotAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Float3_LengthSqToBlackboardAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Float3_SetAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Float3_SubtractAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Float_AddAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Float_GreaterThanInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\Float_GreaterThanInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Float_GreaterThanMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\Float_GreaterThanMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Float_LessThanInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\Float_LessThanInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Float_LessThanMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\Float_LessThanMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Float_SetAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Float_SubtractAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\FollowOffsetToBlackboardAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\FollowPathAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\GenericCombatMovementAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\GetCastleWorkstationInteractPointDataAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\HasAggroTargetInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\HasAggroTargetInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\HasAggroTargetMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\HasAggroTargetMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\HasAlertTargetInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\HasAlertTargetInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\HasAlertTargetMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\HasAlertTargetMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\HasFollowTargetInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\HasFollowTargetInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\HasFollowTargetMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\HasFollowTargetMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\HasPathInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\HasPathInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\HasPathMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\HasPathMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\HealthChangeAbsoluteAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\HealthChangePercentageAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\HealthPercentageLessThanInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\HealthPercentageLessThanInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\HealthPercentageLessThanMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\HealthPercentageLessThanMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\InitializeGenericFleeingAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_AddAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_BlackboardEqualsInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_BlackboardEqualsInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_BlackboardEqualsMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_BlackboardEqualsMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_CopyAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_EqualsInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_EqualsInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_EqualsMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_EqualsMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_GreaterThanInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_GreaterThanInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_GreaterThanMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_GreaterThanMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_LessThanInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_LessThanInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_LessThanMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_LessThanMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_SetAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\IsBehindInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\IsBehindInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\IsBehindMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\IsBehindMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\IsBlackboardEntityNullInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\IsBlackboardEntityNullInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\IsBlackboardEntityNullMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\IsBlackboardEntityNullMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\IsBusyInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\IsBusyInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\IsBusyMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\IsBusyMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\IsFollowerStationaryInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\IsFollowerStationaryInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\IsFollowerStationaryMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\IsFollowerStationaryMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\IsInFollowModeInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\IsInFollowModeInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\IsInFollowModeMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\IsInFollowModeMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\IsMovingInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\IsMovingInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\IsMovingMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\IsMovingMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\IsPatrollingInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\IsPatrollingInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\IsPatrollingMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\IsPatrollingMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\IsServantDecayingInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\IsServantDecayingInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\IsServantDecayingMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\IsServantDecayingMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\IsTransformedUnitInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\IsTransformedUnitInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\IsTransformedUnitMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\IsTransformedUnitMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\IsWithinRangeInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\IsWithinRangeInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\IsWithinRangeMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\IsWithinRangeMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\KillAllMinionsAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\LookAlongRotationAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\LookAlongSpawnRotationAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\LookAtEntityAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\LookAtPositionAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\MapCollisionRadiusToBlackboardAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\MinionCountToBlackboardAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\PatrolApproachPositionAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\PatrolTeleportAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\PositionInLineOfSightInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\PositionInLineOfSightInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\PositionInLineOfSightMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\PositionInLineOfSightMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\PositionInPathfindingLineOfSightInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\PositionInPathfindingLineOfSightInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\PositionInPathfindingLineOfSightMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\PositionInPathfindingLineOfSightMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintBlackboardBoolAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintBlackboardEntityAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintBlackboardFloat2Authoring.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintBlackboardFloat3Authoring.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintBlackboardFloat4Authoring.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintBlackboardFloatAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintBlackboardInt2Authoring.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintBlackboardInt3Authoring.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintBlackboardInt4Authoring.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintBlackboardIntAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintExecutionTraceAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\PullPathAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\RandomDoubleToBlackboardAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\RandomFloatToBlackboardAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\RandomIntToBlackboardAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Relocate_CanExitAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Relocate_CombatArea_FindPosAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Relocate_ShouldEarlyOutAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\Relocate_Stuck_FindPosAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\RemoveEntityFromAggroListsAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\ResetAllCooldownsAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\SetMoveSpeedAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\SetMoveSpeedCustomAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\SetPosToRandomTileAroundBlackboardPosAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\ShouldCombatAreaRelocateInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\ShouldCombatAreaRelocateInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\ShouldCombatAreaRelocateMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\ShouldCombatAreaRelocateMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\ShouldResetFollowStateAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\ShouldWanderWhenIdleInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\ShouldWanderWhenIdleInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\ShouldWanderWhenIdleMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\ShouldWanderWhenIdleMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\SpawnPositionToBlackboardAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\SucceedAfterTicksAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\SucceedAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\TeleportAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\TimePassedSinceBlackboardInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\TimePassedSinceBlackboardInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\TimePassedSinceBlackboardMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\TimePassedSinceBlackboardMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\TimePassedSinceInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\TimePassedSinceInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\TimePassedSinceMonitor.cs" />
+    <Compile Include="ProjectM\Behaviours\TimePassedSinceMonitorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\TryClaimFreeCastleWorkstationAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\TryFindFirstWalkableAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\TryFindServantRoamPathAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\TryGetPointOfInterestDataAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\TrySetEntityToClosestPointOfInterestOfTypeAuthorin.cs" />
+    <Compile Include="ProjectM\Behaviours\TrySetEntityToClosestResourceNodeAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\TrySetEntityToClosestWithRelationAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\TrySetEntityToFollowTargetAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\TrySetEntityToHighestPrioAggroTargetInRangeAuthori.cs" />
+    <Compile Include="ProjectM\Behaviours\TrySetEntityToPrimaryAggroTargetAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\TrySetEntityToPrimaryAlertTargetAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\TrySetEntityToPrisonCellAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\TrySetPosToValidPosAroundEntityAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\InverterAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\IsInStateInstantAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\ParallelAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\RandomAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\RandomSelectorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\RepeaterAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\RootAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\SelectorAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\SequenceAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\SucceederAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\TransitionAuthoring.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTreeExpansionContext.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTreeJobData.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTreeNodeType.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTreeResult.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTreeNodeInstance.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTreeNodeInstanceElement.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTreeStateBuffsSystem_Spawn.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTreeStateBuffsSystem_RegisterAndDestroy.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTreeStateChangedEventSystem.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTreeSystem.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTreePartials.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTreeSystemUtility.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTreeUtility.cs" />
+    <Compile Include="ProjectM\Behaviours\CastOptionsUtility.cs" />
+    <Compile Include="ProjectM\Behaviours\ConditionEvaluator.cs" />
+    <Compile Include="ProjectM\Behaviours\AIDebugUtility.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTreeDebugScrubData.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourSnapshotType.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTreeDebugScrubBuffer.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourTreeDebugScrubBlackboardBuffer.cs" />
+    <Compile Include="ProjectM\Behaviours\ErroneousBehaviourTreeNode.cs" />
+    <Compile Include="ProjectM\Behaviours\LogErroneousBehaviourTreeNodeSystem.cs" />
+    <Compile Include="ProjectM\Behaviours\DisableNpcsSystem.cs" />
+    <Compile Include="ProjectM\Behaviours\EvaluateCastOptionsRequestStatus.cs" />
+    <Compile Include="ProjectM\Behaviours\EvaluateCastOptionsRequestResponse.cs" />
+    <Compile Include="ProjectM\Behaviours\EvaluateCastOptionsRequestInput.cs" />
+    <Compile Include="ProjectM\Behaviours\EvaluateCastOptionsRequestInternalState.cs" />
+    <Compile Include="ProjectM\Behaviours\EvaluateCastOptionsRequest.cs" />
+    <Compile Include="ProjectM\Behaviours\CastOptionCandidate.cs" />
+    <Compile Include="ProjectM\Behaviours\EvaluateCastOptionsSystem.cs" />
+    <Compile Include="ProjectM\Behaviours\IInitializableBehaviourTreeNode.cs" />
+    <Compile Include="ProjectM\Behaviours\ITickableBehaviourTreeNode.cs" />
+    <Compile Include="ProjectM\Behaviours\IAbortableBehaviourTreeNode.cs" />
+    <Compile Include="ProjectM\Behaviours\IBehaviourTreeCondition.cs" />
+    <Compile Include="ProjectM\Behaviours\NodeDataPtr.cs" />
+    <Compile Include="ProjectM\Behaviours\AlertAllies.cs" />
+    <Compile Include="ProjectM\Behaviours\ApproachEntity.cs" />
+    <Compile Include="ProjectM\Behaviours\ApproachPosition.cs" />
+    <Compile Include="ProjectM\Behaviours\PatrolApproachPosition.cs" />
+    <Compile Include="ProjectM\Behaviours\AttackEntityCastOption.cs" />
+    <Compile Include="ProjectM\Behaviours\Bool_Set.cs" />
+    <Compile Include="ProjectM\Behaviours\Bool_IsTrue.cs" />
+    <Compile Include="ProjectM\Behaviours\ClearAggro.cs" />
+    <Compile Include="ProjectM\Behaviours\ClearEntity.cs" />
+    <Compile Include="ProjectM\Behaviours\CopyEntityReference.cs" />
+    <Compile Include="ProjectM\Behaviours\CurrentPositionToBlackboard.cs" />
+    <Compile Include="ProjectM\Behaviours\DamageTaken.cs" />
+    <Compile Include="ProjectM\Behaviours\DeaggroReasonEquals.cs" />
+    <Compile Include="ProjectM\Behaviours\Delay.cs" />
+    <Compile Include="ProjectM\Behaviours\DelayUntilDamageTakenConstant.cs" />
+    <Compile Include="ProjectM\Behaviours\DelayUntilDamageTaken.cs" />
+    <Compile Include="ProjectM\Behaviours\DelayUntilDamageTakenShared.cs" />
+    <Compile Include="ProjectM\Behaviours\DestroyEntityIfExists.cs" />
+    <Compile Include="ProjectM\Behaviours\ElapsedTimeToBlackboard.cs" />
+    <Compile Include="ProjectM\Behaviours\EntityInCone.cs" />
+    <Compile Include="ProjectM\Behaviours\EntityMoveSpeedToBlackboard.cs" />
+    <Compile Include="ProjectM\Behaviours\EntityPositionToBlackboard.cs" />
+    <Compile Include="ProjectM\Behaviours\EntityVelocityToBlackboard.cs" />
+    <Compile Include="ProjectM\Behaviours\EvaluateCastOptions.cs" />
+    <Compile Include="ProjectM\Behaviours\Fail.cs" />
+    <Compile Include="ProjectM\Behaviours\FailAfterTicks.cs" />
+    <Compile Include="ProjectM\Behaviours\FindFleeDistance.cs" />
+    <Compile Include="ProjectM\Behaviours\FindPathAwayFromPosition.cs" />
+    <Compile Include="ProjectM\Behaviours\FindPathToPosition.cs" />
+    <Compile Include="ProjectM\Behaviours\Float2_Set.cs" />
+    <Compile Include="ProjectM\Behaviours\Float3_Set.cs" />
+    <Compile Include="ProjectM\Behaviours\Float3_Add.cs" />
+    <Compile Include="ProjectM\Behaviours\Float3_Subtract.cs" />
+    <Compile Include="ProjectM\Behaviours\Float3_Dot.cs" />
+    <Compile Include="ProjectM\Behaviours\Float3_LengthSqToBlackboard.cs" />
+    <Compile Include="ProjectM\Behaviours\Float3_Copy.cs" />
+    <Compile Include="ProjectM\Behaviours\Float_Set.cs" />
+    <Compile Include="ProjectM\Behaviours\Float_Add.cs" />
+    <Compile Include="ProjectM\Behaviours\Float_Subtract.cs" />
+    <Compile Include="ProjectM\Behaviours\Float_GreaterThan.cs" />
+    <Compile Include="ProjectM\Behaviours\Float_LessThan.cs" />
+    <Compile Include="ProjectM\Behaviours\FollowOffsetToBlackboard.cs" />
+    <Compile Include="ProjectM\Behaviours\FollowPath.cs" />
+    <Compile Include="ProjectM\Behaviours\GenericCombatMovementExitReason.cs" />
+    <Compile Include="ProjectM\Behaviours\GenericCombatMovement.cs" />
+    <Compile Include="ProjectM\Behaviours\GetCastleWorkstationInteractPointData.cs" />
+    <Compile Include="ProjectM\Behaviours\HasAggroTarget.cs" />
+    <Compile Include="ProjectM\Behaviours\HasAlertTarget.cs" />
+    <Compile Include="ProjectM\Behaviours\HasFollowTarget.cs" />
+    <Compile Include="ProjectM\Behaviours\HasPath.cs" />
+    <Compile Include="ProjectM\Behaviours\HealthChangePercentage.cs" />
+    <Compile Include="ProjectM\Behaviours\HealthChangeAbsolute.cs" />
+    <Compile Include="ProjectM\Behaviours\HealthPercentageLessThan.cs" />
+    <Compile Include="ProjectM\Behaviours\EntityInLineOfSight.cs" />
+    <Compile Include="ProjectM\Behaviours\PositionInLineOfSight.cs" />
+    <Compile Include="ProjectM\Behaviours\LineOfSightShared.cs" />
+    <Compile Include="ProjectM\Behaviours\EntityInPathfindingLineOfSight.cs" />
+    <Compile Include="ProjectM\Behaviours\PositionInPathfindingLineOfSight.cs" />
+    <Compile Include="ProjectM\Behaviours\InitializeGenericFleeing.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_Set.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_Equals.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_BlackboardEquals.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_Add.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_GreaterThan.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_LessThan.cs" />
+    <Compile Include="ProjectM\Behaviours\Int_Copy.cs" />
+    <Compile Include="ProjectM\Behaviours\IsBehind.cs" />
+    <Compile Include="ProjectM\Behaviours\IsBlackboardEntityNull.cs" />
+    <Compile Include="ProjectM\Behaviours\IsBusy.cs" />
+    <Compile Include="ProjectM\Behaviours\IsFollowerStationary.cs" />
+    <Compile Include="ProjectM\Behaviours\IsInFollowMode.cs" />
+    <Compile Include="ProjectM\Behaviours\IsInStateInstant.cs" />
+    <Compile Include="ProjectM\Behaviours\IsMoving.cs" />
+    <Compile Include="ProjectM\Behaviours\IsPatrolling.cs" />
+    <Compile Include="ProjectM\Behaviours\IsServantDecaying.cs" />
+    <Compile Include="ProjectM\Behaviours\IsTransformedUnit.cs" />
+    <Compile Include="ProjectM\Behaviours\IsWithinRange.cs" />
+    <Compile Include="ProjectM\Behaviours\KillAllMinions.cs" />
+    <Compile Include="ProjectM\Behaviours\LookAtEntity.cs" />
+    <Compile Include="ProjectM\Behaviours\LookAtPosition.cs" />
+    <Compile Include="ProjectM\Behaviours\LookAlongRotation.cs" />
+    <Compile Include="ProjectM\Behaviours\LookAlongSpawnRotation.cs" />
+    <Compile Include="ProjectM\Behaviours\LookShared.cs" />
+    <Compile Include="ProjectM\Behaviours\MapCollisionRadiusToBlackboard.cs" />
+    <Compile Include="ProjectM\Behaviours\MinionCountToBlackboard.cs" />
+    <Compile Include="ProjectM\Behaviours\ParallelPolicy.cs" />
+    <Compile Include="ProjectM\Behaviours\Parallel.cs" />
+    <Compile Include="ProjectM\Behaviours\PatrolTeleport.cs" />
+    <Compile Include="ProjectM\Behaviours\TryGetPointOfInterestData.cs" />
+    <Compile Include="ProjectM\Behaviours\TrySetEntityToClosestPointOfInterestOfType.cs" />
+    <Compile Include="ProjectM\Behaviours\Print.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintBlackboardFloat.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintBlackboardFloat2.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintBlackboardFloat3.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintBlackboardFloat4.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintBlackboardInt.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintBlackboardInt2.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintBlackboardInt3.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintBlackboardInt4.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintBlackboardBool.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintBlackboardEntity.cs" />
+    <Compile Include="ProjectM\Behaviours\PrintExecutionTrace.cs" />
+    <Compile Include="ProjectM\Behaviours\PullPath.cs" />
+    <Compile Include="ProjectM\Behaviours\RandomDoubleToBlackboard.cs" />
+    <Compile Include="ProjectM\Behaviours\RandomFloatToBlackboard.cs" />
+    <Compile Include="ProjectM\Behaviours\RandomIntToBlackboard.cs" />
+    <Compile Include="ProjectM\Behaviours\RandomSelector.cs" />
+    <Compile Include="ProjectM\Behaviours\Relocate_CanExit.cs" />
+    <Compile Include="ProjectM\Behaviours\Relocate_CombatArea_FindPos.cs" />
+    <Compile Include="ProjectM\Behaviours\Relocate_ShouldEarlyOut.cs" />
+    <Compile Include="ProjectM\Behaviours\Relocate_Stuck_FindPos.cs" />
+    <Compile Include="ProjectM\Behaviours\RemoveEntityFromAggroLists.cs" />
+    <Compile Include="ProjectM\Behaviours\RepeaterPolicy.cs" />
+    <Compile Include="ProjectM\Behaviours\Repeater.cs" />
+    <Compile Include="ProjectM\Behaviours\ResetAllCooldowns.cs" />
+    <Compile Include="ProjectM\Behaviours\SetMoveSpeedShared.cs" />
+    <Compile Include="ProjectM\Behaviours\SetMoveSpeed.cs" />
+    <Compile Include="ProjectM\Behaviours\SetMoveSpeedCustom.cs" />
+    <Compile Include="ProjectM\Behaviours\SetPosToRandomTileAroundBlackboardPos.cs" />
+    <Compile Include="ProjectM\Behaviours\ShouldCombatAreaRelocate.cs" />
+    <Compile Include="ProjectM\Behaviours\ShouldResetFollowState.cs" />
+    <Compile Include="ProjectM\Behaviours\ShouldWanderWhenIdle.cs" />
+    <Compile Include="ProjectM\Behaviours\SpawnPositionToBlackboard.cs" />
+    <Compile Include="ProjectM\Behaviours\Succeed.cs" />
+    <Compile Include="ProjectM\Behaviours\SucceedAfterTicks.cs" />
+    <Compile Include="ProjectM\Behaviours\Teleport.cs" />
+    <Compile Include="ProjectM\Behaviours\TimePassedSince.cs" />
+    <Compile Include="ProjectM\Behaviours\TimePassedSinceBlackboard.cs" />
+    <Compile Include="ProjectM\Behaviours\Transition.cs" />
+    <Compile Include="ProjectM\Behaviours\TryClaimFreeCastleWorkstation.cs" />
+    <Compile Include="ProjectM\Behaviours\TryFindFirstWalkable.cs" />
+    <Compile Include="ProjectM\Behaviours\ServantRoamConstants.cs" />
+    <Compile Include="ProjectM\Behaviours\TryFindServantRoamPath.cs" />
+    <Compile Include="ProjectM\Behaviours\TrySetEntityToClosestResourceNode.cs" />
+    <Compile Include="ProjectM\Behaviours\TrySetEntityToClosestWithRelation.cs" />
+    <Compile Include="ProjectM\Behaviours\TrySetEntityToFollowTarget.cs" />
+    <Compile Include="ProjectM\Behaviours\TrySetEntityToHighestPrioAggroTargetInRange.cs" />
+    <Compile Include="ProjectM\Behaviours\TrySetEntityToPrimaryAggroTarget.cs" />
+    <Compile Include="ProjectM\Behaviours\TrySetEntityToPrimaryAlertTarget.cs" />
+    <Compile Include="ProjectM\Behaviours\TrySetEntityToPrisonCell.cs" />
+    <Compile Include="ProjectM\Behaviours\TrySetPosToValidPosAroundEntity.cs" />
+    <Compile Include="ProjectM\Behaviours\RegisterEntityInBlackboard.cs" />
+    <Compile Include="ProjectM\Behaviours\RegisterEntityInBlackboardSystem.cs" />
+    <Compile Include="ProjectM\Behaviours\Editor\ShowAiStateInfoSystem.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

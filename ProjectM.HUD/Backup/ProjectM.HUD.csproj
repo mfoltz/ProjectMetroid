@@ -1,0 +1,836 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\mitch\.nuget\packages\vrising.unhollowed.client\0.6.5.57575090\lib\net6.0\ProjectM.HUD.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EDE4A18A-3820-43F6-B6B6-D89F8EDF0941}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>ProjectM.HUD</AssemblyName>
+    <ApplicationVersion>0.0.0.0</ApplicationVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Backtrace.Unity">
+      <HintPath>lib\Backtrace.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Common">
+      <HintPath>lib\Il2CppInterop.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>lib\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem">
+      <HintPath>lib\Il2CppSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Core">
+      <HintPath>lib\Il2CppSystem.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>lib\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Malee.ReorderableList">
+      <HintPath>lib\Malee.ReorderableList.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectM">
+      <HintPath>lib\ProjectM.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectM.CodeGeneration">
+      <HintPath>lib\ProjectM.CodeGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectM.Gameplay.Scripting">
+      <HintPath>lib\ProjectM.Gameplay.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectM.Shared">
+      <HintPath>lib\ProjectM.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectM.Terrain">
+      <HintPath>lib\ProjectM.Terrain.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectM.Wind.Shared">
+      <HintPath>lib\ProjectM.Wind.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="Stunlock.Core">
+      <HintPath>lib\Stunlock.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Stunlock.Fmod">
+      <HintPath>lib\Stunlock.Fmod.dll</HintPath>
+    </Reference>
+    <Reference Include="Stunlock.Localization">
+      <HintPath>lib\Stunlock.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>lib\Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities">
+      <HintPath>lib\Unity.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.Hybrid">
+      <HintPath>lib\Unity.Entities.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>lib\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Physics">
+      <HintPath>lib\Unity.Physics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Properties">
+      <HintPath>lib\Unity.Properties.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Scenes">
+      <HintPath>lib\Unity.Scenes.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>lib\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Transforms">
+      <HintPath>lib\Unity.Transforms.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>lib\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>lib\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>lib\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>lib\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>lib\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>lib\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="com.rlabrecque.steamworks.net">
+      <HintPath>lib\com.rlabrecque.steamworks.net.dll</HintPath>
+    </Reference>
+    <Reference Include="com.stunlock.network">
+      <HintPath>lib\com.stunlock.network.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BloodHuntsUIData.cs" />
+    <Compile Include="BuffBarEntry.cs" />
+    <Compile Include="HuntStatus.cs" />
+    <Compile Include="BloodAltarHuntEntry.cs" />
+    <Compile Include="CostData.cs" />
+    <Compile Include="ForgeSubMenu_RepairButton.cs" />
+    <Compile Include="JewelInfoTooltipEntry.cs" />
+    <Compile Include="MissionLootResultEntry.cs" />
+    <Compile Include="MissionPerkEntry.cs" />
+    <Compile Include="MissionServantEntry.cs" />
+    <Compile Include="MountFeedableContainer.cs" />
+    <Compile Include="MountSaddleBearerContainer.cs" />
+    <Compile Include="MountSaddleEntry.cs" />
+    <Compile Include="MountStatEntry.cs" />
+    <Compile Include="RecipeRequirementEntry.cs" />
+    <Compile Include="RefinementstationRecipeEntry.cs" />
+    <Compile Include="ResearchEntry.cs" />
+    <Compile Include="ResearchGroupEntry.cs" />
+    <Compile Include="ServantCoffinstationSubMenu_ProgressBar.cs" />
+    <Compile Include="ServantSelectEntry.cs" />
+    <Compile Include="SpellSchoolGridSelectionEntry.cs" />
+    <Compile Include="WorkstationRecipeGridSelectionEntry.cs" />
+    <Compile Include="DurabilityGridSelectionEntry.cs" />
+    <Compile Include="ErrorContextEntry.cs" />
+    <Compile Include="SpellBookMenu_BuffEntry.cs" />
+    <Compile Include="InputContextEntry.cs" />
+    <Compile Include="MapTooltip.cs" />
+    <Compile Include="MapTooltipItemEntry.cs" />
+    <Compile Include="ScreenEdgeIconEntry.cs" />
+    <Compile Include="ScrollingImage.cs" />
+    <Compile Include="SCTCanvas.cs" />
+    <Compile Include="SCTText.cs" />
+    <Compile Include="SpawnPointSelectionEntry.cs" />
+    <Compile Include="TutorialSystem.cs" />
+    <Compile Include="TutorialUtilities.cs" />
+    <Compile Include="CachedStrings.cs" />
+    <Compile Include="CinematicView.cs" />
+    <Compile Include="CreditsImageEntry.cs" />
+    <Compile Include="VOCredits.cs" />
+    <Compile Include="CreditsMenuComponent.cs" />
+    <Compile Include="CreditsSpacingEntry.cs" />
+    <Compile Include="CreditsTextEntry.cs" />
+    <Compile Include="GridSelectionEntry.cs" />
+    <Compile Include="ImageFadeIn.cs" />
+    <Compile Include="ImageFadeSwap.cs" />
+    <Compile Include="UpgradeStatus.cs" />
+    <Compile Include="ItemGridSelectionEntry.cs" />
+    <Compile Include="SaveListEntryData.cs" />
+    <Compile Include="NewSaveListEntryComponent.cs" />
+    <Compile Include="NewServerListEntryComponent.cs" />
+    <Compile Include="GloomrotPopup.cs" />
+    <Compile Include="PopupBase.cs" />
+    <Compile Include="PopupType.cs" />
+    <Compile Include="PopupData.cs" />
+    <Compile Include="PopupManager.cs" />
+    <Compile Include="SaveVersionChangedPopup.cs" />
+    <Compile Include="SetImageNullWhenDisabled.cs" />
+    <Compile Include="StunScrollRect.cs" />
+    <Compile Include="TabButton.cs" />
+    <Compile Include="VersionStringVariant.cs" />
+    <Compile Include="VersionString.cs" />
+    <Compile Include="_PrivateImplementationDetails_.cs" />
+    <Compile Include="__JobReflectionRegistrationOutput__4039867541.cs" />
+    <Compile Include="ObjectPrivateAbstractSealedInVo10.cs" />
+    <Compile Include="System\Runtime\CompilerServices\IsUnmanagedAttribute.cs" />
+    <Compile Include="Il2CppMicrosoft\CodeAnalysis\EmbeddedAttribute.cs" />
+    <Compile Include="Il2CppSystem\Runtime\CompilerServices\IsReadOnlyAttribute.cs" />
+    <Compile Include="Unity\Properties\Generated\ProjectM_ShowInSpellbookData_PropertyBag.cs" />
+    <Compile Include="Unity\Properties\Generated\Stunlock_Localization_LocalizationKey_PropertyBag.cs" />
+    <Compile Include="Unity\Properties\Generated\ProjectM_AssetGuid_PropertyBag.cs" />
+    <Compile Include="Unity\Properties\Generated\ProjectM_UI_LocalizedStringBuilderBase_PropertyBag.cs" />
+    <Compile Include="Unity\Properties\Generated\ProjectM_ShowOnBuffBarData_PropertyBag.cs" />
+    <Compile Include="Unity\Properties\Generated\ProjectM_ScreenEdgeIconDataComponent_PropertyBag.cs" />
+    <Compile Include="Unity\Properties\Generated\ProjectM_UI_SpawnUIPrefabOnLoad_PropertyBag.cs" />
+    <Compile Include="Unity\Properties\Generated\ProjectM_UI_UISpawningSystem_Spawned_PropertyBag.cs" />
+    <Compile Include="Unity\Properties\Generated\ProjectM_UI_UseCharacterHudProgressBarManaged_Prop.cs" />
+    <Compile Include="Unity\Properties\Generated\UnityEngine_Color_PropertyBag.cs" />
+    <Compile Include="Unity\Properties\Generated\PropertyBagRegistry.cs" />
+    <Compile Include="ProjectM\BloodQualityParent.cs" />
+    <Compile Include="ProjectM\BloodQualityMaterial.cs" />
+    <Compile Include="ProjectM\BloodOrbComponent.cs" />
+    <Compile Include="ProjectM\BloodOrbMapper.cs" />
+    <Compile Include="ProjectM\ShowInSpellbookBar.cs" />
+    <Compile Include="ProjectM\ShowInSpellbookData.cs" />
+    <Compile Include="ProjectM\ShowInSpellbookAuthoring.cs" />
+    <Compile Include="ProjectM\ShowOnBuffBar.cs" />
+    <Compile Include="ProjectM\ShowOnBuffBarData.cs" />
+    <Compile Include="ProjectM\ShowOnBuffBarAuthoring.cs" />
+    <Compile Include="ProjectM\BuildMenuImpairSystem.cs" />
+    <Compile Include="ProjectM\CharacterHUDEntryCollectionAuthoring.cs" />
+    <Compile Include="ProjectM\BagsContainerSlot.cs" />
+    <Compile Include="ProjectM\StationMenuHelper.cs" />
+    <Compile Include="ProjectM\CustomizationBrowser.cs" />
+    <Compile Include="ProjectM\HandleClientActionResponseSystem.cs" />
+    <Compile Include="ProjectM\HandleJewelEquippedResponseSystem.cs" />
+    <Compile Include="ProjectM\SomeStuff.cs" />
+    <Compile Include="ProjectM\HideOnMenuBuffer.cs" />
+    <Compile Include="ProjectM\HUDMenuTypeArray.cs" />
+    <Compile Include="ProjectM\HideOnMenuActive.cs" />
+    <Compile Include="ProjectM\MenuInputSystem.cs" />
+    <Compile Include="ProjectM\DeathMenuSystem.cs" />
+    <Compile Include="ProjectM\InteractSystemHUD.cs" />
+    <Compile Include="ProjectM\MapIconType.cs" />
+    <Compile Include="ProjectM\MapIcon.cs" />
+    <Compile Include="ProjectM\MapSettings.cs" />
+    <Compile Include="ProjectM\MapUtils.cs" />
+    <Compile Include="ProjectM\ScreenEdgeIcon.cs" />
+    <Compile Include="ProjectM\ScreenEdgeIconDataComponent.cs" />
+    <Compile Include="ProjectM\ScreenEdgeIconAuthoring.cs" />
+    <Compile Include="ProjectM\ServerInfoContainer.cs" />
+    <Compile Include="ProjectM\Shared\Systems\CloseAllMenu.cs" />
+    <Compile Include="ProjectM\Shared\Systems\CloseAllMenuComponent.cs" />
+    <Compile Include="ProjectM\Shared\Systems\CloseAllMenuSpawnSystem.cs" />
+    <Compile Include="ProjectM\UI\AbilityBarEntry.cs" />
+    <Compile Include="ProjectM\UI\AbilityBarParent.cs" />
+    <Compile Include="ProjectM\UI\AbilityBarParentMapper.cs" />
+    <Compile Include="ProjectM\UI\AbilityBarParentBinderSystem.cs" />
+    <Compile Include="ProjectM\UI\EmptyAbilityEntryTooltipType.cs" />
+    <Compile Include="ProjectM\UI\EmptyAbilityEntryTooltipData.cs" />
+    <Compile Include="ProjectM\UI\BottomBarParent.cs" />
+    <Compile Include="ProjectM\UI\UpdateBottomBarTooltipSystem.cs" />
+    <Compile Include="ProjectM\UI\ExperienceBar.cs" />
+    <Compile Include="ProjectM\UI\TooltipEntry.cs" />
+    <Compile Include="ProjectM\UI\TooltipsParent.cs" />
+    <Compile Include="ProjectM\UI\TooltipsParentSystem.cs" />
+    <Compile Include="ProjectM\UI\AchievementEntry.cs" />
+    <Compile Include="ProjectM\UI\AchievementSubEntry.cs" />
+    <Compile Include="ProjectM\UI\AchievementsParent.cs" />
+    <Compile Include="ProjectM\UI\AchievementsSystem.cs" />
+    <Compile Include="ProjectM\UI\AchievementState.cs" />
+    <Compile Include="ProjectM\UI\JournalCategoriesCollection.cs" />
+    <Compile Include="ProjectM\UI\JournalCategory.cs" />
+    <Compile Include="ProjectM\UI\JournalHelper.cs" />
+    <Compile Include="ProjectM\UI\JournalSettings.cs" />
+    <Compile Include="ProjectM\UI\ActionBarEntry.cs" />
+    <Compile Include="ProjectM\UI\ActionBarParent.cs" />
+    <Compile Include="ProjectM\UI\ActionBarParentMapper.cs" />
+    <Compile Include="ProjectM\UI\AnnouncementHUDParent.cs" />
+    <Compile Include="ProjectM\UI\AnnouncementHUDSystem.cs" />
+    <Compile Include="ProjectM\UI\BagContainer.cs" />
+    <Compile Include="ProjectM\UI\BiteParent.cs" />
+    <Compile Include="ProjectM\UI\BiteHUDSystem.cs" />
+    <Compile Include="ProjectM\UI\BlueprintTypeLocalizationKeys.cs" />
+    <Compile Include="ProjectM\UI\BuffBarParent.cs" />
+    <Compile Include="ProjectM\UI\BuffBarParentSystem.cs" />
+    <Compile Include="ProjectM\UI\FilterCategoryEntry.cs" />
+    <Compile Include="ProjectM\UI\CastleFloorsLocalizationKeys.cs" />
+    <Compile Include="ProjectM\UI\CharacterHUDComponent.cs" />
+    <Compile Include="ProjectM\UI\HUDShowFlagExtensions.cs" />
+    <Compile Include="ProjectM\UI\CharacterHUDEntry.cs" />
+    <Compile Include="ProjectM\UI\CharacterHUD_BloodComponent.cs" />
+    <Compile Include="ProjectM\UI\CharacterHUD_CastTimeComponent.cs" />
+    <Compile Include="ProjectM\UI\CharacterHUD_HealthComponent.cs" />
+    <Compile Include="ProjectM\UI\CharacterHUD_JumpDownComponent.cs" />
+    <Compile Include="ProjectM\UI\CharacterHUDConstants.cs" />
+    <Compile Include="ProjectM\UI\CharacterHUD_LevelComponent.cs" />
+    <Compile Include="ProjectM\UI\CharacterHUD_MerchantComponent.cs" />
+    <Compile Include="ProjectM\UI\CharacterHUD_NameComponent.cs" />
+    <Compile Include="ProjectM\UI\CharacterHUD_ProgressBarComponent.cs" />
+    <Compile Include="ProjectM\UI\CharacterHUD_PvPProtectionComponent.cs" />
+    <Compile Include="ProjectM\UI\CharacterHUD_ServantComponent.cs" />
+    <Compile Include="ProjectM\UI\CharacterHUD_VoiceComponent.cs" />
+    <Compile Include="ProjectM\UI\GetCharacterHUDSystem.cs" />
+    <Compile Include="ProjectM\UI\HealthBarHUD.cs" />
+    <Compile Include="ProjectM\UI\HealthBarHUDComponent.cs" />
+    <Compile Include="ProjectM\UI\ReservedEnemyTeamSystem.cs" />
+    <Compile Include="ProjectM\UI\SetCharacterHUDSystem.cs" />
+    <Compile Include="ProjectM\UI\CharacterHudProgressBar.cs" />
+    <Compile Include="ProjectM\UI\CharacterHudProgressBarAuthoring.cs" />
+    <Compile Include="ProjectM\UI\CharacterHudProgressBarSystem.cs" />
+    <Compile Include="ProjectM\UI\ChatColorsAsset.cs" />
+    <Compile Include="ProjectM\UI\ChatMessageLine.cs" />
+    <Compile Include="ProjectM\UI\HUDChatWindow.cs" />
+    <Compile Include="ProjectM\UI\SortChatMessages.cs" />
+    <Compile Include="ProjectM\UI\ChatEntry.cs" />
+    <Compile Include="ProjectM\UI\ChatWindowState.cs" />
+    <Compile Include="ProjectM\UI\ChatMode.cs" />
+    <Compile Include="ProjectM\UI\MessageFromType.cs" />
+    <Compile Include="ProjectM\UI\ClientChatSystem.cs" />
+    <Compile Include="ProjectM\UI\ChatHelper.cs" />
+    <Compile Include="ProjectM\UI\ClanInvitePlayerEntry.cs" />
+    <Compile Include="ProjectM\UI\ClanInvitedEntry.cs" />
+    <Compile Include="ProjectM\UI\ClanParent.cs" />
+    <Compile Include="ProjectM\UI\ClanClientSystem.cs" />
+    <Compile Include="ProjectM\UI\ClanPlayerEntry.cs" />
+    <Compile Include="ProjectM\UI\UserConnectionChangedEventSystem.cs" />
+    <Compile Include="ProjectM\UI\ClockHUDParent.cs" />
+    <Compile Include="ProjectM\UI\ClockHUDSystem.cs" />
+    <Compile Include="ProjectM\UI\ConnectionFeedbackSystem.cs" />
+    <Compile Include="ProjectM\UI\AbilityStatsType.cs" />
+    <Compile Include="ProjectM\UI\AbilityTooltip.cs" />
+    <Compile Include="ProjectM\UI\BlockerArea.cs" />
+    <Compile Include="ProjectM\UI\BloodAltarMenu.cs" />
+    <Compile Include="ProjectM\UI\BloodAltarMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\BloodAltarSubMenu.cs" />
+    <Compile Include="ProjectM\UI\BloodAltarSubMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\BloodAltarSystem_ConvertVBloodsOnDemand.cs" />
+    <Compile Include="ProjectM\UI\BloodFountainPenaltiesTooltip.cs" />
+    <Compile Include="ProjectM\UI\BloodPoolTooltip.cs" />
+    <Compile Include="ProjectM\UI\BloodTypeBonus.cs" />
+    <Compile Include="ProjectM\UI\BlueprintRequirementEntry.cs" />
+    <Compile Include="ProjectM\UI\BuildGridSystem.cs" />
+    <Compile Include="ProjectM\UI\BuildMenu.cs" />
+    <Compile Include="ProjectM\UI\BuildMenuPickedEntity.cs" />
+    <Compile Include="ProjectM\UI\BuildMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\BuildMenuUtilities.cs" />
+    <Compile Include="ProjectM\UI\BuildMenuWallpaperOperationIssues.cs" />
+    <Compile Include="ProjectM\UI\BuildMenuWallpaperOperation.cs" />
+    <Compile Include="ProjectM\UI\BuildMenuWallpaperOperationSequenceData.cs" />
+    <Compile Include="ProjectM\UI\BuildMenuWallpaperOperationActiveSequenceElement.cs" />
+    <Compile Include="ProjectM\UI\BuildMenuWallpaperOperationSystem_Destroy.cs" />
+    <Compile Include="ProjectM\UI\BuildMenuWallpaperOperationSystem.cs" />
+    <Compile Include="ProjectM\UI\BuildMenu_CategoryEntry.cs" />
+    <Compile Include="ProjectM\UI\BuildMenu_CategorySelectionGroup.cs" />
+    <Compile Include="ProjectM\UI\BuildMenu_StructureEntry.cs" />
+    <Compile Include="ProjectM\UI\BuildMenu_StructureSelectionGroup.cs" />
+    <Compile Include="ProjectM\UI\BuildMenu_TagEntry.cs" />
+    <Compile Include="ProjectM\UI\BuildMenu_TagSelectionGroup.cs" />
+    <Compile Include="ProjectM\UI\BuildMenu_TopStructureEntry.cs" />
+    <Compile Include="ProjectM\UI\BuildMenu_VariationEntry.cs" />
+    <Compile Include="ProjectM\UI\BuildMenu_VariationSelectionGroup.cs" />
+    <Compile Include="ProjectM\UI\EditableTileModelSequencesSystem.cs" />
+    <Compile Include="ProjectM\UI\GenericSelectionEntry`1.cs" />
+    <Compile Include="ProjectM\UI\GenericSelectionGroup`2.cs" />
+    <Compile Include="ProjectM\UI\PreviewPlacementSystem.cs" />
+    <Compile Include="ProjectM\UI\SelectionGroupBase`2.cs" />
+    <Compile Include="ProjectM\UI\BurnContainer.cs" />
+    <Compile Include="ProjectM\UI\CastleHeartMenu.cs" />
+    <Compile Include="ProjectM\UI\CastleHeartMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\CastleHeartSubMenu.cs" />
+    <Compile Include="ProjectM\UI\CastleHeartSubMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\AttributeUIType.cs" />
+    <Compile Include="ProjectM\UI\CharacterAttributeEntry.cs" />
+    <Compile Include="ProjectM\UI\CharacterCraftingSubMenu.cs" />
+    <Compile Include="ProjectM\UI\CharacterCraftingSubMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\CharacterCreationMenuMode.cs" />
+    <Compile Include="ProjectM\UI\CharacterCreationMenu.cs" />
+    <Compile Include="ProjectM\UI\CharacterCreationMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\CharacterCreationScreen.cs" />
+    <Compile Include="ProjectM\UI\CharacterMenuTab.cs" />
+    <Compile Include="ProjectM\UI\CharacterMenu.cs" />
+    <Compile Include="ProjectM\UI\CharacterMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\ClanMenuState.cs" />
+    <Compile Include="ProjectM\UI\ClanMenu.cs" />
+    <Compile Include="ProjectM\UI\ClanMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\ClanMenu_InvitePlayerPopup.cs" />
+    <Compile Include="ProjectM\UI\ClanMenu_LeaveClanPopup.cs" />
+    <Compile Include="ProjectM\UI\ClanMenu_MemberContextMenu.cs" />
+    <Compile Include="ProjectM\UI\ClanMenu_MemberContextMenuEntry.cs" />
+    <Compile Include="ProjectM\UI\ClanMenu_MemberEntry.cs" />
+    <Compile Include="ProjectM\UI\SocialMenu.cs" />
+    <Compile Include="ProjectM\UI\SocialMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\SocialMenu_MemberContextMenu.cs" />
+    <Compile Include="ProjectM\UI\SocialMenu_MemberContextMenuEntry.cs" />
+    <Compile Include="ProjectM\UI\SocialMenu_MemberEntry.cs" />
+    <Compile Include="ProjectM\UI\ContainerBonus.cs" />
+    <Compile Include="ProjectM\UI\ContainerMenu.cs" />
+    <Compile Include="ProjectM\UI\ContainerMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\CraftingProgress.cs" />
+    <Compile Include="ProjectM\UI\DeathMenu.cs" />
+    <Compile Include="ProjectM\UI\DeathMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\EmptySubMenu.cs" />
+    <Compile Include="ProjectM\UI\EquipmentSubMenu.cs" />
+    <Compile Include="ProjectM\UI\EquipmentSubMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\ForgeSubMenu.cs" />
+    <Compile Include="ProjectM\UI\ForgeSubMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\ForgeSubMenu_AbilityEntry.cs" />
+    <Compile Include="ProjectM\UI\ForgeSubMenu_AbilitySelectionGroup.cs" />
+    <Compile Include="ProjectM\UI\ForgeSubMenu_MagicCircle.cs" />
+    <Compile Include="ProjectM\UI\ForgeSubMenu_ResultsFrame.cs" />
+    <Compile Include="ProjectM\UI\ForgeSubMenu_SpellModEntry.cs" />
+    <Compile Include="ProjectM\UI\ForgeSubMenu_SpellModSelectionGroup.cs" />
+    <Compile Include="ProjectM\UI\ForgeSubMenu_StatsInfoEntry.cs" />
+    <Compile Include="ProjectM\UI\ForgeSubMenu_StatsInfoSelectionGroup.cs" />
+    <Compile Include="ProjectM\UI\ForgeSubMenu_WeaponEntry.cs" />
+    <Compile Include="ProjectM\UI\LightningRodSubMenu.cs" />
+    <Compile Include="ProjectM\UI\LightningRodSubMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\ForgeDragData.cs" />
+    <Compile Include="ProjectM\UI\ForgeMenu.cs" />
+    <Compile Include="ProjectM\UI\ForgeMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\ForgeUtility.cs" />
+    <Compile Include="ProjectM\UI\InventoryDragHelper.cs" />
+    <Compile Include="ProjectM\UI\InventoryMenuTab.cs" />
+    <Compile Include="ProjectM\UI\InventoryMenu.cs" />
+    <Compile Include="ProjectM\UI\InventoryDragData.cs" />
+    <Compile Include="ProjectM\UI\ActionBarDragData.cs" />
+    <Compile Include="ProjectM\UI\EquipmentDragData.cs" />
+    <Compile Include="ProjectM\UI\BagDragData.cs" />
+    <Compile Include="ProjectM\UI\InventoryMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\InventorySubMenu.cs" />
+    <Compile Include="ProjectM\UI\InventorySubMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\SomeHelperClass.cs" />
+    <Compile Include="ProjectM\UI\JewelCraftingMenu.cs" />
+    <Compile Include="ProjectM\UI\JewelCraftingMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\JewelCraftingSubMenu.cs" />
+    <Compile Include="ProjectM\UI\JewelCraftingSubMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\JournalCategoryEntry.cs" />
+    <Compile Include="ProjectM\UI\JournalMenu.cs" />
+    <Compile Include="ProjectM\UI\JournalMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\LightningRodChargeGridSelectionEntry.cs" />
+    <Compile Include="ProjectM\UI\LightningRodMenu.cs" />
+    <Compile Include="ProjectM\UI\LightningRodMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\MountSubMenu.cs" />
+    <Compile Include="ProjectM\UI\MountSubMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\PrisonMenu.cs" />
+    <Compile Include="ProjectM\UI\PrisonMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\PrisonSubMenu.cs" />
+    <Compile Include="ProjectM\UI\PrisonSubMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\PylonstationMenuEntry.cs" />
+    <Compile Include="ProjectM\UI\RefinementstationMenu.cs" />
+    <Compile Include="ProjectM\UI\RefinementstationMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\RefinementstationRecipeItem.cs" />
+    <Compile Include="ProjectM\UI\RefinementstationSubMenu.cs" />
+    <Compile Include="ProjectM\UI\RefinementstationSubMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\RepairstationMenu.cs" />
+    <Compile Include="ProjectM\UI\RepairstationMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\RepairstationSubMenu.cs" />
+    <Compile Include="ProjectM\UI\RepairstationSubMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\RequirementEntry.cs" />
+    <Compile Include="ProjectM\UI\ResearchstationMenu.cs" />
+    <Compile Include="ProjectM\UI\ResearchstationMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\ResearchstationSubMenu.cs" />
+    <Compile Include="ProjectM\UI\ResearchstationSubMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\SalvagestationMenu.cs" />
+    <Compile Include="ProjectM\UI\SalvagestationMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\SalvagestationSubMenu.cs" />
+    <Compile Include="ProjectM\UI\SalvagestationSubMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\ServantCoffinstationMenu.cs" />
+    <Compile Include="ProjectM\UI\ServantCoffinstationMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\ServantCoffinstationSubMenu.cs" />
+    <Compile Include="ProjectM\UI\ServantCoffinstationSubMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\ServantCoffinstationSubMenu_ChangeNamePopup.cs" />
+    <Compile Include="ProjectM\UI\ServantCoffinstationSubMenu_TerminatePopup.cs" />
+    <Compile Include="ProjectM\UI\ServantInventorySubMenu.cs" />
+    <Compile Include="ProjectM\UI\ServantInventorySubMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\ServantMissionSubMenu.cs" />
+    <Compile Include="ProjectM\UI\ServantMissionSubMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\SpawnMenu.cs" />
+    <Compile Include="ProjectM\UI\SpawnMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\StationBonusEntry.cs" />
+    <Compile Include="ProjectM\UI\DurabilityInfo.cs" />
+    <Compile Include="ProjectM\UI\RepairCost.cs" />
+    <Compile Include="ProjectM\UI\ShatteredItemRepairCostInfo.cs" />
+    <Compile Include="ProjectM\UI\ItemLevel.cs" />
+    <Compile Include="ProjectM\UI\ItemSetInfo.cs" />
+    <Compile Include="ProjectM\UI\StatsInfo.cs" />
+    <Compile Include="ProjectM\UI\StatInfo.cs" />
+    <Compile Include="ProjectM\UI\UnlockInfo.cs" />
+    <Compile Include="ProjectM\UI\SpellModInfo.cs" />
+    <Compile Include="ProjectM\UI\BloodBuffInfo.cs" />
+    <Compile Include="ProjectM\UI\ExtraInfoType.cs" />
+    <Compile Include="ProjectM\UI\ExtraItemInfo.cs" />
+    <Compile Include="ProjectM\UI\AdditionalTooltipSetting.cs" />
+    <Compile Include="ProjectM\UI\FakeTooltip.cs" />
+    <Compile Include="ProjectM\UI\TooltipBloodQualityEffects.cs" />
+    <Compile Include="ProjectM\UI\TooltipHeader.cs" />
+    <Compile Include="ProjectM\UI\TooltipItemRepairCost.cs" />
+    <Compile Include="ProjectM\UI\TooltipItemSalvageItems.cs" />
+    <Compile Include="ProjectM\UI\TooltipItemSetBonuses.cs" />
+    <Compile Include="ProjectM\UI\TooltipItemStats.cs" />
+    <Compile Include="ProjectM\UI\TooltipItemUnlocks.cs" />
+    <Compile Include="ProjectM\UI\TooltipJewelAbility.cs" />
+    <Compile Include="ProjectM\UI\TooltipRecipeRequiredItems.cs" />
+    <Compile Include="ProjectM\UI\TooltipReforgeCost.cs" />
+    <Compile Include="ProjectM\UI\TooltipSetItems.cs" />
+    <Compile Include="ProjectM\UI\TooltipSpellMods.cs" />
+    <Compile Include="ProjectM\UI\TooltipAbilityDataEntry.cs" />
+    <Compile Include="ProjectM\UI\TooltipBloodBuffEntry.cs" />
+    <Compile Include="ProjectM\UI\TooltipPenaltyEntry.cs" />
+    <Compile Include="ProjectM\UI\TooltipSetItemEntry.cs" />
+    <Compile Include="ProjectM\UI\TooltipSpellModEntry.cs" />
+    <Compile Include="ProjectM\UI\TraderItemEntryUI.cs" />
+    <Compile Include="ProjectM\UI\TraderMenu.cs" />
+    <Compile Include="ProjectM\UI\TraderMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\TraderSubMenu.cs" />
+    <Compile Include="ProjectM\UI\TraderSubMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\UnitSpawnerstationMenu.cs" />
+    <Compile Include="ProjectM\UI\UnitSpawnerstationMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\UnitSpawnerstationSubMenu.cs" />
+    <Compile Include="ProjectM\UI\UnitSpawnerstationSubMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\UseServantMenu.cs" />
+    <Compile Include="ProjectM\UI\UseServantMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\VBloodPanelMenu.cs" />
+    <Compile Include="ProjectM\UI\VBloodPanelMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\WorkstationHelper.cs" />
+    <Compile Include="ProjectM\UI\WorkstationMenu.cs" />
+    <Compile Include="ProjectM\UI\WorkstationMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\WorkstationRequirementEntry.cs" />
+    <Compile Include="ProjectM\UI\WorkstationSubMenu.cs" />
+    <Compile Include="ProjectM\UI\WorkstationSubMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\UICanvasSingleton.cs" />
+    <Compile Include="ProjectM\UI\MainMenuUICanvasSingleton.cs" />
+    <Compile Include="ProjectM\UI\DangerTextType.cs" />
+    <Compile Include="ProjectM\UI\DangerTextParent.cs" />
+    <Compile Include="ProjectM\UI\DangerTextParentSystem.cs" />
+    <Compile Include="ProjectM\UI\UpscaleFilter.cs" />
+    <Compile Include="ProjectM\UI\DebugTab.cs" />
+    <Compile Include="ProjectM\UI\DebugMenu.cs" />
+    <Compile Include="ProjectM\UI\DebugMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\DebugMenuItem.cs" />
+    <Compile Include="ProjectM\UI\DebugMenuTabButton.cs" />
+    <Compile Include="ProjectM\UI\DebugView.cs" />
+    <Compile Include="ProjectM\UI\DebugViewMapper.cs" />
+    <Compile Include="ProjectM\UI\DebugViewCategory.cs" />
+    <Compile Include="ProjectM\UI\DebugViewData.cs" />
+    <Compile Include="ProjectM\UI\DebugViewBinderSystem.cs" />
+    <Compile Include="ProjectM\UI\DisableConsoleKeybindingsOnFocus.cs" />
+    <Compile Include="ProjectM\UI\DropZone.cs" />
+    <Compile Include="ProjectM\UI\DurabilityParent.cs" />
+    <Compile Include="ProjectM\UI\DurabilityUISystem.cs" />
+    <Compile Include="ProjectM\UI\FeedInteractionProgress.cs" />
+    <Compile Include="ProjectM\UI\FeedInteractionProgressSystem.cs" />
+    <Compile Include="ProjectM\UI\ForceMarkLayoutsForRebuild.cs" />
+    <Compile Include="ProjectM\UI\FullscreenMenuState.cs" />
+    <Compile Include="ProjectM\UI\FullscreenMenu.cs" />
+    <Compile Include="ProjectM\UI\FullscreenMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\FullscreenMenuView.cs" />
+    <Compile Include="ProjectM\UI\FullscreenMenuViewMapperSystem`1.cs" />
+    <Compile Include="ProjectM\UI\FullscreenMenu_InnerTabEntry.cs" />
+    <Compile Include="ProjectM\UI\FullscreenMenu_InnerTabSelectionGroup.cs" />
+    <Compile Include="ProjectM\UI\OuterTabRequirement.cs" />
+    <Compile Include="ProjectM\UI\OuterTabState.cs" />
+    <Compile Include="ProjectM\UI\FullscreenMenu_OuterTabEntry.cs" />
+    <Compile Include="ProjectM\UI\EmotesMenu.cs" />
+    <Compile Include="ProjectM\UI\EmotesMenuMapperSystem.cs" />
+    <Compile Include="ProjectM\UI\PowerSelectionMenu.cs" />
+    <Compile Include="ProjectM\UI\PowerSelectionMenuMapperSystem`1.cs" />
+    <Compile Include="ProjectM\UI\PowerSelectionMenu_PowerEntry.cs" />
+    <Compile Include="ProjectM\UI\PowerSelectionMenu_PowerSelectionGroup.cs" />
+    <Compile Include="ProjectM\UI\VampirePowersMenu.cs" />
+    <Compile Include="ProjectM\UI\VampirePowersMenuMapperSystem.cs" />
+    <Compile Include="ProjectM\UI\VBloodAbilityType.cs" />
+    <Compile Include="ProjectM\UI\AbilityDragData.cs" />
+    <Compile Include="ProjectM\UI\SpellbookMenu.cs" />
+    <Compile Include="ProjectM\UI\SpellbookMenuMapperSystem.cs" />
+    <Compile Include="ProjectM\UI\SpellbookMenu_AbilityEntry.cs" />
+    <Compile Include="ProjectM\UI\SpellbookMenu_JewelEntry.cs" />
+    <Compile Include="ProjectM\UI\SpellbookMenu_JewelInfo.cs" />
+    <Compile Include="ProjectM\UI\SpellbookMenu_JewelSelectionGroup.cs" />
+    <Compile Include="ProjectM\UI\SpellbookMenu_SpellModEntry.cs" />
+    <Compile Include="ProjectM\UI\SpellbookMenu_SpellModSelectionGroup.cs" />
+    <Compile Include="ProjectM\UI\DirectionKeysAsset.cs" />
+    <Compile Include="ProjectM\UI\VBloodActSettings.cs" />
+    <Compile Include="ProjectM\UI\DistanceName.cs" />
+    <Compile Include="ProjectM\UI\VBloodDistanceSettings.cs" />
+    <Compile Include="ProjectM\UI\VBloodTrackingChunkDirection.cs" />
+    <Compile Include="ProjectM\UI\TrunkData.cs" />
+    <Compile Include="ProjectM\UI\ActData.cs" />
+    <Compile Include="ProjectM\UI\VBloodTrackingChunkEntry.cs" />
+    <Compile Include="ProjectM\UI\SpriteMaterialCombo.cs" />
+    <Compile Include="ProjectM\UI\VBloodTrackingState.cs" />
+    <Compile Include="ProjectM\UI\VBloodTrackingMenu.cs" />
+    <Compile Include="ProjectM\UI\VBloodTrackingEntry.cs" />
+    <Compile Include="ProjectM\UI\VBloodTrackerEntryChunk.cs" />
+    <Compile Include="ProjectM\UI\VBloodPositionsRequestData.cs" />
+    <Compile Include="ProjectM\UI\VBloodUnitTrackingState.cs" />
+    <Compile Include="ProjectM\UI\SortVBloodTrackingEntryByLevel.cs" />
+    <Compile Include="ProjectM\UI\VBloodTrackingMenuMapperSystem.cs" />
+    <Compile Include="ProjectM\UI\VBloodPosition.cs" />
+    <Compile Include="ProjectM\UI\GetVBloodsPositionResponseSystem.cs" />
+    <Compile Include="ProjectM\UI\VBloodTrackingUnitEntry.cs" />
+    <Compile Include="ProjectM\UI\GameHelper.cs" />
+    <Compile Include="ProjectM\UI\MemoizedItemCategories.cs" />
+    <Compile Include="ProjectM\UI\GameplayHelper.cs" />
+    <Compile Include="ProjectM\UI\GenericPopup.cs" />
+    <Compile Include="ProjectM\UI\GenericPopup`1.cs" />
+    <Compile Include="ProjectM\UI\HUDEdgeSystem.cs" />
+    <Compile Include="ProjectM\UI\HUDElementType.cs" />
+    <Compile Include="ProjectM\UI\HUDElementData.cs" />
+    <Compile Include="ProjectM\UI\HUDElementComponent.cs" />
+    <Compile Include="ProjectM\UI\HUDElementController.cs" />
+    <Compile Include="ProjectM\UI\ClearHUDElementVisibilitySystem.cs" />
+    <Compile Include="ProjectM\UI\ResetConsoleKeybindingsSystem.cs" />
+    <Compile Include="ProjectM\UI\SetHUDElementVisibilitySystem.cs" />
+    <Compile Include="ProjectM\UI\InitializeUI.cs" />
+    <Compile Include="ProjectM\UI\InputContextsCollection.cs" />
+    <Compile Include="ProjectM\UI\InputFieldValidation.cs" />
+    <Compile Include="ProjectM\UI\DragAndDropView.cs" />
+    <Compile Include="ProjectM\UI\DragAndDropViewMapperSystem.cs" />
+    <Compile Include="ProjectM\UI\InteractHUDParent.cs" />
+    <Compile Include="ProjectM\UI\InteractHUDSystem.cs" />
+    <Compile Include="ProjectM\UI\InventoryLocalizationKeys.cs" />
+    <Compile Include="ProjectM\UI\LinkExtraData.cs" />
+    <Compile Include="ProjectM\UI\LinksHUDData.cs" />
+    <Compile Include="ProjectM\UI\LinksHUDDataArray.cs" />
+    <Compile Include="ProjectM\UI\LinksHUDElement.cs" />
+    <Compile Include="ProjectM\UI\LinksHUDHightlightAnimator.cs" />
+    <Compile Include="ProjectM\UI\LinksHUDParent.cs" />
+    <Compile Include="ProjectM\UI\LinksHUDSystem.cs" />
+    <Compile Include="ProjectM\UI\LabelOverrides.cs" />
+    <Compile Include="ProjectM\UI\MapIconRenderData.cs" />
+    <Compile Include="ProjectM\UI\SortByRenderOrder.cs" />
+    <Compile Include="ProjectM\UI\ModifierButtons.cs" />
+    <Compile Include="ProjectM\UI\MapIconClickAction.cs" />
+    <Compile Include="ProjectM\UI\MapClickType.cs" />
+    <Compile Include="ProjectM\UI\MapMarker.cs" />
+    <Compile Include="ProjectM\UI\MapMenuMode.cs" />
+    <Compile Include="ProjectM\UI\MapTooltipType.cs" />
+    <Compile Include="ProjectM\UI\MapZoneTooltipData.cs" />
+    <Compile Include="ProjectM\UI\PylonTooltipData.cs" />
+    <Compile Include="ProjectM\UI\OffsetAndScale.cs" />
+    <Compile Include="ProjectM\UI\RelicMapping.cs" />
+    <Compile Include="ProjectM\UI\MapMenu.cs" />
+    <Compile Include="ProjectM\UI\MapMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\MapMenu_AbortMissionPopup.cs" />
+    <Compile Include="ProjectM\UI\MapPanAndZoom.cs" />
+    <Compile Include="ProjectM\UI\MapRegionNameEntry.cs" />
+    <Compile Include="ProjectM\UI\MapZoneAnnouncementSystem.cs" />
+    <Compile Include="ProjectM\UI\MapZoneAreaMarker.cs" />
+    <Compile Include="ProjectM\UI\MapZoneHelperData.cs" />
+    <Compile Include="ProjectM\UI\BasicAnnouncement.cs" />
+    <Compile Include="ProjectM\UI\MapZoneInfoElement.cs" />
+    <Compile Include="ProjectM\UI\UiPolygonMesh.cs" />
+    <Compile Include="ProjectM\UI\MapZonePolygonUIMeshSystem.cs" />
+    <Compile Include="ProjectM\UI\MinimapIconKey.cs" />
+    <Compile Include="ProjectM\UI\MinimapIconResult.cs" />
+    <Compile Include="ProjectM\UI\MinimapIconInstance.cs" />
+    <Compile Include="ProjectM\UI\MiniMapHUDParent.cs" />
+    <Compile Include="ProjectM\UI\MiniMapHUDSystem.cs" />
+    <Compile Include="ProjectM\UI\MiniMapTextureData.cs" />
+    <Compile Include="ProjectM\UI\MapMode.cs" />
+    <Compile Include="ProjectM\UI\MiniMapIcon.cs" />
+    <Compile Include="ProjectM\UI\MinimapVision.cs" />
+    <Compile Include="ProjectM\UI\MinimapPing.cs" />
+    <Compile Include="ProjectM\UI\Vortex.cs" />
+    <Compile Include="ProjectM\UI\MinimapCompass.cs" />
+    <Compile Include="ProjectM\UI\MinimapData.cs" />
+    <Compile Include="ProjectM\UI\MinimapRenderSettings.cs" />
+    <Compile Include="ProjectM\UI\RevealDiscoveredMapZonePresentationSystem.cs" />
+    <Compile Include="ProjectM\UI\RevealMapPresentationSystem.cs" />
+    <Compile Include="ProjectM\UI\TerritoryMapEntry.cs" />
+    <Compile Include="ProjectM\UI\TerritoryOwnerCacheSystem.cs" />
+    <Compile Include="ProjectM\UI\MinimapRenderUtilties.cs" />
+    <Compile Include="ProjectM\UI\HUDRecipeTracker.cs" />
+    <Compile Include="ProjectM\UI\HUDRecipeTrackerSystem.cs" />
+    <Compile Include="ProjectM\UI\PersistentReplayData.cs" />
+    <Compile Include="ProjectM\UI\ReplayHUDParent.cs" />
+    <Compile Include="ProjectM\UI\ReplayHUDSystem.cs" />
+    <Compile Include="ProjectM\UI\ReviveCancelAuthoring.cs" />
+    <Compile Include="ProjectM\UI\ReviveCancelSystem.cs" />
+    <Compile Include="ProjectM\UI\ReviveCancelEventSystem.cs" />
+    <Compile Include="ProjectM\UI\ScreenCraftingParent.cs" />
+    <Compile Include="ProjectM\UI\CharacterScreenCraftingSystem.cs" />
+    <Compile Include="ProjectM\UI\ScrollingCombatTextEntry.cs" />
+    <Compile Include="ProjectM\UI\FloatRange.cs" />
+    <Compile Include="ProjectM\UI\ScrollingCombatTextParent.cs" />
+    <Compile Include="ProjectM\UI\ScrollingCombatTextParentMapper.cs" />
+    <Compile Include="ProjectM\UI\ScrollingCombatTextParentBinderSystem.cs" />
+    <Compile Include="ProjectM\UI\RemoveServerSCTs.cs" />
+    <Compile Include="ProjectM\UI\SetCursorSystem.cs" />
+    <Compile Include="ProjectM\UI\SubtitleEntry.cs" />
+    <Compile Include="ProjectM\UI\StunVideoAsset.cs" />
+    <Compile Include="ProjectM\UI\StunVideoPlayer.cs" />
+    <Compile Include="ProjectM\UI\TargetInfoParent.cs" />
+    <Compile Include="ProjectM\UI\TargetInfoParentSystem.cs" />
+    <Compile Include="ProjectM\UI\TutorialParent.cs" />
+    <Compile Include="ProjectM\UI\TutorialObjective.cs" />
+    <Compile Include="ProjectM\UI\TutorialObjective_Ability.cs" />
+    <Compile Include="ProjectM\UI\TutorialObjective_Building.cs" />
+    <Compile Include="ProjectM\UI\TutorialObjective_Crafting.cs" />
+    <Compile Include="ProjectM\UI\TutorialObjective_Heal.cs" />
+    <Compile Include="ProjectM\UI\TutorialObjective_JumpDown.cs" />
+    <Compile Include="ProjectM\UI\TutorialObjective_JumpDown2.cs" />
+    <Compile Include="ProjectM\UI\TutorialObjective_Map.cs" />
+    <Compile Include="ProjectM\UI\TutorialObjective_Move.cs" />
+    <Compile Include="ProjectM\UI\TutorialObjective_Recovery.cs" />
+    <Compile Include="ProjectM\UI\TutorialObjective_RotateCamera.cs" />
+    <Compile Include="ProjectM\UI\TutorialObjective_RotateCamera2.cs" />
+    <Compile Include="ProjectM\UI\TutorialObjective_Shapeshift.cs" />
+    <Compile Include="ProjectM\UI\HUDMenu.cs" />
+    <Compile Include="ProjectM\UI\HUDMenuMapping.cs" />
+    <Compile Include="ProjectM\UI\OpenMenuEvent.cs" />
+    <Compile Include="ProjectM\UI\ToggleDebugMenuEvent.cs" />
+    <Compile Include="ProjectM\UI\ToggleChatEvent.cs" />
+    <Compile Include="ProjectM\UI\ChatInputFocused.cs" />
+    <Compile Include="ProjectM\UI\HUDMenuManager.cs" />
+    <Compile Include="ProjectM\UI\HUDMenuHelper.cs" />
+    <Compile Include="ProjectM\UI\OpenHUDMenuSystem.cs" />
+    <Compile Include="ProjectM\UI\ToggleHUDDebugMenuSystem.cs" />
+    <Compile Include="ProjectM\UI\ViewMapping.cs" />
+    <Compile Include="ProjectM\UI\ViewLocation.cs" />
+    <Compile Include="ProjectM\UI\NavigateToViewEvent.cs" />
+    <Compile Include="ProjectM\UI\EmptyInitData.cs" />
+    <Compile Include="ProjectM\UI\ViewManager.cs" />
+    <Compile Include="ProjectM\UI\ViewLocationSystem.cs" />
+    <Compile Include="ProjectM\UI\BetaInformationData.cs" />
+    <Compile Include="ProjectM\UI\BetaInformationPanel.cs" />
+    <Compile Include="ProjectM\UI\BetaWatermark.cs" />
+    <Compile Include="ProjectM\UI\ColorGridSelectionEntry.cs" />
+    <Compile Include="ProjectM\UI\ConnectingView.cs" />
+    <Compile Include="ProjectM\UI\ControlsInfoView.cs" />
+    <Compile Include="ProjectM\UI\DebugLogsViewSystem.cs" />
+    <Compile Include="ProjectM\UI\DebugLogsView.cs" />
+    <Compile Include="ProjectM\UI\EscapeMenuPopup.cs" />
+    <Compile Include="ProjectM\UI\EscapeMenuView.cs" />
+    <Compile Include="ProjectM\UI\Focusable.cs" />
+    <Compile Include="ProjectM\UI\GridSelectionGroup`2.cs" />
+    <Compile Include="ProjectM\UI\ImageGridSelectionEntry.cs" />
+    <Compile Include="ProjectM\UI\Join_PasswordView.cs" />
+    <Compile Include="ProjectM\UI\LocalizedStatusMessagesAsset.cs" />
+    <Compile Include="ProjectM\UI\LocalizedStatusChange.cs" />
+    <Compile Include="ProjectM\UI\MainMenuCanvasBase.cs" />
+    <Compile Include="ProjectM\UI\MainMenuCanvasSystem.cs" />
+    <Compile Include="ProjectM\UI\MainMenuNewView.cs" />
+    <Compile Include="ProjectM\UI\MainMenuView.cs" />
+    <Compile Include="ProjectM\UI\MenuButton.cs" />
+    <Compile Include="ProjectM\UI\MenuButtonSettings.cs" />
+    <Compile Include="ProjectM\UI\MenuEntryType.cs" />
+    <Compile Include="ProjectM\UI\MenuEntryRequirement.cs" />
+    <Compile Include="ProjectM\UI\MenuButtonData.cs" />
+    <Compile Include="ProjectM\UI\MenuCollection.cs" />
+    <Compile Include="ProjectM\UI\MenuNavigation.cs" />
+    <Compile Include="ProjectM\UI\MultiplayerMenuView.cs" />
+    <Compile Include="ProjectM\UI\NewsData.cs" />
+    <Compile Include="ProjectM\UI\NewsPanelEntryData.cs" />
+    <Compile Include="ProjectM\UI\NewsManagerSystem.cs" />
+    <Compile Include="ProjectM\UI\GameLinkType.cs" />
+    <Compile Include="ProjectM\UI\GameLinkTypeIdentifier.cs" />
+    <Compile Include="ProjectM\UI\NewsPanel.cs" />
+    <Compile Include="ProjectM\UI\NewsPanelEntry.cs" />
+    <Compile Include="ProjectM\UI\OptionsMenu_Base.cs" />
+    <Compile Include="ProjectM\UI\PlayConnectMenuView.cs" />
+    <Compile Include="ProjectM\UI\PlayContinueMenuView.cs" />
+    <Compile Include="ProjectM\UI\PlayHostMenuView.cs" />
+    <Compile Include="ProjectM\UI\ServerListEntryUIData.cs" />
+    <Compile Include="ProjectM\UI\JoinMenuState.cs" />
+    <Compile Include="ProjectM\UI\PlayJoinMenuView.cs" />
+    <Compile Include="ProjectM\UI\FilterSetting.cs" />
+    <Compile Include="ProjectM\UI\ClanSizeFilterSetting.cs" />
+    <Compile Include="ProjectM\UI\ServerListFilterOptions.cs" />
+    <Compile Include="ProjectM\UI\ServerListPrioritySettings.cs" />
+    <Compile Include="ProjectM\UI\ServerListSorting.cs" />
+    <Compile Include="ProjectM\UI\ServerListSystem.cs" />
+    <Compile Include="ProjectM\UI\ServerListDataEntry.cs" />
+    <Compile Include="ProjectM\UI\PlayMenuView.cs" />
+    <Compile Include="ProjectM\UI\PlaySelectMenuView.cs" />
+    <Compile Include="ProjectM\UI\PlaySelectModeMenuView.cs" />
+    <Compile Include="ProjectM\UI\Popup_BasicConfirm.cs" />
+    <Compile Include="ProjectM\UI\Popup_DirectConnect.cs" />
+    <Compile Include="ProjectM\UI\Popup_ServerSettingDetails.cs" />
+    <Compile Include="ProjectM\UI\Popup_ServerSettingDetails_SettingEntry.cs" />
+    <Compile Include="ProjectM\UI\SaveListEntryComponent.cs" />
+    <Compile Include="ProjectM\UI\ServerListComponent.cs" />
+    <Compile Include="ProjectM\UI\ServerListEntryComponent.cs" />
+    <Compile Include="ProjectM\UI\SimplePopup.cs" />
+    <Compile Include="ProjectM\UI\TMP_Text_Clickable.cs" />
+    <Compile Include="ProjectM\UI\StartGameLoadMenuView.cs" />
+    <Compile Include="ProjectM\UI\StartGameLoadMenuViewMapper.cs" />
+    <Compile Include="ProjectM\UI\StunDragData.cs" />
+    <Compile Include="ProjectM\UI\DragAndDropSystem.cs" />
+    <Compile Include="ProjectM\UI\LinkClickedEvent.cs" />
+    <Compile Include="ProjectM\UI\TMP_LinkClickHandler.cs" />
+    <Compile Include="ProjectM\UI\IBaseCanvas.cs" />
+    <Compile Include="ProjectM\UI\UICanvasBase.cs" />
+    <Compile Include="ProjectM\UI\UICanvasSystem.cs" />
+    <Compile Include="ProjectM\UI\UIEntryPoint.cs" />
+    <Compile Include="ProjectM\UI\UnstuckPopupMenuView.cs" />
+    <Compile Include="ProjectM\UI\UsernameInputComponent.cs" />
+    <Compile Include="ProjectM\UI\VOIPMenu.cs" />
+    <Compile Include="ProjectM\UI\VOIPMenuMapper.cs" />
+    <Compile Include="ProjectM\UI\SpawnUIPrefabOnLoad.cs" />
+    <Compile Include="ProjectM\UI\UIAuthoring.cs" />
+    <Compile Include="ProjectM\UI\UISpawningSystem.cs" />
+    <Compile Include="ProjectM\UI\UIDataSystem.cs" />
+    <Compile Include="ProjectM\UI\UIHighlightData.cs" />
+    <Compile Include="ProjectM\UI\UIHighlightHelper.cs" />
+    <Compile Include="ProjectM\UI\UIPrefabReference.cs" />
+    <Compile Include="ProjectM\UI\UseCharacterHudProgressBar.cs" />
+    <Compile Include="ProjectM\UI\UseCharacterHudProgressBarManaged.cs" />
+    <Compile Include="ProjectM\UI\HudShowFilter.cs" />
+    <Compile Include="ProjectM\UI\Importance.cs" />
+    <Compile Include="ProjectM\UI\HudShowOn.cs" />
+    <Compile Include="ProjectM\UI\UseCharacterHudProgressBarAuthoring.cs" />
+    <Compile Include="ProjectM\UI\VBloodEmoteEntry.cs" />
+    <Compile Include="ProjectM\UI\VBloodPowerEntry.cs" />
+    <Compile Include="ProjectM\UI\ActionWheelData.cs" />
+    <Compile Include="ProjectM\UI\ActionWheel.cs" />
+    <Compile Include="ProjectM\UI\ActionWheelSystem.cs" />
+    <Compile Include="ProjectM\UI\ActionWheelPart.cs" />
+    <Compile Include="ProjectM\UI\ActionWheelPartImage.cs" />
+    <Compile Include="ProjectM\UI\CastleHeartUI\CastleHeartAllyWindow.cs" />
+    <Compile Include="ProjectM\UI\CastleHeartUI\CastleHeartClaimPanel.cs" />
+    <Compile Include="ProjectM\UI\CastleHeartUI\CastleHeartDestroyPanel.cs" />
+    <Compile Include="ProjectM\UI\CastleHeartUI\CastleHeartEnemyWindow.cs" />
+    <Compile Include="ProjectM\UI\CastleHeartUI\CastleHeartExposedGroup.cs" />
+    <Compile Include="ProjectM\UI\CastleHeartUI\CastleHeartLevelPanel.cs" />
+    <Compile Include="ProjectM\UI\CastleHeartUI\CastleHeartPvpTimePanel.cs" />
+    <Compile Include="ProjectM\UI\CastleHeartUI\CastleHeartRaidPanel.cs" />
+    <Compile Include="ProjectM\UI\CastleHeartUI\CastleHeartShortMenuEntry.cs" />
+    <Compile Include="ProjectM\UI\CastleHeartUI\CastleHeartUpgradeButton.cs" />
+    <Compile Include="ProjectM\UI\CastleHeartUI\CastleHeartUpkeepPanel.cs" />
+    <Compile Include="ProjectM\HUD\InfoTextPlacement.cs" />
+    <Compile Include="ProjectM\HUD\InfoTextType.cs" />
+    <Compile Include="ProjectM\HUD\ConditionalInfo.cs" />
+    <Compile Include="ProjectM\HUD\ConditionalInfoElement.cs" />
+    <Compile Include="ProjectM\HUD\ConditionalInfoElementAuthoring.cs" />
+    <Compile Include="ProjectM\HUD\ConditionalInfoAuthoring.cs" />
+    <Compile Include="ProjectM\HUD\ConditionalInfoSystem.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

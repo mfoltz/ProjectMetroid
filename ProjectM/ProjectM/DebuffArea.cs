@@ -1,0 +1,42 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: ProjectM.DebuffArea
+// Assembly: ProjectM, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: 83E42B70-D81B-4F1F-9FB5-6B5ABD5FF9FC
+// Assembly location: C:\Users\mitch\.nuget\packages\vrising.unhollowed.client\0.6.5.57575090\lib\net6.0\ProjectM.dll
+
+using Il2CppInterop.Runtime;
+using ProjectM.Shared;
+using System.Runtime.InteropServices;
+using Unity.Entities;
+
+#nullable disable
+namespace ProjectM
+{
+  [StructLayout(LayoutKind.Explicit)]
+  public struct DebuffArea
+  {
+    private static readonly System.IntPtr NativeFieldInfoPtr_DebuffGuid;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Condition;
+    private static readonly System.IntPtr NativeFieldInfoPtr_RemoveDebuffUponExitArea;
+    [FieldOffset(0)]
+    public PrefabGUID DebuffGuid;
+    [FieldOffset(8)]
+    public BlobAssetReference<ConditionBlob> Condition;
+    [FieldOffset(16)]
+    public bool RemoveDebuffUponExitArea;
+
+    static DebuffArea()
+    {
+      Il2CppClassPointerStore<DebuffArea>.NativeClassPtr = IL2CPP.GetIl2CppClass("ProjectM.dll", "ProjectM", nameof (DebuffArea));
+      IL2CPP.il2cpp_runtime_class_init(Il2CppClassPointerStore<DebuffArea>.NativeClassPtr);
+      DebuffArea.NativeFieldInfoPtr_DebuffGuid = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<DebuffArea>.NativeClassPtr, nameof (DebuffGuid));
+      DebuffArea.NativeFieldInfoPtr_Condition = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<DebuffArea>.NativeClassPtr, nameof (Condition));
+      DebuffArea.NativeFieldInfoPtr_RemoveDebuffUponExitArea = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<DebuffArea>.NativeClassPtr, nameof (RemoveDebuffUponExitArea));
+    }
+
+    public Il2CppSystem.Object BoxIl2CppObject()
+    {
+      return new Il2CppSystem.Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DebuffArea>.NativeClassPtr, (System.IntPtr) ref this));
+    }
+  }
+}

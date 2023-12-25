@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="Current">
+  <!--Project was exported from assembly: C:\Users\mitch\.nuget\packages\vrising.unhollowed.client\0.6.5.57575090\lib\net6.0\ProjectM.CodeGeneration.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B4473FB-7F87-46C1-B42F-6D12D96CADEA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>ProjectM.CodeGeneration</AssemblyName>
+    <ApplicationVersion>0.0.0.0</ApplicationVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Il2CppInterop.Common">
+      <HintPath>lib\Il2CppInterop.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>lib\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Core">
+      <HintPath>lib\Il2CppSystem.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>lib\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities">
+      <HintPath>lib\Unity.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Properties">
+      <HintPath>lib\Unity.Properties.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="_PrivateImplementationDetails_.cs" />
+    <Compile Include="Il2CppMicrosoft\CodeAnalysis\EmbeddedAttribute.cs" />
+    <Compile Include="Il2CppSystem\Runtime\CompilerServices\IsReadOnlyAttribute.cs" />
+    <Compile Include="Unity\Properties\Generated\ProjectM_NetworkSnapshotIdentifier_PropertyBag.cs" />
+    <Compile Include="Unity\Properties\Generated\PropertyBagRegistry.cs" />
+    <Compile Include="ProjectM\ExcludePersistenceOptions.cs" />
+    <Compile Include="ProjectM\ExcludePersistenceFieldOptions.cs" />
+    <Compile Include="ProjectM\PersistenceV2.cs" />
+    <Compile Include="ProjectM\MurMurHash3.cs" />
+    <Compile Include="ProjectM\NetworkSnapshotIdentifier.cs" />
+    <Compile Include="ProjectM\NetworkedEntity.cs" />
+    <Compile Include="ProjectM\Behaviours\BehaviourCodeGeneration.cs" />
+    <Compile Include="ProjectM\Behaviours\PrivateField`1.cs" />
+    <Compile Include="ProjectM\Behaviours\SharedField`1.cs" />
+    <Compile Include="ProjectM\Behaviours\OptionalSharedField`1.cs" />
+    <Compile Include="ProjectM\CodeGeneration\StunDefaultValueAttribute.cs" />
+    <Compile Include="ProjectM\CodeGeneration\Accessor.cs" />
+    <Compile Include="ProjectM\CodeGeneration\Code.cs" />
+    <Compile Include="ProjectM\CodeGeneration\CodeAttribute.cs" />
+    <Compile Include="ProjectM\CodeGeneration\BlockType.cs" />
+    <Compile Include="ProjectM\CodeGeneration\CodeBlock.cs" />
+    <Compile Include="ProjectM\CodeGeneration\CodeField.cs" />
+    <Compile Include="ProjectM\CodeGeneration\CodeFields.cs" />
+    <Compile Include="ProjectM\CodeGeneration\CodeFile.cs" />
+    <Compile Include="ProjectM\CodeGeneration\ICodePart.cs" />
+    <Compile Include="ProjectM\CodeGeneration\CodeGenCommand.cs" />
+    <Compile Include="ProjectM\CodeGeneration\CodeHelper.cs" />
+    <Compile Include="ProjectM\CodeGeneration\CodeDetect.cs" />
+    <Compile Include="ProjectM\CodeGeneration\CodeInject.cs" />
+    <Compile Include="ProjectM\CodeGeneration\CodeText.cs" />
+    <Compile Include="ProjectM\CodeGeneration\CodeGenCommandWrapper.cs" />
+    <Compile Include="ProjectM\CodeGeneration\CodeSegment.cs" />
+    <Compile Include="ProjectM\CodeGeneration\CodeTemplate.cs" />
+    <Compile Include="ProjectM\CodeGeneration\CodeTemplateData.cs" />
+    <Compile Include="ProjectM\CodeGeneration\CodeTemplateList.cs" />
+    <Compile Include="ProjectM\CodeGeneration\CodeTemplateSource.cs" />
+    <Compile Include="ProjectM\CodeGeneration\CodeUsings.cs" />
+    <Compile Include="ProjectM\CodeGeneration\Indent.cs" />
+    <Compile Include="ProjectM\Network\NetworkedComponentAttribute.cs" />
+    <Compile Include="ProjectM\Network\NetworkedComponentAliasAttribute.cs" />
+    <Compile Include="ProjectM\Network\NetworkedStaticBufferAttribute.cs" />
+    <Compile Include="ProjectM\Network\GenerateFieldContextData.cs" />
+    <Compile Include="ProjectM\Network\SyncAttribute.cs" />
+    <Compile Include="ProjectM\Network\NetCodeGenHelper.cs" />
+    <Compile Include="ProjectM\Network\OverflowHandling.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

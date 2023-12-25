@@ -1,0 +1,121 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Epic.OnlineServices.Auth.AccountFeatureRestrictedInfoInternal
+// Assembly: ProjectM, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: 83E42B70-D81B-4F1F-9FB5-6B5ABD5FF9FC
+// Assembly location: C:\Users\mitch\.nuget\packages\vrising.unhollowed.client\0.6.5.57575090\lib\net6.0\ProjectM.dll
+
+using Il2CppInterop.Common.Attributes;
+using Il2CppInterop.Runtime;
+using Il2CppInterop.Runtime.InteropTypes;
+using System.Runtime.InteropServices;
+
+#nullable disable
+namespace Epic.OnlineServices.Auth
+{
+  [StructLayout(LayoutKind.Explicit)]
+  public struct AccountFeatureRestrictedInfoInternal
+  {
+    private static readonly System.IntPtr NativeFieldInfoPtr_m_ApiVersion;
+    private static readonly System.IntPtr NativeFieldInfoPtr_m_VerificationURI;
+    private static readonly System.IntPtr NativeMethodInfoPtr_get_VerificationURI_Public_get_Utf8String_0;
+    private static readonly System.IntPtr NativeMethodInfoPtr_set_VerificationURI_Public_set_Void_Utf8String_0;
+    private static readonly System.IntPtr NativeMethodInfoPtr_Set_Public_Virtual_Final_New_Void_byref_AccountFeatureRestrictedInfo_0;
+    private static readonly System.IntPtr NativeMethodInfoPtr_Set_Public_Virtual_Final_New_Void_byref_Nullable_1_AccountFeatureRestrictedInfo_0;
+    private static readonly System.IntPtr NativeMethodInfoPtr_Dispose_Public_Virtual_Final_New_Void_0;
+    private static readonly System.IntPtr NativeMethodInfoPtr_Get_Public_Virtual_Final_New_Void_byref_AccountFeatureRestrictedInfo_0;
+    [FieldOffset(0)]
+    public int m_ApiVersion;
+    [FieldOffset(8)]
+    public System.IntPtr m_VerificationURI;
+
+    public unsafe Epic.OnlineServices.Utf8String VerificationURI
+    {
+      [CallerCount(0), CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 966889, XrefRangeEnd = 966893, MetadataInitTokenRva = 0, MetadataInitFlagRva = 0)] get
+      {
+        System.IntPtr* numPtr = (System.IntPtr*) null;
+        System.IntPtr exc;
+        System.IntPtr num = IL2CPP.il2cpp_runtime_invoke(AccountFeatureRestrictedInfoInternal.NativeMethodInfoPtr_get_VerificationURI_Public_get_Utf8String_0, (System.IntPtr) ref this, (void**) numPtr, ref exc);
+        Il2CppException.RaiseExceptionIfNecessary(exc);
+        System.IntPtr pointer = num;
+        return pointer == System.IntPtr.Zero ? (Epic.OnlineServices.Utf8String) null : new Epic.OnlineServices.Utf8String(pointer);
+      }
+      [CallerCount(0), CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 966893, XrefRangeEnd = 966897, MetadataInitTokenRva = 0, MetadataInitFlagRva = 0)] set
+      {
+        System.IntPtr* numPtr = stackalloc System.IntPtr[1];
+        numPtr[0] = IL2CPP.Il2CppObjectBaseToPtr((Il2CppObjectBase) value);
+        System.IntPtr exc;
+        IL2CPP.il2cpp_runtime_invoke(AccountFeatureRestrictedInfoInternal.NativeMethodInfoPtr_set_VerificationURI_Public_set_Void_Utf8String_0, (System.IntPtr) ref this, (void**) numPtr, ref exc);
+        Il2CppException.RaiseExceptionIfNecessary(exc);
+      }
+    }
+
+    [CallerCount(1)]
+    [CachedScanResults(RefRangeStart = 966901, RefRangeEnd = 966902, XrefRangeStart = 966897, XrefRangeEnd = 966901, MetadataInitTokenRva = 0, MetadataInitFlagRva = 0)]
+    public virtual unsafe void Set(ref AccountFeatureRestrictedInfo other)
+    {
+      System.IntPtr* numPtr = stackalloc System.IntPtr[1];
+      numPtr[0] = IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) other);
+      System.IntPtr exc;
+      IL2CPP.il2cpp_runtime_invoke(AccountFeatureRestrictedInfoInternal.NativeMethodInfoPtr_Set_Public_Virtual_Final_New_Void_byref_AccountFeatureRestrictedInfo_0, (System.IntPtr) ref this, (void**) numPtr, ref exc);
+      Il2CppException.RaiseExceptionIfNecessary(exc);
+    }
+
+    [CallerCount(0)]
+    [CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 966902, XrefRangeEnd = 966910, MetadataInitTokenRva = 0, MetadataInitFlagRva = 0)]
+    public virtual unsafe void Set(ref Il2CppSystem.Nullable<AccountFeatureRestrictedInfo> other)
+    {
+      System.IntPtr* numPtr = stackalloc System.IntPtr[1];
+      numPtr[0] = IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) other);
+      System.IntPtr exc;
+      IL2CPP.il2cpp_runtime_invoke(AccountFeatureRestrictedInfoInternal.NativeMethodInfoPtr_Set_Public_Virtual_Final_New_Void_byref_Nullable_1_AccountFeatureRestrictedInfo_0, (System.IntPtr) ref this, (void**) numPtr, ref exc);
+      Il2CppException.RaiseExceptionIfNecessary(exc);
+    }
+
+    [CallerCount(0)]
+    [CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 966910, XrefRangeEnd = 966914, MetadataInitTokenRva = 0, MetadataInitFlagRva = 0)]
+    public virtual unsafe void Dispose()
+    {
+      System.IntPtr* numPtr = (System.IntPtr*) null;
+      System.IntPtr exc;
+      IL2CPP.il2cpp_runtime_invoke(AccountFeatureRestrictedInfoInternal.NativeMethodInfoPtr_Dispose_Public_Virtual_Final_New_Void_0, (System.IntPtr) ref this, (void**) numPtr, ref exc);
+      Il2CppException.RaiseExceptionIfNecessary(exc);
+    }
+
+    [CallerCount(1)]
+    [CachedScanResults(RefRangeStart = 966915, RefRangeEnd = 966916, XrefRangeStart = 966914, XrefRangeEnd = 966915, MetadataInitTokenRva = 0, MetadataInitFlagRva = 0)]
+    public virtual unsafe void Get(out AccountFeatureRestrictedInfo output)
+    {
+      System.IntPtr* numPtr1 = stackalloc System.IntPtr[1];
+      System.IntPtr* numPtr2 = numPtr1;
+      System.IntPtr zero = System.IntPtr.Zero;
+      System.IntPtr* numPtr3 = &zero;
+      *numPtr2 = (System.IntPtr) numPtr3;
+      System.IntPtr exc;
+      IL2CPP.il2cpp_runtime_invoke(AccountFeatureRestrictedInfoInternal.NativeMethodInfoPtr_Get_Public_Virtual_Final_New_Void_byref_AccountFeatureRestrictedInfo_0, (System.IntPtr) ref this, (void**) numPtr1, ref exc);
+      Il2CppException.RaiseExceptionIfNecessary(exc);
+      ref AccountFeatureRestrictedInfo local = ref output;
+      System.IntPtr pointer = zero;
+      AccountFeatureRestrictedInfo featureRestrictedInfo = pointer == System.IntPtr.Zero ? (AccountFeatureRestrictedInfo) null : new AccountFeatureRestrictedInfo(pointer);
+      local = featureRestrictedInfo;
+    }
+
+    static AccountFeatureRestrictedInfoInternal()
+    {
+      Il2CppClassPointerStore<AccountFeatureRestrictedInfoInternal>.NativeClassPtr = IL2CPP.GetIl2CppClass("ProjectM.dll", "Epic.OnlineServices.Auth", nameof (AccountFeatureRestrictedInfoInternal));
+      IL2CPP.il2cpp_runtime_class_init(Il2CppClassPointerStore<AccountFeatureRestrictedInfoInternal>.NativeClassPtr);
+      AccountFeatureRestrictedInfoInternal.NativeFieldInfoPtr_m_ApiVersion = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<AccountFeatureRestrictedInfoInternal>.NativeClassPtr, nameof (m_ApiVersion));
+      AccountFeatureRestrictedInfoInternal.NativeFieldInfoPtr_m_VerificationURI = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<AccountFeatureRestrictedInfoInternal>.NativeClassPtr, nameof (m_VerificationURI));
+      AccountFeatureRestrictedInfoInternal.NativeMethodInfoPtr_get_VerificationURI_Public_get_Utf8String_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<AccountFeatureRestrictedInfoInternal>.NativeClassPtr, 100673239);
+      AccountFeatureRestrictedInfoInternal.NativeMethodInfoPtr_set_VerificationURI_Public_set_Void_Utf8String_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<AccountFeatureRestrictedInfoInternal>.NativeClassPtr, 100673240);
+      AccountFeatureRestrictedInfoInternal.NativeMethodInfoPtr_Set_Public_Virtual_Final_New_Void_byref_AccountFeatureRestrictedInfo_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<AccountFeatureRestrictedInfoInternal>.NativeClassPtr, 100673241);
+      AccountFeatureRestrictedInfoInternal.NativeMethodInfoPtr_Set_Public_Virtual_Final_New_Void_byref_Nullable_1_AccountFeatureRestrictedInfo_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<AccountFeatureRestrictedInfoInternal>.NativeClassPtr, 100673242);
+      AccountFeatureRestrictedInfoInternal.NativeMethodInfoPtr_Dispose_Public_Virtual_Final_New_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<AccountFeatureRestrictedInfoInternal>.NativeClassPtr, 100673243);
+      AccountFeatureRestrictedInfoInternal.NativeMethodInfoPtr_Get_Public_Virtual_Final_New_Void_byref_AccountFeatureRestrictedInfo_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<AccountFeatureRestrictedInfoInternal>.NativeClassPtr, 100673244);
+    }
+
+    public Il2CppSystem.Object BoxIl2CppObject()
+    {
+      return new Il2CppSystem.Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AccountFeatureRestrictedInfoInternal>.NativeClassPtr, (System.IntPtr) ref this));
+    }
+  }
+}

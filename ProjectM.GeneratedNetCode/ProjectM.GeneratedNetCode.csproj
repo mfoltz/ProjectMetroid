@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="Current">
+  <!--Project was exported from assembly: C:\Users\mitch\.nuget\packages\vrising.unhollowed.client\0.6.5.57575090\lib\net6.0\ProjectM.GeneratedNetCode.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BDB77B6B-FA86-4187-A49F-422F6B3544C3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>ProjectM.GeneratedNetCode</AssemblyName>
+    <ApplicationVersion>0.0.0.0</ApplicationVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Il2CppInterop.Common">
+      <HintPath>lib\Il2CppInterop.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>lib\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem">
+      <HintPath>lib\Il2CppSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>lib\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectM">
+      <HintPath>lib\ProjectM.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectM.CodeGeneration">
+      <HintPath>lib\ProjectM.CodeGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectM.Gameplay.Scripting">
+      <HintPath>lib\ProjectM.Gameplay.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectM.HUD">
+      <HintPath>lib\ProjectM.HUD.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectM.Shared">
+      <HintPath>lib\ProjectM.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="Stunlock.Core">
+      <HintPath>lib\Stunlock.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>lib\Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities">
+      <HintPath>lib\Unity.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>lib\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Transforms">
+      <HintPath>lib\Unity.Transforms.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>lib\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="com.stunlock.network">
+      <HintPath>lib\com.stunlock.network.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="_PrivateImplementationDetails_.cs" />
+    <Compile Include="__JobReflectionRegistrationOutput__4139771393.cs" />
+    <Compile Include="ObjectPrivateAbstractSealedInVo18.cs" />
+    <Compile Include="Il2CppMicrosoft\CodeAnalysis\EmbeddedAttribute.cs" />
+    <Compile Include="Il2CppSystem\Runtime\CompilerServices\IsReadOnlyAttribute.cs" />
+    <Compile Include="ProjectM\Network\CleanUpWeakRefsSystem.cs" />
+    <Compile Include="ProjectM\Network\CopySnapshotsToEntitiesSystem.cs" />
+    <Compile Include="ProjectM\Network\DestroyToggleDisabledDueToTimeoutEventsSystem.cs" />
+    <Compile Include="ProjectM\Network\NetworkSnapshotTypes.cs" />
+    <Compile Include="ProjectM\Network\NetworkedComponentConversion.cs" />
+    <Compile Include="ProjectM\Network\NetworkedComponentIds.cs" />
+    <Compile Include="ProjectM\Network\ReceivePacketSystem.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_AbilityChargeCooldowns.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_AbilityStateBuffer.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_AchievementInProgressElement.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ActionBarSlotElement.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ActiveServantMission.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_AllyPermission.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_BloodHuntBuffer.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_CastleBuildingAttachedChildrenBuffer.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_CastleBuildingAttachToParentsBuffer.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_CastleBuildingFusedChildrenBuffer.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_CastleMemberNames.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_CastleTeleporterElement.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_CastleTerritoryDecay.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_CastleTerritoryOccupant.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ClanMemberStatus.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_FollowerBuffer.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_InventoryBuffer.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_InventoryInstanceElement.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_PerksBuffer.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ProgressionBookBlueprintElement.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ProgressionBookRecipeElement.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ProgressionBookShapeshiftElement.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ProgressionBookTechElement.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_PylonstationCastleClaimBuffer.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_PylonstationCastleDestroyBuffer.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_PylonstationCastleRaidBuffer.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_PylonstationUpgradesBuffer.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_QueuedWorkstationCraftAction.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_RefinementstationRecipesBuffer.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ResearchBuffer.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_RespawnPointOwnerBuffer.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_Restricted_InventoryBuffer.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_Script_LightningProjectile_Nodes.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ShardBossHuntBuffer.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_SpawnedUnitsBuffer.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_TradeCost.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_TradeOutput.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_TraderEntry.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_UnlockedVBlood.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_UnlockedWaypointElement.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_UserMapZoneElement.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acbbdiefgbd.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acbbgiidegf.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acbdgdebikk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acbfcjichfb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acbhckcfdfd.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acbhkjccgdi.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acbicfeedbb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acbiddcjjid.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acccfjkdigh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acccgefcedb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_accdbefiheb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_accdjiedgfe.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_accgciikfbf.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_accgiggcif.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acchhgcjcbh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acchibekekj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acciegkehkf.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acdccjhicfg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acdehhkijdj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acdfgkkfchc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acdficciidc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acdibbekbkk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acdidhjbjgj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acdjdjkckhd.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acdjighgcci.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acdkgjbefjd.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acdkkhcbdcg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acecggedbff.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_aceegbjekgb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_aceehcgeedj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acegbdcgkdf.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_aceihfcgifd.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acekdgegehc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acekjgheehk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acfckgbfifj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acfebiceeh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acfhdekidie.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acfikjcfik.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acgbiiekebj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acgchdfhdbe.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acgckficfjg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acgddgdckdd.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acgefcgggfi.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acgfefhihji.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acggehdijfg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acggfcbekbj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acggkbfbjck.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acghdchgjgf.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_achbffjechg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_achbhefgeeh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_achbhhddbh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_achcbdhidik.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_achdjgjdgkk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_achfcefeheb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_achgedhdigf.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_achgegcdkcj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_achicekidek.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_achiggdccdc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_achjkedegdi.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_achjkicgkif.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_aciddedkjj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acidekciged.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acidjkkbgbk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acifkidfebh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acigkbdedfb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acihcehbbb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acihehkdfeh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acihkdjfdkb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_aciibbeciec.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acikghjjgki.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acikhjeehkg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acjbgiffidc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acjdegcccg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acjigbfeikj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_acjkcgkfjff.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ackbhgekeci.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ackchfegcjc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ackdkfeghk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ackebkbdbjj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ackffdikde.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ackgdbibjbd.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ackifjdcjjd.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ackjbcfijee.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ackkecjdkk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_adbbickeikd.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_adbfkibeiid.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_adbfkjhfcjd.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_adbgiccjej.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_adbhchjbgek.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_adbijghdjjj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_adbjcebiefe.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_adbjdjfkiif.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_adbjkedbgjg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_adbjkhhkffi.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_adbkdbehhdh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_adcbfjighfe.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_adcdbdebfjg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_adcffdijihg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_adejkghcfk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_adekhbkfjb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_adgbkkgkkc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_adgcbgkcfb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_adjbidcgdh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_adkecehjdk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_aebfefikfc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_aegjbedggh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_aeibfebcie.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_aejfcffkde.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_afcdibbdhk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_afdcikchcf.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_afdgichhbg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_afdgigchdc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_afejhccjki.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_afgfgihgc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_afghjhgcgk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_afibjfgjj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_afiidbjjg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_afkbfgfhef.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_agcdkcdjfe.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_agfgchgici.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_aggchckijc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_agghikgigk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_aghhkgkfc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_agijkdicg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_agjkgikkig.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_agkckkkggd.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ahbgechgbk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ahciehbbdc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ahiggbegei.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ahijjfgjce.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ahkcgijbei.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ahkijdhjcb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_aicgdjfcgb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_aidbefcifj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_aidcegcehg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_aiebecdijh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_aieefjchbd.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_aiejbddfde.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_aifejkfbkk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_aifkcjfiic.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_aigchgfejj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ajcejdgdjc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ajchjhccfg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ajfedjbbig.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ajghhigdb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ajgkhchijb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ajkhbehfkf.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_akdddhikjj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_akdhbfiiid.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_akfbbffjcg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_akgbiefjbh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_akhbjjbcei.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_akhiekbd.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_akidjkegkj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_akjcidekhd.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_akjiekjkkh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cbbeifjkdj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cbffeddche.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cbggkebbfk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cbhkgfiiif.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cbjidfdhfg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cbkcbhjiek.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cbkfhfcjb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ccbfibgeci.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cccffebffc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cccggcfdkg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ccekgicgfh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ccfhfbhikj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ccgjgbjcgi.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cchfdhghjd.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cddckigibk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cdedfgfkdj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cdfdcchhe.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cdfibdbkfb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cdfjfbikid.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cdgbkkidfd.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cdgibkchih.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cdidfjjidb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cdjkcdjcgc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cebdekghcc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ceceehkkdb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cechbcjbje.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cechggbfcg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cechibbibc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cedekbhedh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ceecjebgfd.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ceffhbdbf.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cegbicbcfg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cegkcgkkgb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ceiggdddik.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cejhdeejck.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cekhfceefg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cfbedkikg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cfbjdedjcj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cfbjghgjgf.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cfcfjiceg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cfcjbdhdik.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cfcjgefdjg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cfedcgehh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cfffedbhfg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cfiggjfcfh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cfjbbdjcdi.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cfkdeghg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cgbbhfbgbj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cgbeibighh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cgdieefdkk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cghhdebggi.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cgighkjefc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cgjchkijib.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_chdckkkgkg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_chedkdbce.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_chhcdcgigb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_chibdbkfde.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_chibgkeeji.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_chiceijbgj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_chiffhjbee.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_chiiihhffh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cichefikeb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cicjgdikig.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cifbcfjkdj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cigfkckdgc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cijeifhgec.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cijijgbkgk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cjbcjhhgke.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cjbjeehdbk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cjdkihjijd.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cjfdcbgfgj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cjgbfhfgef.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cjhkjfhhf.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cjicjgdfff.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cjjdbgbddi.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cjjdkdfkkh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_cjjjckihek.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ckbiikefid.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ckeiejdgib.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ckkddehif.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_dbbbcebccf.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_dbedicfecc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_dbfehhjdb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_dbibcdhcc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_dbjjcgeeki.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_dcbffdidkk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_dcbkfgcjid.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_dcdjbbkec.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_dcebfkhcgc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_dcecciefge.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_dcehkgkifb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_dcfehdgdkj.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ddffjifbf.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ddikijcge.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_debdghice.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_dfcjdjkjk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_dfjibkhbh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_dihkeehk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_djigibich.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ebgkehdgb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ecgibfdjb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_edfkjgfch.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ehkcekjii.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_eidhfehik.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_eiehjkdd.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ejjgbkdff.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ejkdcifhg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_fbejgkdib.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_fdjggbfcb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_fdkkidgb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_fekcijijf.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_fgcbdbbid.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_fgfckhdf.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_fhcdfebdc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_fhjkfjice.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_fihfdkijh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_fjkikekhi.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_fkbkbchgb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_fkedkejgf.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_fkfbciibe.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_gbchjfieb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_gbibihicb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_geijfbdhc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_gfgdjegbe.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_gihjfdefi.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_gjgidfgeh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_hbeefgbjc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_hcehhjdfk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_hekdkcdeh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_hfjfeiijk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_hhbehfckd.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_hhkbgdice.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_hikdcfgkb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_hkdbgkgik.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ibbddjcfb.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ichfccfhh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_idchgghie.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_iddeebfkg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_iddhiekfi.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_idjfhgckc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ihbgcbhic.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_iicekghif.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_iifbheddf.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_ikejdbedk.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_jcdhbjde.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_jceehdeeh.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_jchhdjhkg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_jgcekgbii.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_jigekbbhd.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_jjjcegjeg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_jkekeckbf.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_kbcfjkedc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_kdbikhddc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_kddgijibc.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_kdhdheib.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_kfbbiddfg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_kfkchgjdd.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_kiighbfgg.cs" />
+    <Compile Include="ProjectM\Network\Snapshot_kijdhbiid.cs" />
+    <Compile Include="ProjectM\Network\StartValueSnapshotsSystem.cs" />
+    <Compile Include="ProjectM\Network\StoreDestroyedEntitiesSystem.cs" />
+    <Compile Include="ProjectM\Network\SetSnapshotOnDestroyedEntitiesSystem.cs" />
+    <Compile Include="ProjectM\Network\UpdateWeakRefsForNewEntitiesSystem.cs" />
+    <Compile Include="ProjectM\Network\WeakRefFieldIds.cs" />
+    <Compile Include="ProjectM\Network\WeakRefTracker_EntityManagement.cs" />
+    <Compile Include="ProjectM\Network\InitializeNetworkSnapshotTypeSystem.cs" />
+    <Compile Include="ProjectM\Network\DisabledPrefabDebugLogSystem.cs" />
+    <Compile Include="ProjectM\Network\MakePacketSystem.cs" />
+    <Compile Include="ProjectM\Network\NetworkProfilerSystem.cs" />
+    <Compile Include="ProjectM\Network\SendPacketSystem.cs" />
+    <Compile Include="ProjectM\Network\SerializeAndSendServerEventsSystem.cs" />
+    <Compile Include="ProjectM\Network\StaticTransformUpdateSystem_Update_Server.cs" />
+    <Compile Include="ProjectM\Network\NewDestroyedEntity.cs" />
+    <Compile Include="ProjectM\Network\UpdateSnapshotsSystem.cs" />
+    <Compile Include="ProjectM\Replays\SerializeReplaySnapshotSystem.cs" />
+    <Compile Include="ProjectM\Replays\ClientReplayPlayerSystem.cs" />
+    <Compile Include="ProjectM\Replays\ClientReplayEventType.cs" />
+    <Compile Include="ProjectM\Replays\ClientReplayRecorderSystem.cs" />
+    <Compile Include="ProjectM\Replays\ReplayHeaders.cs" />
+    <Compile Include="ProjectM\Replays\SerializeReplaySnapshotChunksJob.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

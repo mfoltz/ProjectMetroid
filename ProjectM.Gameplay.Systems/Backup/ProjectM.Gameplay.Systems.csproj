@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\mitch\Downloads\ProjectM.Gameplay.Systems.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{186EBCC5-3273-4D34-AA8C-ED7C7A356C9C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>ProjectM.Gameplay.Systems</AssemblyName>
+    <ApplicationVersion>0.0.0.0</ApplicationVersion>
+    <RootNamespace>ProjectM</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Il2CppInterop.Common" />
+    <Reference Include="Il2CppInterop.Runtime" />
+    <Reference Include="Il2CppSystem" />
+    <Reference Include="Il2Cppmscorlib" />
+    <Reference Include="ProjectM" />
+    <Reference Include="ProjectM.CodeGeneration" />
+    <Reference Include="ProjectM.Shared" />
+    <Reference Include="Sequencer" />
+    <Reference Include="Stunlock.Core" />
+    <Reference Include="Stunlock.Localization" />
+    <Reference Include="Unity.Burst" />
+    <Reference Include="Unity.Collections" />
+    <Reference Include="Unity.Entities" />
+    <Reference Include="Unity.Mathematics" />
+    <Reference Include="Unity.Physics" />
+    <Reference Include="Unity.Transforms" />
+    <Reference Include="UnityEngine.CoreModule" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="__JobReflectionRegistrationOutput__3171119102.cs" />
+    <Compile Include="ObjectPrivateAbstractSealedInVo17.cs" />
+    <Compile Include="Il2CppMicrosoft\CodeAnalysis\EmbeddedAttribute.cs" />
+    <Compile Include="Il2CppSystem\Runtime\CompilerServices\IsReadOnlyAttribute.cs" />
+    <Compile Include="AggroSystem_HealthListener.cs" />
+    <Compile Include="AiCastAimModificationSystem.cs" />
+    <Compile Include="AiDamageTakenEventSystem.cs" />
+    <Compile Include="AlertAlliesOnDeathSystem.cs" />
+    <Compile Include="AbilityCastStarted_SetupAbilityTargetSystem_Shared.cs" />
+    <Compile Include="AbilityCastStarted_SpawnPrefabSystem_Server.cs" />
+    <Compile Include="AbilityCast_SetupStartValues_Shared.cs" />
+    <Compile Include="AbilityCastingStateSystem_Client.cs" />
+    <Compile Include="AbilityModifyRotationDuringCastSystem_Shared.cs" />
+    <Compile Include="AbilityAllowJumpDuringCastSystem_Shared.cs" />
+    <Compile Include="AbilityModifyMovementDuringCastSystem_Shared.cs" />
+    <Compile Include="AbilityMoveDuringCastSystem_Shared.cs" />
+    <Compile Include="AbilityRotateTowardAimDuringCastSystem_Shared.cs" />
+    <Compile Include="MoveTowardsRotationSystem_Shared.cs" />
+    <Compile Include="AbilityMoveStop_Shared.cs" />
+    <Compile Include="AbilityStopSequenceOnInterrupt_Client.cs" />
+    <Compile Include="AbilityCooldownSystems.cs" />
+    <Compile Include="AbilityDisableHeightCorrectionSystem_Shared.cs" />
+    <Compile Include="AbilityDisableHeightCorrectionSystem_OnDestroy.cs" />
+    <Compile Include="AbilityRunScriptsSystem.cs" />
+    <Compile Include="AbilityRunScriptsSystem_Client.cs" />
+    <Compile Include="AbilityRunScriptsShared.cs" />
+    <Compile Include="AbilitySystemDebug.cs" />
+    <Compile Include="EventPrefabs.cs" />
+    <Compile Include="EventQueries.cs" />
+    <Compile Include="DebugData.cs" />
+    <Compile Include="AbilityBarUtility.cs" />
+    <Compile Include="CurrentCastsSystem.cs" />
+    <Compile Include="AbilityStartCastingSystem_Server.cs" />
+    <Compile Include="AbilityStartCastingSystem_Client.cs" />
+    <Compile Include="SpawnAimPreviewSystem.cs" />
+    <Compile Include="ChangeKnockbackResistanceDuringCast_Shared.cs" />
+    <Compile Include="ChangeKnockbackResistanceDuringCast_OnDestroy.cs" />
+    <Compile Include="SpawnAbilityGroupSlotsSystem.cs" />
+    <Compile Include="AdminCommandNotifyUsersClientSystem.cs" />
+    <Compile Include="AgeSystem.cs" />
+    <Compile Include="PerUserBlinkEvent.cs" />
+    <Compile Include="GlobalBlinkEvent.cs" />
+    <Compile Include="BlinkSystems_Server.cs" />
+    <Compile Include="BlinkSystems_Client.cs" />
+    <Compile Include="BonfireSystem_Server.cs" />
+    <Compile Include="BonfireSystemUpdateCloud.cs" />
+    <Compile Include="BonfireSystem_Client.cs" />
+    <Compile Include="StackModifierSystem.cs" />
+    <Compile Include="BuffSystem_Spawn_Server.cs" />
+    <Compile Include="BuffSystem_Spawn_Client.cs" />
+    <Compile Include="UpdateBuffsBuffer_Destroy.cs" />
+    <Compile Include="BuffDebugSystem.cs" />
+    <Compile Include="DestroyBuffsWithDeadTargetsOrOwnersSystem.cs" />
+    <Compile Include="ResetBuffAgeEventSystem_Server.cs" />
+    <Compile Include="ResetBuffAgeEventSystem_Client.cs" />
+    <Compile Include="BuffResistancesSpawnSystem.cs" />
+    <Compile Include="DestroyBuffOnDamageTakenSystem.cs" />
+    <Compile Include="DestroyBuffOnMoveSystem.cs" />
+    <Compile Include="HealingBuffSystem.cs" />
+    <Compile Include="LifeTimeSystem.cs" />
+    <Compile Include="RandomLifeTimeSystem_Spawn.cs" />
+    <Compile Include="MaxHealthBuffSystem.cs" />
+    <Compile Include="ModifyTeamBuffSystem_Spawn.cs" />
+    <Compile Include="UpdateModifyTeamBuffSystem.cs" />
+    <Compile Include="ModifyTeamBuffSystem_Destroy.cs" />
+    <Compile Include="Spawn_MoveSpeedBuffSystem.cs" />
+    <Compile Include="MoveSpeedBuffSystem.cs" />
+    <Compile Include="Destroy_MoveSpeedBuffSystem.cs" />
+    <Compile Include="MultiplyAbsorbCapByUnitStatsSystem.cs" />
+    <Compile Include="AbilityGroupSlotModificationBuffer.cs" />
+    <Compile Include="AbilityGroupSlotModificationDestroy.cs" />
+    <Compile Include="ReplaceAbilityOnSlotSystem.cs" />
+    <Compile Include="Destroy_ReplaceAbilityOnSlotSystem.cs" />
+    <Compile Include="Update_ReplaceAbilityOnSlotSystem.cs" />
+    <Compile Include="TeleportBuffSystem_Server.cs" />
+    <Compile Include="TeleportBuffSystem_Client.cs" />
+    <Compile Include="TheMonsterGeneratorBuffSystem_Spawn.cs" />
+    <Compile Include="TheMonsterGeneratorBuffSystem_Update.cs" />
+    <Compile Include="Spawn_TravelBuffSystem.cs" />
+    <Compile Include="TravelBuffSystem.cs" />
+    <Compile Include="Destroy_TravelBuffSystem.cs" />
+    <Compile Include="TravelBuffRegisterSystem.cs" />
+    <Compile Include="TravelBuffDeregisterSystem.cs" />
+    <Compile Include="TravelBuffUpdateLastTranslationSystem.cs" />
+    <Compile Include="TravelToTargetSystem.cs" />
+    <Compile Include="TravelToTargetSpawnSystem.cs" />
+    <Compile Include="CastHistorySystem.cs" />
+    <Compile Include="CrowdednessSystem.cs" />
+    <Compile Include="SetMapMarkerSystem.cs" />
+    <Compile Include="DeleteMapMarkerSystem.cs" />
+    <Compile Include="CustomizeCharacterSystem.cs" />
+    <Compile Include="DebugEventsSystem.cs" />
+    <Compile Include="Debug_SpawnBuffs.cs" />
+    <Compile Include="DeserializeTeamSystem.cs" />
+    <Compile Include="DetachEntityFromSpawnerEventSystem.cs" />
+    <Compile Include="FilterPlayerCharacterNamesSystem.cs" />
+    <Compile Include="ForceJoinClanEventSystem_Server.cs" />
+    <Compile Include="ForceJoinClanEventSystem_Client.cs" />
+    <Compile Include="ForgeSystem_Update.cs" />
+    <Compile Include="ForgeSystem_Events.cs" />
+    <Compile Include="ForgeSystem_Sequences.cs" />
+    <Compile Include="GallopBuffSystem_Spawn.cs" />
+    <Compile Include="GallopBuffSystem_Destroy.cs" />
+    <Compile Include="GallopBuffSystem_Server.cs" />
+    <Compile Include="ImprisonedSystem_Spawn.cs" />
+    <Compile Include="ImprisonedBuffSystem.cs" />
+    <Compile Include="InsideBuildingsSystem.cs" />
+    <Compile Include="SleepInsideSystem.cs" />
+    <Compile Include="InsideBuffDestroySystem_Shared.cs" />
+    <Compile Include="HasResidentBuffDestroySystem_Shared.cs" />
+    <Compile Include="InsideSystem_Server.cs" />
+    <Compile Include="InsideInitSystem_Server.cs" />
+    <Compile Include="LegDirectionSystem_Spawn.cs" />
+    <Compile Include="LegDirectionSystem_Update.cs" />
+    <Compile Include="DeserializeMapIconSystem.cs" />
+    <Compile Include="MapIconSpawnSystem.cs" />
+    <Compile Include="InstantiateMapIconsSystem_Spawn.cs" />
+    <Compile Include="SyncMapIconsSystem.cs" />
+    <Compile Include="UpdateMapIconsSystem.cs" />
+    <Compile Include="Apply_BuffModificationsSystem_Client.cs" />
+    <Compile Include="Apply_BuffModificationsSystem_Server.cs" />
+    <Compile Include="Modify_BuffModificationsSystem_Server.cs" />
+    <Compile Include="Destroy_BuffModificationsSystem_Client.cs" />
+    <Compile Include="Destroy_BuffModificationsSystem_Server.cs" />
+    <Compile Include="ClearAnimationStatesSystem.cs" />
+    <Compile Include="RepairDoubleVBloodSpawnedSystem.cs" />
+    <Compile Include="UnitCompositionSpawnerRemapper.cs" />
+    <Compile Include="UnitCompositionSpawnerSystem.cs" />
+    <Compile Include="UnitCompositionSpawnerDestroyTagChildrenSystem.cs" />
+    <Compile Include="PatrolMoveSystem.cs" />
+    <Compile Include="ModifyBloodDrainSystem_Spawn.cs" />
+    <Compile Include="ModifyBloodDrainSystem_Destroy.cs" />
+    <Compile Include="ModifyBloodDrainSystem_Update.cs" />
+    <Compile Include="MountSystem_Shared.cs" />
+    <Compile Include="MountBuffSpawnSystem_Client.cs" />
+    <Compile Include="MountBuffSpawnSystem_Server.cs" />
+    <Compile Include="MountBuffSpawnSystem_Shared.cs" />
+    <Compile Include="MountBuffDestroySystem_Shared.cs" />
+    <Compile Include="MountInventorySystem_Server.cs" />
+    <Compile Include="MountSystem_Server.cs" />
+    <Compile Include="MountInitSystem_Server.cs" />
+    <Compile Include="MountStatsSpawnSystem_Server.cs" />
+    <Compile Include="PavementBonusSystem.cs" />
+    <Compile Include="PerformanceLoggerSystem.cs" />
+    <Compile Include="PlayerCombatBuffSystem.cs" />
+    <Compile Include="InteractWithPrisonerSystem.cs" />
+    <Compile Include="UpdatePrisonSystem.cs" />
+    <Compile Include="ProfessorCoilSystem_Server_Spawn.cs" />
+    <Compile Include="ProfessorCoilSystem_Server_Update.cs" />
+    <Compile Include="RagdollDriverSystem_WriteBones.cs" />
+    <Compile Include="RagdollDriverSystem_Destroy.cs" />
+    <Compile Include="ToggleRefiningSystem.cs" />
+    <Compile Include="ShareRefinementSystem.cs" />
+    <Compile Include="UpdateRefiningSystem.cs" />
+    <Compile Include="RelicDestroySystem.cs" />
+    <Compile Include="ReplaceAbilityOnSlotWhenMountedBuff_Shared.cs" />
+    <Compile Include="ReplaceAbilityOnSlotWhenMountedBuffSystem_Update.cs" />
+    <Compile Include="ReplaceAbilityOnSlotWhenMountedBuffSystem_Destroy.cs" />
+    <Compile Include="RespawnCharacterSystem.cs" />
+    <Compile Include="ReactToCharacterSpawned_Client.cs" />
+    <Compile Include="ToggleSalvagestationSystem.cs" />
+    <Compile Include="UpdateSalvageSystem.cs" />
+    <Compile Include="ServantSpawnHandler.cs" />
+    <Compile Include="NewUnitTag.cs" />
+    <Compile Include="ServantReactToDestroySystem.cs" />
+    <Compile Include="ServantCoffinstationUpdateSystem.cs" />
+    <Compile Include="ServantCoffinstationActionSystem.cs" />
+    <Compile Include="ServantSpawnSetupSystem.cs" />
+    <Compile Include="RemoveLingeringServantMissionBuffsSystem.cs" />
+    <Compile Include="ServantSummonIfIdleOutsideTerritorySystem.cs" />
+    <Compile Include="ServantSystemsShared.cs" />
+    <Compile Include="SetDynamicCollisionRadiusOverrideSystem.cs" />
+    <Compile Include="SetPlayerTeamSystem.cs" />
+    <Compile Include="SpawnCastleHeartSystem.cs" />
+    <Compile Include="TargetAOESystem.cs" />
+    <Compile Include="TargetAoE_DestroySystem.cs" />
+    <Compile Include="TeleportToWaypointEventSystem.cs" />
+    <Compile Include="TeleportationRequestSystem.cs" />
+    <Compile Include="UsePortalSystem.cs" />
+    <Compile Include="TickerSystem.cs" />
+    <Compile Include="UntrackVbloodOnDeathSystem.cs" />
+    <Compile Include="UseConsumableSystem.cs" />
+    <Compile Include="UserInfoBufferSystem_Server.cs" />
+    <Compile Include="UserInfoBufferSystem_Client.cs" />
+    <Compile Include="UserKillServerEventSystem.cs" />
+    <Compile Include="VBloodConsumed.cs" />
+    <Compile Include="VBloodSystem.cs" />
+    <Compile Include="VampireDownedServerEventSystem.cs" />
+    <Compile Include="VariousMigratedDebugEventsSystem.cs" />
+    <Compile Include="VbloodGhostBuffSystem_Server.cs" />
+    <Compile Include="VbloodGhostBuffSystem_Update.cs" />
+    <Compile Include="VbloodGhostBuffSystem_Destroy.cs" />
+    <Compile Include="Behaviours\SetPreCombatPositionSystem_Spawn.cs" />
+    <Compile Include="Behaviours\SetPreCombatPositionSystem.cs" />
+    <Compile Include="Terrain\TagPrefabCollectionPrefabsOnLoadSystem.cs" />
+    <Compile Include="Shared\RelicBoundMapIconSystem.cs" />
+    <Compile Include="Shared\Systems\AFKWarningEventSystem.cs" />
+    <Compile Include="Shared\Systems\ServerIsRestartingEventSystem.cs" />
+    <Compile Include="Gameplay\ValidateAbilityGroupsSystem.cs" />
+    <Compile Include="Gameplay\SyncAbilityGroupSlotBufferSystem.cs" />
+    <Compile Include="Gameplay\CheckBadSpawnsBeginSystem_Server.cs" />
+    <Compile Include="Gameplay\CheckBadSpawnsEndSystem_Server.cs" />
+    <Compile Include="Gameplay\CheckSpawnTagWithoutPrefabGuidSystem.cs" />
+    <Compile Include="Gameplay\EntitySpawnedMetadata.cs" />
+    <Compile Include="Gameplay\EntityMetadata.cs" />
+    <Compile Include="Gameplay\EntityMetadataSystem.cs" />
+    <Compile Include="Gameplay\SetupEntityMetadataOnLoadSystem.cs" />
+    <Compile Include="Gameplay\RemoveMetadataEntitySystem.cs" />
+    <Compile Include="Gameplay\CheckBadDestroyedSystem.cs" />
+    <Compile Include="Gameplay\Spawn_DashSystem.cs" />
+    <Compile Include="Gameplay\DashSystem.cs" />
+    <Compile Include="Gameplay\DashStopOnMapCollisionSystem.cs" />
+    <Compile Include="Gameplay\DashUpdateLastTranslationSystem.cs" />
+    <Compile Include="Gameplay\DestroyOnMountedCollisionSystem.cs" />
+    <Compile Include="Gameplay\GameplayTranslationSystem.cs" />
+    <Compile Include="Gameplay\KnockbackEventSystem.cs" />
+    <Compile Include="Gameplay\KnockbackSystem.cs" />
+    <Compile Include="Gameplay\Destroy_KnockbackSystem.cs" />
+    <Compile Include="Gameplay\LowBloodSequenceSystem.cs" />
+    <Compile Include="Gameplay\LowHealthSequenceSystem.cs" />
+    <Compile Include="Gameplay\Systems\AbilitySpawnSystem.cs" />
+    <Compile Include="Gameplay\Systems\ActivateVBloodAbilitySystem.cs" />
+    <Compile Include="Gameplay\Systems\AimPreviewDashSystem.cs" />
+    <Compile Include="Gameplay\Systems\AimPreviewMeleeSystem.cs" />
+    <Compile Include="Gameplay\Systems\AimPreviewProjectileCursorSystem.cs" />
+    <Compile Include="Gameplay\Systems\AimPreviewProjectileSystem.cs" />
+    <Compile Include="Gameplay\Systems\AimPreviewTargetAoeSystem.cs" />
+    <Compile Include="Gameplay\Systems\AimPreviewTravelBuffSystem.cs" />
+    <Compile Include="Gameplay\Systems\ApplyBuffOnSpawnSystem.cs" />
+    <Compile Include="Gameplay\Systems\ArmorLevelSystem_Spawn.cs" />
+    <Compile Include="Gameplay\Systems\ArmorLevelSystem_Destroy.cs" />
+    <Compile Include="Gameplay\Systems\ResetBloodOnRespawnSystem.cs" />
+    <Compile Include="Gameplay\Systems\BloodLossPerSecondSystem.cs" />
+    <Compile Include="Gameplay\Systems\BuffAimPreviewSpawnSystem.cs" />
+    <Compile Include="Gameplay\Systems\BuffAimPreviewDestroySystem.cs" />
+    <Compile Include="Gameplay\Systems\BuffByItemCategoryCountSystem.cs" />
+    <Compile Include="Gameplay\Systems\CastleHeartForfeitSystem.cs" />
+    <Compile Include="Gameplay\Systems\StartCharacterCraftingSystem.cs" />
+    <Compile Include="Gameplay\Systems\StopCharacterCraftingSystem.cs" />
+    <Compile Include="Gameplay\Systems\UpdateCharacterCraftingSystem.cs" />
+    <Compile Include="Gameplay\Systems\DealDamageSystem.cs" />
+    <Compile Include="Gameplay\Systems\DestroyAfterDurationOnInventoryChangeSystem.cs" />
+    <Compile Include="Gameplay\Systems\DestroyAfterDurationSystem_Update.cs" />
+    <Compile Include="Gameplay\Systems\DestroyDeadSystem.cs" />
+    <Compile Include="Gameplay\Systems\DestroyOnAbilityCastSystem.cs" />
+    <Compile Include="Gameplay\Systems\DestroyOnManualInterruptSystem.cs" />
+    <Compile Include="Gameplay\Systems\DestroyOnSpawnSystem.cs" />
+    <Compile Include="Gameplay\Systems\DestroyWhenDisabledSystem.cs" />
+    <Compile Include="Gameplay\Systems\DestroyWhenInventoryIsEmptySystem.cs" />
+    <Compile Include="Gameplay\Systems\DisconnectSettingsSystem.cs" />
+    <Compile Include="Gameplay\Systems\DoorSystem_Client.cs" />
+    <Compile Include="Gameplay\Systems\DoorSystem_Server.cs" />
+    <Compile Include="Gameplay\Systems\DoorSystem.cs" />
+    <Compile Include="Gameplay\Systems\CreateGameplayEventOnAbilityImpairedSystem.cs" />
+    <Compile Include="Gameplay\Systems\CreateGameplayEventOnDestroySystem.cs" />
+    <Compile Include="Gameplay\Systems\CreateGameplayEventOnLeaveCliffSystem.cs" />
+    <Compile Include="Gameplay\Systems\CreateGameplayEventOnMinionDeathSystem.cs" />
+    <Compile Include="Gameplay\Systems\CreateGameplayEventOnSpawnSystem.cs" />
+    <Compile Include="Gameplay\Systems\CreateGameplayEventOnTickSystem.cs" />
+    <Compile Include="Gameplay\Systems\CreateGameplayEventOnTimePassedSystem.cs" />
+    <Compile Include="Gameplay\Systems\CreateGameplayEvents.cs" />
+    <Compile Include="Gameplay\Systems\CreateGameplayEventsOnDeathSystem.cs" />
+    <Compile Include="Gameplay\Systems\CreateGameplayEventsOnDamageTakenSystem.cs" />
+    <Compile Include="Gameplay\Systems\HandleGameplayEventsOnHitSystem.cs" />
+    <Compile Include="Gameplay\Systems\HandleGameplayEventsOnDeathSystem.cs" />
+    <Compile Include="Gameplay\Systems\HandleGameplayEventsBase.cs" />
+    <Compile Include="Gameplay\Systems\GameplayEventScriptTrigger.cs" />
+    <Compile Include="Gameplay\Systems\GetOwnerFactionOnSpawnSystem.cs" />
+    <Compile Include="Gameplay\Systems\GetOwnerRotationOnSpawnSystem.cs" />
+    <Compile Include="Gameplay\Systems\GetOwnerRotationSystem.cs" />
+    <Compile Include="Gameplay\Systems\GetOwnerTeamOnSpawnSystem.cs" />
+    <Compile Include="Gameplay\Systems\GetOwnerTranslationOnSpawnSystem.cs" />
+    <Compile Include="Gameplay\Systems\OffsetTranslationOnSpawnSystem.cs" />
+    <Compile Include="Gameplay\Systems\OffsetTranslationOnSpawnWithBlockerSystem.cs" />
+    <Compile Include="Gameplay\Systems\GetTranslationAlongPatrolOnSpawnSystem.cs" />
+    <Compile Include="Gameplay\Systems\HideWeaponSystem.cs" />
+    <Compile Include="Gameplay\Systems\HideWeaponSystem_Destroy.cs" />
+    <Compile Include="Gameplay\Systems\HitCastColliderSystem_OnSpawn.cs" />
+    <Compile Include="Gameplay\Systems\HitCastColliderSystem_OnUpdate.cs" />
+    <Compile Include="Gameplay\Systems\HitTriggerEvent.cs" />
+    <Compile Include="Gameplay\Systems\HitCastColliderSystem_OnDestroy.cs" />
+    <Compile Include="Gameplay\Systems\AoETarget.cs" />
+    <Compile Include="Gameplay\Systems\AoETargetComparer.cs" />
+    <Compile Include="Gameplay\Systems\HitColliderCastHelper.cs" />
+    <Compile Include="Gameplay\Systems\InteractSystemClient_Sequences.cs" />
+    <Compile Include="Gameplay\Systems\InteractSystemClient.cs" />
+    <Compile Include="Gameplay\Systems\InteractValidateAndStopSystemServer.cs" />
+    <Compile Include="Gameplay\Systems\InteractSystemServer.cs" />
+    <Compile Include="Gameplay\Systems\KillAndDisableInactivePlayerAfterDuration.cs" />
+    <Compile Include="Gameplay\Systems\OnDeathSystem.cs" />
+    <Compile Include="Gameplay\Systems\OnKillSystem.cs" />
+    <Compile Include="Gameplay\Systems\OpenDoorSystem.cs" />
+    <Compile Include="Gameplay\Systems\OpenDoorsSystem.cs" />
+    <Compile Include="Gameplay\Systems\PlaySequenceOnDestroySystem.cs" />
+    <Compile Include="Gameplay\Systems\DestroyCastleHeartSystem.cs" />
+    <Compile Include="Gameplay\Systems\PylonstationSystem.cs" />
+    <Compile Include="Gameplay\Systems\PylonstationStateUpdateSystem.cs" />
+    <Compile Include="Gameplay\Systems\PylonstationRaidedSystem.cs" />
+    <Compile Include="Gameplay\Systems\QueryDebugSystem.cs" />
+    <Compile Include="Gameplay\Systems\RadialDamageAreaSystem_Server.cs" />
+    <Compile Include="Gameplay\Systems\RadialDamageDebuffSystem_Server.cs" />
+    <Compile Include="Gameplay\Systems\RestoreRepairstationSystem.cs" />
+    <Compile Include="Gameplay\Systems\RespawnDelaySystem_Server.cs" />
+    <Compile Include="Gameplay\Systems\RespawnDelaySystem_Client.cs" />
+    <Compile Include="Gameplay\Systems\ServantsDataUpdateSystem.cs" />
+    <Compile Include="Gameplay\Systems\RemoveReactToCharacterSpawnTag.cs" />
+    <Compile Include="Gameplay\Systems\SpawnCharacterSystem.cs" />
+    <Compile Include="Gameplay\Systems\SpellLevelSystem_Spawn.cs" />
+    <Compile Include="Gameplay\Systems\SpellLevelSystem_Destroy.cs" />
+    <Compile Include="Gameplay\Systems\StatChangeMutationSystem.cs" />
+    <Compile Include="Gameplay\Systems\StatChangeSystem.cs" />
+    <Compile Include="Gameplay\Systems\DestroyHealthChangeEventSystem.cs" />
+    <Compile Include="Gameplay\Systems\TeleportSystem.cs" />
+    <Compile Include="Gameplay\Systems\PlayerTeleportSystem.cs" />
+    <Compile Include="Gameplay\Systems\TeleportToPlayerLocationSystem.cs" />
+    <Compile Include="Gameplay\Systems\TeleportPlayerLocationSystem.cs" />
+    <Compile Include="Gameplay\Systems\TrackArchetypeCreationsOnStartupSystem.cs" />
+    <Compile Include="Gameplay\Systems\TransitionWhenInventoryEmptySystem.cs" />
+    <Compile Include="Gameplay\Systems\WeaponLevelSystem_Spawn.cs" />
+    <Compile Include="Gameplay\Systems\WeaponLevelSystem_Destroy.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,10395 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: ProjectM.Network.WeakRefFieldIds
+// Assembly: ProjectM.GeneratedNetCode, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: 974A3FD3-059B-42E2-9255-83E537AA7BC4
+// Assembly location: C:\Users\mitch\.nuget\packages\vrising.unhollowed.client\0.6.5.57575090\lib\net6.0\ProjectM.GeneratedNetCode.dll
+
+using Il2CppInterop.Runtime;
+using System.Runtime.InteropServices;
+
+#nullable disable
+namespace ProjectM.Network
+{
+  public static class WeakRefFieldIds : Il2CppSystem.Object
+  {
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbbdiefgbd_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbbdiefgbd_NetworkedSpawnChainChild_SpawnChain;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbbgiidegf_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbdgdebikk_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbdgdebikk_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbdgdebikk_BagHolder_BagInstance0Entity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbdgdebikk_BagHolder_BagInstance1Entity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbdgdebikk_BagHolder_BagInstance2Entity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbdgdebikk_BagHolder_BagInstance3Entity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ArmorChestSlotEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ArmorFootgearSlotEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ArmorGlovesSlotEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ArmorHeadgearSlotEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ArmorLegsSlotEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_CloakSlotEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ClothChestSlotEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ClothLegsSlotEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_GrimoireSlotEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_WeaponSlotEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbdgdebikk_FollowerBuffer_Entity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbdgdebikk_InventoryInstanceElement_ExternalInventoryEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbfcjichfb_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbhckcfdfd_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbhckcfdfd_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbhckcfdfd_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbhckcfdfd_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbhkjccgdi_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbhkjccgdi_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbhkjccgdi_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbhkjccgdi_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbicfeedbb_CastleRoofOrnaments_EastOrnament;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbicfeedbb_CastleRoofOrnaments_NorthOrnament;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbicfeedbb_CastleRoofOrnaments_SouthOrnament;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbicfeedbb_CastleRoofOrnaments_WestOrnament;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbiddcjjid_SpawnSequenceForEntity_SecondaryTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acbiddcjjid_SpawnSequenceForEntity_Target;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acccfjkdigh_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acccfjkdigh_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acccfjkdigh_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acccfjkdigh_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acccgefcedb_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acccgefcedb_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acccgefcedb_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_accdbefiheb_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_accdjiedgfe_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_accdjiedgfe_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_accdjiedgfe_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_accdjiedgfe_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_accgciikfbf_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_accgciikfbf_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acchhgcjcbh_AbilityOwner_Ability;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acchhgcjcbh_AbilityOwner_AbilityGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acchhgcjcbh_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acciegkehkf_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acciegkehkf_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acciegkehkf_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acciegkehkf_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdehhkijdj_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdehhkijdj_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdehhkijdj_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdehhkijdj_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdfgkkfchc_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdfgkkfchc_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdfgkkfchc_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdfgkkfchc_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdficciidc_AbilityGroupState_Character;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdficciidc_AbilitySpellModItem_SpellModItem;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdficciidc_AbilityStateBuffer_StateEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdibbekbkk_AbilityGroupState_Character;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdibbekbkk_AbilitySpellModItem_SpellModItem;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdibbekbkk_AbilityStateBuffer_StateEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdidhjbjgj_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdidhjbjgj_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdidhjbjgj_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdidhjbjgj_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdjdjkckhd_AbilityTarget_Target;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdjdjkckhd_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdkkhcbdcg_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdkkhcbdcg_SpawnSequenceForEntity_SecondaryTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acdkkhcbdcg_SpawnSequenceForEntity_Target;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acecggedbff_MapIconTargetEntity_TargetEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aceegbjekgb_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aceegbjekgb_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aceegbjekgb_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aceegbjekgb_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aceegbjekgb_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aceegbjekgb_JewelCraftingStation_CraftedItem;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aceehcgeedj_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acegbdcgkdf_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aceihfcgifd_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acekjgheehk_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acfckgbfifj_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acfckgbfifj_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acfckgbfifj_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acfckgbfifj_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acfebiceeh_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acfebiceeh_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acfebiceeh_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acfebiceeh_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acfhdekidie_AbilityOwner_Ability;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acfhdekidie_AbilityOwner_AbilityGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acfhdekidie_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acgbiiekebj_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acgchdfhdbe_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acgchdfhdbe_TravelToTarget_Target;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acgckficfjg_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acgckficfjg_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acgckficfjg_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acgckficfjg_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acgckficfjg_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acgddgdckdd_AbilityState_GroupEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acgefcgggfi_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acgefcgggfi_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acgefcgggfi_CastleFloorRoof_RoofEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acgefcgggfi_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acgefcgggfi_CastleRoomConnection_RoomEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acgfefhihji_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acggehdijfg_AbilityState_GroupEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acggehdijfg_AbilityTarget_Target;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acggkbfbjck_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acggkbfbjck_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acggkbfbjck_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acggkbfbjck_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acggkbfbjck_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acghdchgjgf_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acghdchgjgf_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acghdchgjgf_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_achbffjechg_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_achbffjechg_SpawnSequenceForEntity_SecondaryTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_achbffjechg_SpawnSequenceForEntity_Target;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_achbhefgeeh_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_achbhefgeeh_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_achbhhddbh_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_achbhhddbh_RespawnPoint_RespawnPointOwner;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_achcbdhidik_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_achfcefeheb_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_achgegcdkcj_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_achicekidek_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_achicekidek_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_achicekidek_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_achicekidek_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_achjkicgkif_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_achjkicgkif_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_achjkicgkif_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_achjkicgkif_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_achjkicgkif_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acidekciged_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acifkidfebh_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acifkidfebh_TravelToTarget_Target;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acigkbdedfb_AbilityGroupState_Character;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acigkbdedfb_AbilityStateBuffer_StateEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acihcehbbb_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acihehkdfeh_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acihehkdfeh_CastleFloorRoof_RoofEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acihehkdfeh_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acihehkdfeh_CastleRoomConnection_RoomEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acikhjeehkg_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acjbgiffidc_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acjbgiffidc_SpawnSequenceForEntity_SecondaryTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acjbgiffidc_SpawnSequenceForEntity_Target;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acjbgiffidc_UserOwner_Owner;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acjdegcccg_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acjdegcccg_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acjdegcccg_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acjdegcccg_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acjdegcccg_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acjdegcccg_SpawnedUnitsBuffer_SpawnedUnit;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acjkcgkfjff_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acjkcgkfjff_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acjkcgkfjff_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_acjkcgkfjff_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ackdkfeghk_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ackdkfeghk_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ackdkfeghk_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ackdkfeghk_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ackdkfeghk_Forge_Shared_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ackdkfeghk_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ackebkbdbjj_Equippable_EquipTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ackffdikde_SpawnSequenceForEntity_SecondaryTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ackffdikde_SpawnSequenceForEntity_Target;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ackgdbibjbd_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ackgdbibjbd_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ackgdbibjbd_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ackjbcfijee_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ackkecjdkk_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ackkecjdkk_TravelToTarget_Target;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adbgiccjej_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adbijghdjjj_AbilityGroupSlot_AbilityBar;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adbijghdjjj_AbilityGroupSlot_PreviousStateEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adbijghdjjj_AbilityGroupSlot_StateEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adbjdjfkiif_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adbjdjfkiif_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adbjdjfkiif_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adbjdjfkiif_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adbjkedbgjg_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adbjkedbgjg_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adbjkedbgjg_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adbjkhhkffi_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adbjkhhkffi_SpawnSequenceForEntity_SecondaryTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adbjkhhkffi_SpawnSequenceForEntity_Target;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adcbfjighfe_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adcdbdebfjg_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adcffdijihg_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adcffdijihg_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adcffdijihg_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adejkghcfk_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adejkghcfk_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adejkghcfk_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adejkghcfk_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adejkghcfk_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adgcbgkcfb_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adgcbgkcfb_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adjbidcgdh_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adjbidcgdh_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adjbidcgdh_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_adkecehjdk_MapIconTargetEntity_TargetEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aebfefikfc_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aegjbedggh_MapIconTargetEntity_TargetEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afdcikchcf_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afdcikchcf_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afdcikchcf_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afdcikchcf_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afdgichhbg_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afdgichhbg_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afdgichhbg_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afdgichhbg_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afdgichhbg_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afdgigchdc_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afejhccjki_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afejhccjki_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afejhccjki_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afejhccjki_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afejhccjki_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afejhccjki_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afgfgihgc_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afgfgihgc_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afgfgihgc_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afgfgihgc_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afgfgihgc_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afgfgihgc_Refinementstation_InputInventoryEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afgfgihgc_Refinementstation_OutputInventoryEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afghjhgcgk_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afibjfgjj_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afibjfgjj_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afibjfgjj_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afibjfgjj_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afibjfgjj_ServantCoffinstation_ConnectedServant;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afiidbjjg_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afiidbjjg_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afiidbjjg_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afiidbjjg_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afkbfgfhef_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afkbfgfhef_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afkbfgfhef_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afkbfgfhef_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afkbfgfhef_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_afkbfgfhef_PrisonCell_ImprisonedEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_agcdkcdjfe_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_agcdkcdjfe_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_agcdkcdjfe_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_agcdkcdjfe_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aggchckijc_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_agghikgigk_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aghhkgkfc_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_agijkdicg_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_agijkdicg_SpawnSequenceForEntity_SecondaryTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_agijkdicg_SpawnSequenceForEntity_Target;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_agjkgikkig_AbilityGroupState_Character;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_agjkgikkig_AbilityStateBuffer_StateEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_agjkgikkig_PlaceTilemodelAbility_TransformedTileModel;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_agkckkkggd_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_agkckkkggd_NetworkedSpawnChainChild_SpawnChain;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ahbgechgbk_MapIconTargetEntity_TargetEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ahciehbbdc_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ahciehbbdc_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ahiggbegei_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ahiggbegei_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ahiggbegei_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ahijjfgjce_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ahijjfgjce_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ahijjfgjce_CastleBuildingFusedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ahijjfgjce_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ahijjfgjce_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ahkijdhjcb_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aicgdjfcgb_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aidbefcifj_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aidbefcifj_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aidbefcifj_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aidbefcifj_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aidcegcehg_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aidcegcehg_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aidcegcehg_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aidcegcehg_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aidcegcehg_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aiebecdijh_MapIconTargetEntity_TargetEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aieefjchbd_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aieefjchbd_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aieefjchbd_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aieefjchbd_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aiejbddfde_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aiejbddfde_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aiejbddfde_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aiejbddfde_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aiejbddfde_RespawnPoint_RespawnPointOwner;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aifejkfbkk_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aifejkfbkk_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aifejkfbkk_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aifejkfbkk_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aifkcjfiic_Equippable_EquipTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_aigchgfejj_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ajcejdgdjc_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ajchjhccfg_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ajfedjbbig_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ajfedjbbig_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ajfedjbbig_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_akdddhikjj_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_akdhbfiiid_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_akhbjjbcei_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_akhbjjbcei_CastleFloorRoof_RoofEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_akhbjjbcei_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_akhbjjbcei_CastleRoomConnection_RoomEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_akhbjjbcei_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_akjcidekhd_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_akjcidekhd_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_akjcidekhd_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_akjcidekhd_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cbggkebbfk_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cbhkgfiiif_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cbhkgfiiif_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cbhkgfiiif_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cbhkgfiiif_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cbhkgfiiif_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantConnectedCoffin_CoffinEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_ArmorChestSlotEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_ArmorFootgearSlotEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_ArmorGlovesSlotEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_ArmorLegsSlotEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_GrimoireSlotEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_WeaponSlotEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cbjidfdhfg_AbilityGroupState_Character;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cbjidfdhfg_AbilitySpellModItem_SpellModItem;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cbjidfdhfg_AbilityStateBuffer_StateEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cbkcbhjiek_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cccffebffc_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ccekgicgfh_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ccekgicgfh_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ccekgicgfh_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ccekgicgfh_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ccgjgbjcgi_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cchfdhghjd_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cchfdhghjd_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cchfdhghjd_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cchfdhghjd_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cddckigibk_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cddckigibk_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cddckigibk_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cddckigibk_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cddckigibk_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdedfgfkdj_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdedfgfkdj_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdedfgfkdj_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdedfgfkdj_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdedfgfkdj_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdedfgfkdj_Refinementstation_InputInventoryEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdedfgfkdj_Refinementstation_OutputInventoryEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdfdcchhe_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdfdcchhe_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdfdcchhe_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdfdcchhe_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdfibdbkfb_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdfibdbkfb_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdfibdbkfb_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdfjfbikid_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdfjfbikid_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdfjfbikid_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdfjfbikid_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdgbkkidfd_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdgbkkidfd_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdgbkkidfd_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdgbkkidfd_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdgbkkidfd_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdgibkchih_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cdidfjjidb_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cebdekghcc_AbilityState_GroupEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ceceehkkdb_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ceceehkkdb_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ceceehkkdb_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ceceehkkdb_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cechbcjbje_Equippable_EquipTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cechibbibc_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cechibbibc_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cechibbibc_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cechibbibc_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cechibbibc_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cechibbibc_ServantConnectedCoffin_CoffinEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_ArmorChestSlotEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_ArmorFootgearSlotEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_ArmorGlovesSlotEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_ArmorLegsSlotEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_GrimoireSlotEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_WeaponSlotEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cedekbhedh_ActiveServantMission_Servant1;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cedekbhedh_ActiveServantMission_Servant2;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cedekbhedh_ActiveServantMission_Servant3;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleFloorRoof_RoofEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleRoomConnection_RoomEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleTeleporterElement_Entity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cedekbhedh_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cedekbhedh_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cedekbhedh_UserOwner_Owner;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ceecjebgfd_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ceffhbdbf_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cegbicbcfg_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cegbicbcfg_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cegbicbcfg_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cegbicbcfg_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cegbicbcfg_FeedableInventory_FeedableInventoryEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cegbicbcfg_InventoryInstanceElement_ExternalInventoryEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cegkcgkkgb_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cegkcgkkgb_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cegkcgkkgb_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ceiggdddik_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ceiggdddik_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cekhfceefg_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cekhfceefg_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cekhfceefg_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cekhfceefg_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfbedkikg_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfbedkikg_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfbedkikg_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfbedkikg_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfbjdedjcj_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfbjdedjcj_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfbjdedjcj_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfbjdedjcj_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfbjghgjgf_AchievementOwner_Entity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfbjghgjgf_AllyPermission_User;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfbjghgjgf_Controller_Controlled;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfbjghgjgf_InputCommandDataProxy_CommandDataEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfbjghgjgf_ProgressionMapper_ProgressionEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfbjghgjgf_RespawnPointOwnerBuffer_RespawnPoint;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfbjghgjgf_User_ClanEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfbjghgjgf_User_LocalCharacter;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfbjghgjgf_UserMapZoneElement_UserZoneEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfcfjiceg_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfcfjiceg_SpawnSequenceForEntity_SecondaryTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfcfjiceg_SpawnSequenceForEntity_Target;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfcjbdhdik_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfcjbdhdik_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfcjbdhdik_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfcjgefdjg_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfedcgehh_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfffedbhfg_AbilityState_GroupEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfiggjfcfh_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfjbbdjcdi_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfjbbdjcdi_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfjbbdjcdi_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cfjbbdjcdi_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cgbeibighh_AbilityOwner_Ability;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cgbeibighh_AbilityOwner_AbilityGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cgbeibighh_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cgighkjefc_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cgighkjefc_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cgighkjefc_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cgighkjefc_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cgjchkijib_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_chedkdbce_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_chedkdbce_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_chedkdbce_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_chhcdcgigb_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_chhcdcgigb_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_chhcdcgigb_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_chhcdcgigb_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_chhcdcgigb_RespawnPoint_RespawnPointOwner;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_chibdbkfde_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_chibdbkfde_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_chibdbkfde_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_chiceijbgj_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_chiceijbgj_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_chiceijbgj_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_chiceijbgj_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_chiiihhffh_AbilityState_GroupEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cichefikeb_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cichefikeb_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cichefikeb_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cichefikeb_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cifbcfjkdj_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cifbcfjkdj_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cifbcfjkdj_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cifbcfjkdj_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cigfkckdgc_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cigfkckdgc_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cigfkckdgc_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cigfkckdgc_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cigfkckdgc_RespawnPoint_RespawnPointOwner;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cijeifhgec_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cijijgbkgk_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cijijgbkgk_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cijijgbkgk_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cijijgbkgk_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cijijgbkgk_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cijijgbkgk_SpawnedUnitsBuffer_SpawnedUnit;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cjbjeehdbk_AbilityGroupState_Character;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cjbjeehdbk_AbilityStateBuffer_StateEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cjdkihjijd_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cjdkihjijd_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cjgbfhfgef_MapIconTargetEntity_TargetEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cjhkjfhhf_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cjhkjfhhf_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleBuildingFusedChild_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleFloorRoof_RoofEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleRoomConnection_RoomEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cjicjgdfff_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cjjdkdfkkh_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_cjjdkdfkkh_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ckbiikefid_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ckbiikefid_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ckbiikefid_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ckbiikefid_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ckeiejdgib_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ckkddehif_AbilityOwner_Ability;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ckkddehif_AbilityOwner_AbilityGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ckkddehif_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_dbfehhjdb_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_dbjjcgeeki_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_dcbffdidkk_CastleBuildingFusedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_dcbffdidkk_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_dcbffdidkk_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_dcbkfgcjid_CastleBuildingFusedChild_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_dcbkfgcjid_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_dcbkfgcjid_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_dcdjbbkec_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_dcfehdgdkj_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ddffjifbf_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ddffjifbf_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ddffjifbf_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ddffjifbf_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_debdghice_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_debdghice_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_dfcjdjkjk_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_dfjibkhbh_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_dfjibkhbh_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_dfjibkhbh_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_dfjibkhbh_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_djigibich_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ecgibfdjb_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ecgibfdjb_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ecgibfdjb_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ecgibfdjb_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ecgibfdjb_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_edfkjgfch_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ehkcekjii_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_eidhfehik_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_eidhfehik_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_eidhfehik_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_eidhfehik_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_eiehjkdd_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ejjgbkdff_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ejjgbkdff_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ejjgbkdff_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ejjgbkdff_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ejjgbkdff_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ejjgbkdff_Salvagestation_InputInventoryEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ejjgbkdff_Salvagestation_OutputInventoryEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_fbejgkdib_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_fbejgkdib_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_fbejgkdib_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_fbejgkdib_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_fekcijijf_AbilityGroupState_Character;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_fekcijijf_AbilityStateBuffer_StateEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_fgfckhdf_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_fhjkfjice_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_fhjkfjice_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_fjkikekhi_MapIconTargetEntity_TargetEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_fkbkbchgb_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_fkedkejgf_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_fkfbciibe_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_fkfbciibe_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_gbchjfieb_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_gbibihicb_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_gbibihicb_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_gbibihicb_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_gbibihicb_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_geijfbdhc_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_geijfbdhc_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_geijfbdhc_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_geijfbdhc_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_gfgdjegbe_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_gihjfdefi_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_gihjfdefi_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_gihjfdefi_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_gihjfdefi_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_gjgidfgeh_MapIconTargetEntity_TargetEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_hcehhjdfk_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_hcehhjdfk_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_hcehhjdfk_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_hcehhjdfk_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_hekdkcdeh_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_hekdkcdeh_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_hekdkcdeh_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_hekdkcdeh_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_hekdkcdeh_RespawnPoint_RespawnPointOwner;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_hhbehfckd_AbilityBar_Shared_CastAbility;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_hhbehfckd_AbilityBar_Shared_CastGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_hhbehfckd_AggroConsumer_AggroTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_hhbehfckd_AggroConsumer_AlertTarget;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_hhkbgdice_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_hikdcfgkb_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_hkdbgkgik_AbilityState_GroupEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ibbddjcfb_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ibbddjcfb_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_iddeebfkg_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_idjfhgckc_ScrollingCombatTextMessage_Source;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_idjfhgckc_ScrollingCombatTextMessage_Target;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ihbgcbhic_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ihbgcbhic_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ihbgcbhic_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_iifbheddf_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_iifbheddf_NetworkedSpawnChainChild_SpawnChain;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ikejdbedk_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_ikejdbedk_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_jcdhbjde_AbilityOwner_Ability;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_jcdhbjde_AbilityOwner_AbilityGroup;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_jcdhbjde_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_jceehdeeh_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_jchhdjhkg_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_jgcekgbii_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_jkekeckbf_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_jkekeckbf_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_kbcfjkedc_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_kbcfjkedc_InventoryBuffer_ItemEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_kddgijibc_CastleBuildingAttachedChildrenBuffer_ChildEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_kddgijibc_CastleBuildingAttachToParentsBuffer_ParentEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_kddgijibc_CastleFloorRoof_RoofEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_kddgijibc_CastleHeartConnection_CastleHeartEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_kddgijibc_CastleRoomConnection_RoomEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_kddgijibc_EditableTileModel_CurrentEditor;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_kdhdheib_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_kfbbiddfg_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_kfkchgjdd_EntityCreator_Creator;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Snapshot_kijdhbiid_MapIconTargetEntity_TargetEntity;
+    private static readonly System.IntPtr NativeFieldInfoPtr_None;
+
+    static WeakRefFieldIds()
+    {
+      Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr = IL2CPP.GetIl2CppClass("ProjectM.GeneratedNetCode.dll", "ProjectM.Network", nameof (WeakRefFieldIds));
+      IL2CPP.il2cpp_runtime_class_init(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr);
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbbdiefgbd_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbbdiefgbd_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbbdiefgbd_NetworkedSpawnChainChild_SpawnChain = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbbdiefgbd_NetworkedSpawnChainChild_SpawnChain));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbbgiidegf_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbbgiidegf_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbdgdebikk_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbdgdebikk_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_BagHolder_BagInstance0Entity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbdgdebikk_BagHolder_BagInstance0Entity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_BagHolder_BagInstance1Entity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbdgdebikk_BagHolder_BagInstance1Entity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_BagHolder_BagInstance2Entity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbdgdebikk_BagHolder_BagInstance2Entity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_BagHolder_BagInstance3Entity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbdgdebikk_BagHolder_BagInstance3Entity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ArmorChestSlotEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbdgdebikk_Equipment_ArmorChestSlotEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ArmorFootgearSlotEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbdgdebikk_Equipment_ArmorFootgearSlotEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ArmorGlovesSlotEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbdgdebikk_Equipment_ArmorGlovesSlotEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ArmorHeadgearSlotEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbdgdebikk_Equipment_ArmorHeadgearSlotEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ArmorLegsSlotEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbdgdebikk_Equipment_ArmorLegsSlotEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_CloakSlotEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbdgdebikk_Equipment_CloakSlotEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ClothChestSlotEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbdgdebikk_Equipment_ClothChestSlotEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ClothLegsSlotEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbdgdebikk_Equipment_ClothLegsSlotEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_GrimoireSlotEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbdgdebikk_Equipment_GrimoireSlotEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_WeaponSlotEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbdgdebikk_Equipment_WeaponSlotEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_FollowerBuffer_Entity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbdgdebikk_FollowerBuffer_Entity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_InventoryInstanceElement_ExternalInventoryEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbdgdebikk_InventoryInstanceElement_ExternalInventoryEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbfcjichfb_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbfcjichfb_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhckcfdfd_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbhckcfdfd_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhckcfdfd_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbhckcfdfd_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhckcfdfd_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbhckcfdfd_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhckcfdfd_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbhckcfdfd_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhkjccgdi_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbhkjccgdi_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhkjccgdi_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbhkjccgdi_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhkjccgdi_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbhkjccgdi_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhkjccgdi_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbhkjccgdi_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbicfeedbb_CastleRoofOrnaments_EastOrnament = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbicfeedbb_CastleRoofOrnaments_EastOrnament));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbicfeedbb_CastleRoofOrnaments_NorthOrnament = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbicfeedbb_CastleRoofOrnaments_NorthOrnament));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbicfeedbb_CastleRoofOrnaments_SouthOrnament = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbicfeedbb_CastleRoofOrnaments_SouthOrnament));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbicfeedbb_CastleRoofOrnaments_WestOrnament = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbicfeedbb_CastleRoofOrnaments_WestOrnament));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbiddcjjid_SpawnSequenceForEntity_SecondaryTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbiddcjjid_SpawnSequenceForEntity_SecondaryTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbiddcjjid_SpawnSequenceForEntity_Target = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acbiddcjjid_SpawnSequenceForEntity_Target));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acccfjkdigh_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acccfjkdigh_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acccfjkdigh_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acccfjkdigh_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acccfjkdigh_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acccfjkdigh_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acccfjkdigh_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acccfjkdigh_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acccgefcedb_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acccgefcedb_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acccgefcedb_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acccgefcedb_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acccgefcedb_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acccgefcedb_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_accdbefiheb_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_accdbefiheb_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_accdjiedgfe_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_accdjiedgfe_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_accdjiedgfe_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_accdjiedgfe_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_accdjiedgfe_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_accdjiedgfe_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_accdjiedgfe_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_accdjiedgfe_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_accgciikfbf_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_accgciikfbf_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_accgciikfbf_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_accgciikfbf_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acchhgcjcbh_AbilityOwner_Ability = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acchhgcjcbh_AbilityOwner_Ability));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acchhgcjcbh_AbilityOwner_AbilityGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acchhgcjcbh_AbilityOwner_AbilityGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acchhgcjcbh_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acchhgcjcbh_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acciegkehkf_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acciegkehkf_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acciegkehkf_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acciegkehkf_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acciegkehkf_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acciegkehkf_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acciegkehkf_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acciegkehkf_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdehhkijdj_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdehhkijdj_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdehhkijdj_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdehhkijdj_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdehhkijdj_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdehhkijdj_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdehhkijdj_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdehhkijdj_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdfgkkfchc_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdfgkkfchc_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdfgkkfchc_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdfgkkfchc_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdfgkkfchc_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdfgkkfchc_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdfgkkfchc_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdfgkkfchc_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdficciidc_AbilityGroupState_Character = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdficciidc_AbilityGroupState_Character));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdficciidc_AbilitySpellModItem_SpellModItem = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdficciidc_AbilitySpellModItem_SpellModItem));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdficciidc_AbilityStateBuffer_StateEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdficciidc_AbilityStateBuffer_StateEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdibbekbkk_AbilityGroupState_Character = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdibbekbkk_AbilityGroupState_Character));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdibbekbkk_AbilitySpellModItem_SpellModItem = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdibbekbkk_AbilitySpellModItem_SpellModItem));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdibbekbkk_AbilityStateBuffer_StateEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdibbekbkk_AbilityStateBuffer_StateEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdidhjbjgj_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdidhjbjgj_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdidhjbjgj_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdidhjbjgj_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdidhjbjgj_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdidhjbjgj_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdidhjbjgj_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdidhjbjgj_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdjdjkckhd_AbilityTarget_Target = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdjdjkckhd_AbilityTarget_Target));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdjdjkckhd_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdjdjkckhd_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdkkhcbdcg_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdkkhcbdcg_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdkkhcbdcg_SpawnSequenceForEntity_SecondaryTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdkkhcbdcg_SpawnSequenceForEntity_SecondaryTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdkkhcbdcg_SpawnSequenceForEntity_Target = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acdkkhcbdcg_SpawnSequenceForEntity_Target));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acecggedbff_MapIconTargetEntity_TargetEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acecggedbff_MapIconTargetEntity_TargetEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceegbjekgb_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aceegbjekgb_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceegbjekgb_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aceegbjekgb_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceegbjekgb_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aceegbjekgb_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceegbjekgb_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aceegbjekgb_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceegbjekgb_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aceegbjekgb_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceegbjekgb_JewelCraftingStation_CraftedItem = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aceegbjekgb_JewelCraftingStation_CraftedItem));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceehcgeedj_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aceehcgeedj_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acegbdcgkdf_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acegbdcgkdf_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceihfcgifd_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aceihfcgifd_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acekjgheehk_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acekjgheehk_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfckgbfifj_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acfckgbfifj_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfckgbfifj_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acfckgbfifj_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfckgbfifj_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acfckgbfifj_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfckgbfifj_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acfckgbfifj_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfebiceeh_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acfebiceeh_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfebiceeh_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acfebiceeh_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfebiceeh_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acfebiceeh_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfebiceeh_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acfebiceeh_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfhdekidie_AbilityOwner_Ability = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acfhdekidie_AbilityOwner_Ability));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfhdekidie_AbilityOwner_AbilityGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acfhdekidie_AbilityOwner_AbilityGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfhdekidie_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acfhdekidie_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgbiiekebj_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acgbiiekebj_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgchdfhdbe_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acgchdfhdbe_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgchdfhdbe_TravelToTarget_Target = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acgchdfhdbe_TravelToTarget_Target));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgckficfjg_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acgckficfjg_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgckficfjg_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acgckficfjg_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgckficfjg_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acgckficfjg_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgckficfjg_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acgckficfjg_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgckficfjg_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acgckficfjg_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgddgdckdd_AbilityState_GroupEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acgddgdckdd_AbilityState_GroupEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgefcgggfi_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acgefcgggfi_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgefcgggfi_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acgefcgggfi_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgefcgggfi_CastleFloorRoof_RoofEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acgefcgggfi_CastleFloorRoof_RoofEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgefcgggfi_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acgefcgggfi_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgefcgggfi_CastleRoomConnection_RoomEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acgefcgggfi_CastleRoomConnection_RoomEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgfefhihji_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acgfefhihji_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acggehdijfg_AbilityState_GroupEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acggehdijfg_AbilityState_GroupEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acggehdijfg_AbilityTarget_Target = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acggehdijfg_AbilityTarget_Target));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acggkbfbjck_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acggkbfbjck_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acggkbfbjck_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acggkbfbjck_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acggkbfbjck_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acggkbfbjck_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acggkbfbjck_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acggkbfbjck_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acggkbfbjck_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acggkbfbjck_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acghdchgjgf_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acghdchgjgf_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acghdchgjgf_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acghdchgjgf_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acghdchgjgf_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acghdchgjgf_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achbffjechg_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_achbffjechg_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achbffjechg_SpawnSequenceForEntity_SecondaryTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_achbffjechg_SpawnSequenceForEntity_SecondaryTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achbffjechg_SpawnSequenceForEntity_Target = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_achbffjechg_SpawnSequenceForEntity_Target));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achbhefgeeh_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_achbhefgeeh_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achbhefgeeh_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_achbhefgeeh_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achbhhddbh_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_achbhhddbh_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achbhhddbh_RespawnPoint_RespawnPointOwner = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_achbhhddbh_RespawnPoint_RespawnPointOwner));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achcbdhidik_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_achcbdhidik_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achfcefeheb_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_achfcefeheb_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achgegcdkcj_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_achgegcdkcj_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achicekidek_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_achicekidek_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achicekidek_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_achicekidek_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achicekidek_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_achicekidek_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achicekidek_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_achicekidek_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achjkicgkif_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_achjkicgkif_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achjkicgkif_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_achjkicgkif_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achjkicgkif_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_achjkicgkif_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achjkicgkif_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_achjkicgkif_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achjkicgkif_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_achjkicgkif_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acidekciged_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acidekciged_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acifkidfebh_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acifkidfebh_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acifkidfebh_TravelToTarget_Target = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acifkidfebh_TravelToTarget_Target));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acigkbdedfb_AbilityGroupState_Character = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acigkbdedfb_AbilityGroupState_Character));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acigkbdedfb_AbilityStateBuffer_StateEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acigkbdedfb_AbilityStateBuffer_StateEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acihcehbbb_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acihcehbbb_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acihehkdfeh_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acihehkdfeh_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acihehkdfeh_CastleFloorRoof_RoofEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acihehkdfeh_CastleFloorRoof_RoofEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acihehkdfeh_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acihehkdfeh_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acihehkdfeh_CastleRoomConnection_RoomEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acihehkdfeh_CastleRoomConnection_RoomEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acikhjeehkg_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acikhjeehkg_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjbgiffidc_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acjbgiffidc_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjbgiffidc_SpawnSequenceForEntity_SecondaryTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acjbgiffidc_SpawnSequenceForEntity_SecondaryTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjbgiffidc_SpawnSequenceForEntity_Target = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acjbgiffidc_SpawnSequenceForEntity_Target));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjbgiffidc_UserOwner_Owner = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acjbgiffidc_UserOwner_Owner));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjdegcccg_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acjdegcccg_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjdegcccg_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acjdegcccg_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjdegcccg_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acjdegcccg_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjdegcccg_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acjdegcccg_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjdegcccg_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acjdegcccg_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjdegcccg_SpawnedUnitsBuffer_SpawnedUnit = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acjdegcccg_SpawnedUnitsBuffer_SpawnedUnit));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjkcgkfjff_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acjkcgkfjff_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjkcgkfjff_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acjkcgkfjff_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjkcgkfjff_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acjkcgkfjff_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjkcgkfjff_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_acjkcgkfjff_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackdkfeghk_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ackdkfeghk_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackdkfeghk_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ackdkfeghk_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackdkfeghk_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ackdkfeghk_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackdkfeghk_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ackdkfeghk_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackdkfeghk_Forge_Shared_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ackdkfeghk_Forge_Shared_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackdkfeghk_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ackdkfeghk_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackebkbdbjj_Equippable_EquipTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ackebkbdbjj_Equippable_EquipTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackffdikde_SpawnSequenceForEntity_SecondaryTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ackffdikde_SpawnSequenceForEntity_SecondaryTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackffdikde_SpawnSequenceForEntity_Target = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ackffdikde_SpawnSequenceForEntity_Target));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackgdbibjbd_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ackgdbibjbd_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackgdbibjbd_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ackgdbibjbd_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackgdbibjbd_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ackgdbibjbd_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackjbcfijee_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ackjbcfijee_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackkecjdkk_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ackkecjdkk_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackkecjdkk_TravelToTarget_Target = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ackkecjdkk_TravelToTarget_Target));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbgiccjej_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adbgiccjej_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbijghdjjj_AbilityGroupSlot_AbilityBar = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adbijghdjjj_AbilityGroupSlot_AbilityBar));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbijghdjjj_AbilityGroupSlot_PreviousStateEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adbijghdjjj_AbilityGroupSlot_PreviousStateEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbijghdjjj_AbilityGroupSlot_StateEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adbijghdjjj_AbilityGroupSlot_StateEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjdjfkiif_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adbjdjfkiif_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjdjfkiif_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adbjdjfkiif_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjdjfkiif_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adbjdjfkiif_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjdjfkiif_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adbjdjfkiif_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjkedbgjg_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adbjkedbgjg_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjkedbgjg_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adbjkedbgjg_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjkedbgjg_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adbjkedbgjg_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjkhhkffi_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adbjkhhkffi_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjkhhkffi_SpawnSequenceForEntity_SecondaryTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adbjkhhkffi_SpawnSequenceForEntity_SecondaryTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjkhhkffi_SpawnSequenceForEntity_Target = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adbjkhhkffi_SpawnSequenceForEntity_Target));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adcbfjighfe_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adcbfjighfe_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adcdbdebfjg_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adcdbdebfjg_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adcffdijihg_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adcffdijihg_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adcffdijihg_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adcffdijihg_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adcffdijihg_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adcffdijihg_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adejkghcfk_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adejkghcfk_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adejkghcfk_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adejkghcfk_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adejkghcfk_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adejkghcfk_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adejkghcfk_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adejkghcfk_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adejkghcfk_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adejkghcfk_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adgcbgkcfb_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adgcbgkcfb_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adgcbgkcfb_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adgcbgkcfb_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adjbidcgdh_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adjbidcgdh_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adjbidcgdh_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adjbidcgdh_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adjbidcgdh_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adjbidcgdh_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adkecehjdk_MapIconTargetEntity_TargetEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_adkecehjdk_MapIconTargetEntity_TargetEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aebfefikfc_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aebfefikfc_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aegjbedggh_MapIconTargetEntity_TargetEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aegjbedggh_MapIconTargetEntity_TargetEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdcikchcf_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afdcikchcf_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdcikchcf_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afdcikchcf_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdcikchcf_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afdcikchcf_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdcikchcf_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afdcikchcf_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdgichhbg_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afdgichhbg_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdgichhbg_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afdgichhbg_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdgichhbg_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afdgichhbg_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdgichhbg_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afdgichhbg_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdgichhbg_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afdgichhbg_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdgigchdc_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afdgigchdc_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afejhccjki_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afejhccjki_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afejhccjki_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afejhccjki_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afejhccjki_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afejhccjki_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afejhccjki_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afejhccjki_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afejhccjki_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afejhccjki_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afejhccjki_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afejhccjki_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afgfgihgc_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afgfgihgc_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afgfgihgc_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afgfgihgc_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afgfgihgc_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afgfgihgc_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afgfgihgc_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afgfgihgc_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afgfgihgc_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afgfgihgc_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afgfgihgc_Refinementstation_InputInventoryEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afgfgihgc_Refinementstation_InputInventoryEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afgfgihgc_Refinementstation_OutputInventoryEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afgfgihgc_Refinementstation_OutputInventoryEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afghjhgcgk_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afghjhgcgk_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afibjfgjj_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afibjfgjj_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afibjfgjj_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afibjfgjj_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afibjfgjj_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afibjfgjj_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afibjfgjj_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afibjfgjj_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afibjfgjj_ServantCoffinstation_ConnectedServant = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afibjfgjj_ServantCoffinstation_ConnectedServant));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afiidbjjg_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afiidbjjg_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afiidbjjg_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afiidbjjg_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afiidbjjg_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afiidbjjg_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afiidbjjg_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afiidbjjg_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afkbfgfhef_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afkbfgfhef_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afkbfgfhef_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afkbfgfhef_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afkbfgfhef_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afkbfgfhef_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afkbfgfhef_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afkbfgfhef_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afkbfgfhef_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afkbfgfhef_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afkbfgfhef_PrisonCell_ImprisonedEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_afkbfgfhef_PrisonCell_ImprisonedEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agcdkcdjfe_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_agcdkcdjfe_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agcdkcdjfe_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_agcdkcdjfe_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agcdkcdjfe_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_agcdkcdjfe_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agcdkcdjfe_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_agcdkcdjfe_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aggchckijc_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aggchckijc_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agghikgigk_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_agghikgigk_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aghhkgkfc_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aghhkgkfc_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agijkdicg_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_agijkdicg_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agijkdicg_SpawnSequenceForEntity_SecondaryTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_agijkdicg_SpawnSequenceForEntity_SecondaryTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agijkdicg_SpawnSequenceForEntity_Target = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_agijkdicg_SpawnSequenceForEntity_Target));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agjkgikkig_AbilityGroupState_Character = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_agjkgikkig_AbilityGroupState_Character));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agjkgikkig_AbilityStateBuffer_StateEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_agjkgikkig_AbilityStateBuffer_StateEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agjkgikkig_PlaceTilemodelAbility_TransformedTileModel = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_agjkgikkig_PlaceTilemodelAbility_TransformedTileModel));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agkckkkggd_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_agkckkkggd_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agkckkkggd_NetworkedSpawnChainChild_SpawnChain = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_agkckkkggd_NetworkedSpawnChainChild_SpawnChain));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahbgechgbk_MapIconTargetEntity_TargetEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ahbgechgbk_MapIconTargetEntity_TargetEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahciehbbdc_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ahciehbbdc_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahciehbbdc_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ahciehbbdc_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahiggbegei_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ahiggbegei_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahiggbegei_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ahiggbegei_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahiggbegei_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ahiggbegei_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahijjfgjce_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ahijjfgjce_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahijjfgjce_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ahijjfgjce_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahijjfgjce_CastleBuildingFusedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ahijjfgjce_CastleBuildingFusedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahijjfgjce_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ahijjfgjce_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahijjfgjce_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ahijjfgjce_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahkijdhjcb_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ahkijdhjcb_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aicgdjfcgb_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aicgdjfcgb_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidbefcifj_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aidbefcifj_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidbefcifj_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aidbefcifj_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidbefcifj_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aidbefcifj_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidbefcifj_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aidbefcifj_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidcegcehg_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aidcegcehg_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidcegcehg_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aidcegcehg_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidcegcehg_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aidcegcehg_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidcegcehg_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aidcegcehg_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidcegcehg_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aidcegcehg_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aiebecdijh_MapIconTargetEntity_TargetEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aiebecdijh_MapIconTargetEntity_TargetEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aieefjchbd_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aieefjchbd_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aieefjchbd_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aieefjchbd_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aieefjchbd_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aieefjchbd_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aieefjchbd_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aieefjchbd_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aiejbddfde_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aiejbddfde_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aiejbddfde_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aiejbddfde_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aiejbddfde_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aiejbddfde_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aiejbddfde_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aiejbddfde_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aiejbddfde_RespawnPoint_RespawnPointOwner = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aiejbddfde_RespawnPoint_RespawnPointOwner));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aifejkfbkk_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aifejkfbkk_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aifejkfbkk_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aifejkfbkk_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aifejkfbkk_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aifejkfbkk_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aifejkfbkk_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aifejkfbkk_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aifkcjfiic_Equippable_EquipTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aifkcjfiic_Equippable_EquipTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aigchgfejj_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_aigchgfejj_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ajcejdgdjc_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ajcejdgdjc_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ajchjhccfg_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ajchjhccfg_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ajfedjbbig_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ajfedjbbig_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ajfedjbbig_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ajfedjbbig_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ajfedjbbig_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ajfedjbbig_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akdddhikjj_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_akdddhikjj_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akdhbfiiid_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_akdhbfiiid_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akhbjjbcei_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_akhbjjbcei_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akhbjjbcei_CastleFloorRoof_RoofEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_akhbjjbcei_CastleFloorRoof_RoofEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akhbjjbcei_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_akhbjjbcei_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akhbjjbcei_CastleRoomConnection_RoomEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_akhbjjbcei_CastleRoomConnection_RoomEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akhbjjbcei_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_akhbjjbcei_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akjcidekhd_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_akjcidekhd_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akjcidekhd_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_akjcidekhd_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akjcidekhd_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_akjcidekhd_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akjcidekhd_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_akjcidekhd_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbggkebbfk_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cbggkebbfk_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cbhkgfiiif_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cbhkgfiiif_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cbhkgfiiif_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cbhkgfiiif_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cbhkgfiiif_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantConnectedCoffin_CoffinEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cbhkgfiiif_ServantConnectedCoffin_CoffinEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_ArmorChestSlotEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cbhkgfiiif_ServantEquipment_ArmorChestSlotEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_ArmorFootgearSlotEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cbhkgfiiif_ServantEquipment_ArmorFootgearSlotEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_ArmorGlovesSlotEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cbhkgfiiif_ServantEquipment_ArmorGlovesSlotEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_ArmorLegsSlotEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cbhkgfiiif_ServantEquipment_ArmorLegsSlotEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_GrimoireSlotEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cbhkgfiiif_ServantEquipment_GrimoireSlotEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_WeaponSlotEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cbhkgfiiif_ServantEquipment_WeaponSlotEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbjidfdhfg_AbilityGroupState_Character = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cbjidfdhfg_AbilityGroupState_Character));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbjidfdhfg_AbilitySpellModItem_SpellModItem = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cbjidfdhfg_AbilitySpellModItem_SpellModItem));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbjidfdhfg_AbilityStateBuffer_StateEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cbjidfdhfg_AbilityStateBuffer_StateEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbkcbhjiek_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cbkcbhjiek_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cccffebffc_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cccffebffc_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ccekgicgfh_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ccekgicgfh_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ccekgicgfh_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ccekgicgfh_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ccekgicgfh_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ccekgicgfh_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ccekgicgfh_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ccekgicgfh_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ccgjgbjcgi_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ccgjgbjcgi_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cchfdhghjd_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cchfdhghjd_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cchfdhghjd_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cchfdhghjd_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cchfdhghjd_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cchfdhghjd_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cchfdhghjd_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cchfdhghjd_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cddckigibk_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cddckigibk_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cddckigibk_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cddckigibk_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cddckigibk_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cddckigibk_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cddckigibk_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cddckigibk_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cddckigibk_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cddckigibk_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdedfgfkdj_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdedfgfkdj_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdedfgfkdj_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdedfgfkdj_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdedfgfkdj_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdedfgfkdj_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdedfgfkdj_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdedfgfkdj_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdedfgfkdj_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdedfgfkdj_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdedfgfkdj_Refinementstation_InputInventoryEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdedfgfkdj_Refinementstation_InputInventoryEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdedfgfkdj_Refinementstation_OutputInventoryEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdedfgfkdj_Refinementstation_OutputInventoryEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfdcchhe_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdfdcchhe_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfdcchhe_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdfdcchhe_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfdcchhe_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdfdcchhe_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfdcchhe_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdfdcchhe_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfibdbkfb_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdfibdbkfb_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfibdbkfb_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdfibdbkfb_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfibdbkfb_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdfibdbkfb_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfjfbikid_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdfjfbikid_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfjfbikid_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdfjfbikid_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfjfbikid_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdfjfbikid_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfjfbikid_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdfjfbikid_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdgbkkidfd_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdgbkkidfd_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdgbkkidfd_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdgbkkidfd_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdgbkkidfd_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdgbkkidfd_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdgbkkidfd_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdgbkkidfd_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdgbkkidfd_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdgbkkidfd_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdgibkchih_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdgibkchih_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdidfjjidb_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cdidfjjidb_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cebdekghcc_AbilityState_GroupEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cebdekghcc_AbilityState_GroupEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceceehkkdb_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ceceehkkdb_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceceehkkdb_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ceceehkkdb_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceceehkkdb_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ceceehkkdb_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceceehkkdb_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ceceehkkdb_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechbcjbje_Equippable_EquipTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cechbcjbje_Equippable_EquipTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cechibbibc_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cechibbibc_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cechibbibc_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cechibbibc_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cechibbibc_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_ServantConnectedCoffin_CoffinEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cechibbibc_ServantConnectedCoffin_CoffinEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_ArmorChestSlotEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cechibbibc_ServantEquipment_ArmorChestSlotEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_ArmorFootgearSlotEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cechibbibc_ServantEquipment_ArmorFootgearSlotEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_ArmorGlovesSlotEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cechibbibc_ServantEquipment_ArmorGlovesSlotEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_ArmorLegsSlotEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cechibbibc_ServantEquipment_ArmorLegsSlotEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_GrimoireSlotEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cechibbibc_ServantEquipment_GrimoireSlotEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_WeaponSlotEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cechibbibc_ServantEquipment_WeaponSlotEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_ActiveServantMission_Servant1 = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cedekbhedh_ActiveServantMission_Servant1));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_ActiveServantMission_Servant2 = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cedekbhedh_ActiveServantMission_Servant2));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_ActiveServantMission_Servant3 = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cedekbhedh_ActiveServantMission_Servant3));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cedekbhedh_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cedekbhedh_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleFloorRoof_RoofEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cedekbhedh_CastleFloorRoof_RoofEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cedekbhedh_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleRoomConnection_RoomEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cedekbhedh_CastleRoomConnection_RoomEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleTeleporterElement_Entity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cedekbhedh_CastleTeleporterElement_Entity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cedekbhedh_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cedekbhedh_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_UserOwner_Owner = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cedekbhedh_UserOwner_Owner));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceecjebgfd_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ceecjebgfd_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceffhbdbf_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ceffhbdbf_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegbicbcfg_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cegbicbcfg_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegbicbcfg_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cegbicbcfg_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegbicbcfg_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cegbicbcfg_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegbicbcfg_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cegbicbcfg_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegbicbcfg_FeedableInventory_FeedableInventoryEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cegbicbcfg_FeedableInventory_FeedableInventoryEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegbicbcfg_InventoryInstanceElement_ExternalInventoryEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cegbicbcfg_InventoryInstanceElement_ExternalInventoryEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegkcgkkgb_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cegkcgkkgb_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegkcgkkgb_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cegkcgkkgb_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegkcgkkgb_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cegkcgkkgb_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceiggdddik_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ceiggdddik_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceiggdddik_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ceiggdddik_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cekhfceefg_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cekhfceefg_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cekhfceefg_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cekhfceefg_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cekhfceefg_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cekhfceefg_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cekhfceefg_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cekhfceefg_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbedkikg_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfbedkikg_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbedkikg_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfbedkikg_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbedkikg_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfbedkikg_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbedkikg_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfbedkikg_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjdedjcj_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfbjdedjcj_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjdedjcj_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfbjdedjcj_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjdedjcj_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfbjdedjcj_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjdedjcj_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfbjdedjcj_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_AchievementOwner_Entity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfbjghgjgf_AchievementOwner_Entity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_AllyPermission_User = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfbjghgjgf_AllyPermission_User));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_Controller_Controlled = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfbjghgjgf_Controller_Controlled));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_InputCommandDataProxy_CommandDataEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfbjghgjgf_InputCommandDataProxy_CommandDataEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_ProgressionMapper_ProgressionEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfbjghgjgf_ProgressionMapper_ProgressionEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_RespawnPointOwnerBuffer_RespawnPoint = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfbjghgjgf_RespawnPointOwnerBuffer_RespawnPoint));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_User_ClanEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfbjghgjgf_User_ClanEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_User_LocalCharacter = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfbjghgjgf_User_LocalCharacter));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_UserMapZoneElement_UserZoneEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfbjghgjgf_UserMapZoneElement_UserZoneEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfcfjiceg_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfcfjiceg_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfcfjiceg_SpawnSequenceForEntity_SecondaryTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfcfjiceg_SpawnSequenceForEntity_SecondaryTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfcfjiceg_SpawnSequenceForEntity_Target = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfcfjiceg_SpawnSequenceForEntity_Target));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfcjbdhdik_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfcjbdhdik_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfcjbdhdik_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfcjbdhdik_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfcjbdhdik_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfcjbdhdik_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfcjgefdjg_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfcjgefdjg_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfedcgehh_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfedcgehh_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfffedbhfg_AbilityState_GroupEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfffedbhfg_AbilityState_GroupEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfiggjfcfh_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfiggjfcfh_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfjbbdjcdi_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfjbbdjcdi_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfjbbdjcdi_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfjbbdjcdi_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfjbbdjcdi_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfjbbdjcdi_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfjbbdjcdi_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cfjbbdjcdi_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgbeibighh_AbilityOwner_Ability = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cgbeibighh_AbilityOwner_Ability));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgbeibighh_AbilityOwner_AbilityGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cgbeibighh_AbilityOwner_AbilityGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgbeibighh_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cgbeibighh_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgighkjefc_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cgighkjefc_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgighkjefc_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cgighkjefc_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgighkjefc_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cgighkjefc_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgighkjefc_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cgighkjefc_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgjchkijib_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cgjchkijib_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chedkdbce_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_chedkdbce_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chedkdbce_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_chedkdbce_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chedkdbce_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_chedkdbce_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chhcdcgigb_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_chhcdcgigb_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chhcdcgigb_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_chhcdcgigb_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chhcdcgigb_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_chhcdcgigb_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chhcdcgigb_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_chhcdcgigb_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chhcdcgigb_RespawnPoint_RespawnPointOwner = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_chhcdcgigb_RespawnPoint_RespawnPointOwner));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chibdbkfde_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_chibdbkfde_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chibdbkfde_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_chibdbkfde_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chibdbkfde_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_chibdbkfde_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chiceijbgj_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_chiceijbgj_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chiceijbgj_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_chiceijbgj_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chiceijbgj_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_chiceijbgj_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chiceijbgj_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_chiceijbgj_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chiiihhffh_AbilityState_GroupEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_chiiihhffh_AbilityState_GroupEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cichefikeb_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cichefikeb_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cichefikeb_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cichefikeb_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cichefikeb_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cichefikeb_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cichefikeb_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cichefikeb_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cifbcfjkdj_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cifbcfjkdj_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cifbcfjkdj_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cifbcfjkdj_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cifbcfjkdj_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cifbcfjkdj_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cifbcfjkdj_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cifbcfjkdj_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cigfkckdgc_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cigfkckdgc_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cigfkckdgc_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cigfkckdgc_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cigfkckdgc_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cigfkckdgc_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cigfkckdgc_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cigfkckdgc_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cigfkckdgc_RespawnPoint_RespawnPointOwner = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cigfkckdgc_RespawnPoint_RespawnPointOwner));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cijeifhgec_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cijeifhgec_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cijijgbkgk_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cijijgbkgk_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cijijgbkgk_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cijijgbkgk_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cijijgbkgk_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cijijgbkgk_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cijijgbkgk_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cijijgbkgk_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cijijgbkgk_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cijijgbkgk_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cijijgbkgk_SpawnedUnitsBuffer_SpawnedUnit = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cijijgbkgk_SpawnedUnitsBuffer_SpawnedUnit));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjbjeehdbk_AbilityGroupState_Character = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cjbjeehdbk_AbilityGroupState_Character));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjbjeehdbk_AbilityStateBuffer_StateEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cjbjeehdbk_AbilityStateBuffer_StateEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjdkihjijd_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cjdkihjijd_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjdkihjijd_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cjdkihjijd_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjgbfhfgef_MapIconTargetEntity_TargetEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cjgbfhfgef_MapIconTargetEntity_TargetEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjhkjfhhf_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cjhkjfhhf_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjhkjfhhf_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cjhkjfhhf_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cjicjgdfff_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cjicjgdfff_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleBuildingFusedChild_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cjicjgdfff_CastleBuildingFusedChild_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleFloorRoof_RoofEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cjicjgdfff_CastleFloorRoof_RoofEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cjicjgdfff_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleRoomConnection_RoomEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cjicjgdfff_CastleRoomConnection_RoomEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjicjgdfff_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cjicjgdfff_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjjdkdfkkh_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cjjdkdfkkh_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjjdkdfkkh_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_cjjdkdfkkh_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckbiikefid_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ckbiikefid_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckbiikefid_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ckbiikefid_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckbiikefid_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ckbiikefid_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckbiikefid_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ckbiikefid_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckeiejdgib_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ckeiejdgib_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckkddehif_AbilityOwner_Ability = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ckkddehif_AbilityOwner_Ability));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckkddehif_AbilityOwner_AbilityGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ckkddehif_AbilityOwner_AbilityGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckkddehif_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ckkddehif_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dbfehhjdb_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_dbfehhjdb_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dbjjcgeeki_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_dbjjcgeeki_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcbffdidkk_CastleBuildingFusedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_dcbffdidkk_CastleBuildingFusedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcbffdidkk_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_dcbffdidkk_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcbffdidkk_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_dcbffdidkk_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcbkfgcjid_CastleBuildingFusedChild_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_dcbkfgcjid_CastleBuildingFusedChild_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcbkfgcjid_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_dcbkfgcjid_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcbkfgcjid_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_dcbkfgcjid_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcdjbbkec_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_dcdjbbkec_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcfehdgdkj_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_dcfehdgdkj_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ddffjifbf_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ddffjifbf_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ddffjifbf_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ddffjifbf_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ddffjifbf_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ddffjifbf_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ddffjifbf_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ddffjifbf_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_debdghice_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_debdghice_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_debdghice_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_debdghice_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dfcjdjkjk_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_dfcjdjkjk_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dfjibkhbh_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_dfjibkhbh_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dfjibkhbh_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_dfjibkhbh_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dfjibkhbh_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_dfjibkhbh_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dfjibkhbh_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_dfjibkhbh_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_djigibich_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_djigibich_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ecgibfdjb_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ecgibfdjb_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ecgibfdjb_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ecgibfdjb_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ecgibfdjb_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ecgibfdjb_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ecgibfdjb_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ecgibfdjb_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ecgibfdjb_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ecgibfdjb_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_edfkjgfch_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_edfkjgfch_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ehkcekjii_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ehkcekjii_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_eidhfehik_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_eidhfehik_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_eidhfehik_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_eidhfehik_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_eidhfehik_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_eidhfehik_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_eidhfehik_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_eidhfehik_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_eiehjkdd_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_eiehjkdd_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ejjgbkdff_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ejjgbkdff_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ejjgbkdff_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ejjgbkdff_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ejjgbkdff_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ejjgbkdff_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ejjgbkdff_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ejjgbkdff_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ejjgbkdff_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ejjgbkdff_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ejjgbkdff_Salvagestation_InputInventoryEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ejjgbkdff_Salvagestation_InputInventoryEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ejjgbkdff_Salvagestation_OutputInventoryEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ejjgbkdff_Salvagestation_OutputInventoryEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fbejgkdib_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_fbejgkdib_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fbejgkdib_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_fbejgkdib_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fbejgkdib_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_fbejgkdib_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fbejgkdib_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_fbejgkdib_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fekcijijf_AbilityGroupState_Character = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_fekcijijf_AbilityGroupState_Character));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fekcijijf_AbilityStateBuffer_StateEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_fekcijijf_AbilityStateBuffer_StateEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fgfckhdf_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_fgfckhdf_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fhjkfjice_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_fhjkfjice_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fhjkfjice_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_fhjkfjice_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fjkikekhi_MapIconTargetEntity_TargetEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_fjkikekhi_MapIconTargetEntity_TargetEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fkbkbchgb_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_fkbkbchgb_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fkedkejgf_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_fkedkejgf_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fkfbciibe_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_fkfbciibe_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fkfbciibe_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_fkfbciibe_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gbchjfieb_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_gbchjfieb_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gbibihicb_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_gbibihicb_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gbibihicb_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_gbibihicb_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gbibihicb_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_gbibihicb_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gbibihicb_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_gbibihicb_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_geijfbdhc_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_geijfbdhc_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_geijfbdhc_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_geijfbdhc_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_geijfbdhc_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_geijfbdhc_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_geijfbdhc_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_geijfbdhc_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gfgdjegbe_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_gfgdjegbe_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gihjfdefi_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_gihjfdefi_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gihjfdefi_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_gihjfdefi_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gihjfdefi_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_gihjfdefi_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gihjfdefi_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_gihjfdefi_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gjgidfgeh_MapIconTargetEntity_TargetEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_gjgidfgeh_MapIconTargetEntity_TargetEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hcehhjdfk_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_hcehhjdfk_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hcehhjdfk_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_hcehhjdfk_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hcehhjdfk_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_hcehhjdfk_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hcehhjdfk_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_hcehhjdfk_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hekdkcdeh_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_hekdkcdeh_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hekdkcdeh_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_hekdkcdeh_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hekdkcdeh_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_hekdkcdeh_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hekdkcdeh_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_hekdkcdeh_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hekdkcdeh_RespawnPoint_RespawnPointOwner = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_hekdkcdeh_RespawnPoint_RespawnPointOwner));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hhbehfckd_AbilityBar_Shared_CastAbility = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_hhbehfckd_AbilityBar_Shared_CastAbility));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hhbehfckd_AbilityBar_Shared_CastGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_hhbehfckd_AbilityBar_Shared_CastGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hhbehfckd_AggroConsumer_AggroTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_hhbehfckd_AggroConsumer_AggroTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hhbehfckd_AggroConsumer_AlertTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_hhbehfckd_AggroConsumer_AlertTarget));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hhkbgdice_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_hhkbgdice_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hikdcfgkb_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_hikdcfgkb_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hkdbgkgik_AbilityState_GroupEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_hkdbgkgik_AbilityState_GroupEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ibbddjcfb_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ibbddjcfb_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ibbddjcfb_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ibbddjcfb_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_iddeebfkg_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_iddeebfkg_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_idjfhgckc_ScrollingCombatTextMessage_Source = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_idjfhgckc_ScrollingCombatTextMessage_Source));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_idjfhgckc_ScrollingCombatTextMessage_Target = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_idjfhgckc_ScrollingCombatTextMessage_Target));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ihbgcbhic_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ihbgcbhic_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ihbgcbhic_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ihbgcbhic_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ihbgcbhic_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ihbgcbhic_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_iifbheddf_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_iifbheddf_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_iifbheddf_NetworkedSpawnChainChild_SpawnChain = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_iifbheddf_NetworkedSpawnChainChild_SpawnChain));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ikejdbedk_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ikejdbedk_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ikejdbedk_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_ikejdbedk_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jcdhbjde_AbilityOwner_Ability = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_jcdhbjde_AbilityOwner_Ability));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jcdhbjde_AbilityOwner_AbilityGroup = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_jcdhbjde_AbilityOwner_AbilityGroup));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jcdhbjde_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_jcdhbjde_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jceehdeeh_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_jceehdeeh_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jchhdjhkg_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_jchhdjhkg_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jgcekgbii_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_jgcekgbii_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jkekeckbf_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_jkekeckbf_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jkekeckbf_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_jkekeckbf_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kbcfjkedc_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_kbcfjkedc_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kbcfjkedc_InventoryBuffer_ItemEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_kbcfjkedc_InventoryBuffer_ItemEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kddgijibc_CastleBuildingAttachedChildrenBuffer_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_kddgijibc_CastleBuildingAttachedChildrenBuffer_ChildEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kddgijibc_CastleBuildingAttachToParentsBuffer_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_kddgijibc_CastleBuildingAttachToParentsBuffer_ParentEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kddgijibc_CastleFloorRoof_RoofEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_kddgijibc_CastleFloorRoof_RoofEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kddgijibc_CastleHeartConnection_CastleHeartEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_kddgijibc_CastleHeartConnection_CastleHeartEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kddgijibc_CastleRoomConnection_RoomEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_kddgijibc_CastleRoomConnection_RoomEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kddgijibc_EditableTileModel_CurrentEditor = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_kddgijibc_EditableTileModel_CurrentEditor));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kdhdheib_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_kdhdheib_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kfbbiddfg_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_kfbbiddfg_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kfkchgjdd_EntityCreator_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_kfkchgjdd_EntityCreator_Creator));
+      WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kijdhbiid_MapIconTargetEntity_TargetEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (Snapshot_kijdhbiid_MapIconTargetEntity_TargetEntity));
+      WeakRefFieldIds.NativeFieldInfoPtr_None = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WeakRefFieldIds>.NativeClassPtr, nameof (None));
+    }
+
+    public WeakRefFieldIds(System.IntPtr pointer)
+      : base(pointer)
+    {
+    }
+
+    public static unsafe ushort Snapshot_acbbdiefgbd_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbbdiefgbd_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbbdiefgbd_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbbdiefgbd_NetworkedSpawnChainChild_SpawnChain
+    {
+      get
+      {
+        ushort chainChildSpawnChain;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbbdiefgbd_NetworkedSpawnChainChild_SpawnChain, (void*) &chainChildSpawnChain);
+        return chainChildSpawnChain;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbbdiefgbd_NetworkedSpawnChainChild_SpawnChain, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbbgiidegf_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbbgiidegf_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbbgiidegf_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbdgdebikk_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbdgdebikk_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbdgdebikk_BagHolder_BagInstance0Entity
+    {
+      get
+      {
+        ushort bagInstance0Entity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_BagHolder_BagInstance0Entity, (void*) &bagInstance0Entity);
+        return bagInstance0Entity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_BagHolder_BagInstance0Entity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbdgdebikk_BagHolder_BagInstance1Entity
+    {
+      get
+      {
+        ushort bagInstance1Entity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_BagHolder_BagInstance1Entity, (void*) &bagInstance1Entity);
+        return bagInstance1Entity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_BagHolder_BagInstance1Entity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbdgdebikk_BagHolder_BagInstance2Entity
+    {
+      get
+      {
+        ushort bagInstance2Entity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_BagHolder_BagInstance2Entity, (void*) &bagInstance2Entity);
+        return bagInstance2Entity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_BagHolder_BagInstance2Entity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbdgdebikk_BagHolder_BagInstance3Entity
+    {
+      get
+      {
+        ushort bagInstance3Entity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_BagHolder_BagInstance3Entity, (void*) &bagInstance3Entity);
+        return bagInstance3Entity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_BagHolder_BagInstance3Entity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbdgdebikk_Equipment_ArmorChestSlotEntity
+    {
+      get
+      {
+        ushort armorChestSlotEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ArmorChestSlotEntity, (void*) &armorChestSlotEntity);
+        return armorChestSlotEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ArmorChestSlotEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbdgdebikk_Equipment_ArmorFootgearSlotEntity
+    {
+      get
+      {
+        ushort footgearSlotEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ArmorFootgearSlotEntity, (void*) &footgearSlotEntity);
+        return footgearSlotEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ArmorFootgearSlotEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbdgdebikk_Equipment_ArmorGlovesSlotEntity
+    {
+      get
+      {
+        ushort glovesSlotEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ArmorGlovesSlotEntity, (void*) &glovesSlotEntity);
+        return glovesSlotEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ArmorGlovesSlotEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbdgdebikk_Equipment_ArmorHeadgearSlotEntity
+    {
+      get
+      {
+        ushort headgearSlotEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ArmorHeadgearSlotEntity, (void*) &headgearSlotEntity);
+        return headgearSlotEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ArmorHeadgearSlotEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbdgdebikk_Equipment_ArmorLegsSlotEntity
+    {
+      get
+      {
+        ushort armorLegsSlotEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ArmorLegsSlotEntity, (void*) &armorLegsSlotEntity);
+        return armorLegsSlotEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ArmorLegsSlotEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbdgdebikk_Equipment_CloakSlotEntity
+    {
+      get
+      {
+        ushort equipmentCloakSlotEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_CloakSlotEntity, (void*) &equipmentCloakSlotEntity);
+        return equipmentCloakSlotEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_CloakSlotEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbdgdebikk_Equipment_ClothChestSlotEntity
+    {
+      get
+      {
+        ushort clothChestSlotEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ClothChestSlotEntity, (void*) &clothChestSlotEntity);
+        return clothChestSlotEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ClothChestSlotEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbdgdebikk_Equipment_ClothLegsSlotEntity
+    {
+      get
+      {
+        ushort clothLegsSlotEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ClothLegsSlotEntity, (void*) &clothLegsSlotEntity);
+        return clothLegsSlotEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_ClothLegsSlotEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbdgdebikk_Equipment_GrimoireSlotEntity
+    {
+      get
+      {
+        ushort grimoireSlotEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_GrimoireSlotEntity, (void*) &grimoireSlotEntity);
+        return grimoireSlotEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_GrimoireSlotEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbdgdebikk_Equipment_WeaponSlotEntity
+    {
+      get
+      {
+        ushort weaponSlotEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_WeaponSlotEntity, (void*) &weaponSlotEntity);
+        return weaponSlotEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_Equipment_WeaponSlotEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbdgdebikk_FollowerBuffer_Entity
+    {
+      get
+      {
+        ushort followerBufferEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_FollowerBuffer_Entity, (void*) &followerBufferEntity);
+        return followerBufferEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_FollowerBuffer_Entity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbdgdebikk_InventoryInstanceElement_ExternalInventoryEntity
+    {
+      get
+      {
+        ushort externalInventoryEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_InventoryInstanceElement_ExternalInventoryEntity, (void*) &externalInventoryEntity);
+        return externalInventoryEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbdgdebikk_InventoryInstanceElement_ExternalInventoryEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbfcjichfb_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbfcjichfb_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbfcjichfb_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbhckcfdfd_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhckcfdfd_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhckcfdfd_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbhckcfdfd_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhckcfdfd_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhckcfdfd_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbhckcfdfd_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhckcfdfd_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhckcfdfd_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbhckcfdfd_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhckcfdfd_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhckcfdfd_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbhkjccgdi_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhkjccgdi_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhkjccgdi_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbhkjccgdi_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhkjccgdi_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhkjccgdi_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbhkjccgdi_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhkjccgdi_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhkjccgdi_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbhkjccgdi_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhkjccgdi_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbhkjccgdi_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbicfeedbb_CastleRoofOrnaments_EastOrnament
+    {
+      get
+      {
+        ushort ornamentsEastOrnament;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbicfeedbb_CastleRoofOrnaments_EastOrnament, (void*) &ornamentsEastOrnament);
+        return ornamentsEastOrnament;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbicfeedbb_CastleRoofOrnaments_EastOrnament, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbicfeedbb_CastleRoofOrnaments_NorthOrnament
+    {
+      get
+      {
+        ushort ornamentsNorthOrnament;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbicfeedbb_CastleRoofOrnaments_NorthOrnament, (void*) &ornamentsNorthOrnament);
+        return ornamentsNorthOrnament;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbicfeedbb_CastleRoofOrnaments_NorthOrnament, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbicfeedbb_CastleRoofOrnaments_SouthOrnament
+    {
+      get
+      {
+        ushort ornamentsSouthOrnament;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbicfeedbb_CastleRoofOrnaments_SouthOrnament, (void*) &ornamentsSouthOrnament);
+        return ornamentsSouthOrnament;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbicfeedbb_CastleRoofOrnaments_SouthOrnament, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbicfeedbb_CastleRoofOrnaments_WestOrnament
+    {
+      get
+      {
+        ushort ornamentsWestOrnament;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbicfeedbb_CastleRoofOrnaments_WestOrnament, (void*) &ornamentsWestOrnament);
+        return ornamentsWestOrnament;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbicfeedbb_CastleRoofOrnaments_WestOrnament, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbiddcjjid_SpawnSequenceForEntity_SecondaryTarget
+    {
+      get
+      {
+        ushort entitySecondaryTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbiddcjjid_SpawnSequenceForEntity_SecondaryTarget, (void*) &entitySecondaryTarget);
+        return entitySecondaryTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbiddcjjid_SpawnSequenceForEntity_SecondaryTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acbiddcjjid_SpawnSequenceForEntity_Target
+    {
+      get
+      {
+        ushort sequenceForEntityTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbiddcjjid_SpawnSequenceForEntity_Target, (void*) &sequenceForEntityTarget);
+        return sequenceForEntityTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acbiddcjjid_SpawnSequenceForEntity_Target, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acccfjkdigh_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acccfjkdigh_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acccfjkdigh_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acccfjkdigh_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acccfjkdigh_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acccfjkdigh_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acccfjkdigh_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acccfjkdigh_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acccfjkdigh_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acccfjkdigh_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acccfjkdigh_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acccfjkdigh_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acccgefcedb_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acccgefcedb_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acccgefcedb_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acccgefcedb_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acccgefcedb_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acccgefcedb_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acccgefcedb_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acccgefcedb_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acccgefcedb_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_accdbefiheb_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_accdbefiheb_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_accdbefiheb_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_accdjiedgfe_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_accdjiedgfe_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_accdjiedgfe_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_accdjiedgfe_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_accdjiedgfe_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_accdjiedgfe_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_accdjiedgfe_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_accdjiedgfe_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_accdjiedgfe_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_accdjiedgfe_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_accdjiedgfe_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_accdjiedgfe_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_accgciikfbf_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_accgciikfbf_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_accgciikfbf_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_accgciikfbf_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_accgciikfbf_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_accgciikfbf_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acchhgcjcbh_AbilityOwner_Ability
+    {
+      get
+      {
+        ushort abilityOwnerAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acchhgcjcbh_AbilityOwner_Ability, (void*) &abilityOwnerAbility);
+        return abilityOwnerAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acchhgcjcbh_AbilityOwner_Ability, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acchhgcjcbh_AbilityOwner_AbilityGroup
+    {
+      get
+      {
+        ushort ownerAbilityGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acchhgcjcbh_AbilityOwner_AbilityGroup, (void*) &ownerAbilityGroup);
+        return ownerAbilityGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acchhgcjcbh_AbilityOwner_AbilityGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acchhgcjcbh_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acchhgcjcbh_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acchhgcjcbh_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acciegkehkf_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acciegkehkf_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acciegkehkf_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acciegkehkf_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acciegkehkf_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acciegkehkf_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acciegkehkf_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acciegkehkf_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acciegkehkf_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acciegkehkf_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acciegkehkf_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acciegkehkf_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdehhkijdj_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdehhkijdj_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdehhkijdj_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdehhkijdj_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdehhkijdj_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdehhkijdj_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdehhkijdj_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdehhkijdj_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdehhkijdj_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdehhkijdj_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdehhkijdj_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdehhkijdj_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdfgkkfchc_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdfgkkfchc_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdfgkkfchc_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdfgkkfchc_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdfgkkfchc_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdfgkkfchc_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdfgkkfchc_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdfgkkfchc_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdfgkkfchc_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdfgkkfchc_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdfgkkfchc_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdfgkkfchc_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdficciidc_AbilityGroupState_Character
+    {
+      get
+      {
+        ushort groupStateCharacter;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdficciidc_AbilityGroupState_Character, (void*) &groupStateCharacter);
+        return groupStateCharacter;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdficciidc_AbilityGroupState_Character, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdficciidc_AbilitySpellModItem_SpellModItem
+    {
+      get
+      {
+        ushort itemSpellModItem;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdficciidc_AbilitySpellModItem_SpellModItem, (void*) &itemSpellModItem);
+        return itemSpellModItem;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdficciidc_AbilitySpellModItem_SpellModItem, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdficciidc_AbilityStateBuffer_StateEntity
+    {
+      get
+      {
+        ushort bufferStateEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdficciidc_AbilityStateBuffer_StateEntity, (void*) &bufferStateEntity);
+        return bufferStateEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdficciidc_AbilityStateBuffer_StateEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdibbekbkk_AbilityGroupState_Character
+    {
+      get
+      {
+        ushort groupStateCharacter;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdibbekbkk_AbilityGroupState_Character, (void*) &groupStateCharacter);
+        return groupStateCharacter;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdibbekbkk_AbilityGroupState_Character, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdibbekbkk_AbilitySpellModItem_SpellModItem
+    {
+      get
+      {
+        ushort itemSpellModItem;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdibbekbkk_AbilitySpellModItem_SpellModItem, (void*) &itemSpellModItem);
+        return itemSpellModItem;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdibbekbkk_AbilitySpellModItem_SpellModItem, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdibbekbkk_AbilityStateBuffer_StateEntity
+    {
+      get
+      {
+        ushort bufferStateEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdibbekbkk_AbilityStateBuffer_StateEntity, (void*) &bufferStateEntity);
+        return bufferStateEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdibbekbkk_AbilityStateBuffer_StateEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdidhjbjgj_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdidhjbjgj_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdidhjbjgj_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdidhjbjgj_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdidhjbjgj_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdidhjbjgj_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdidhjbjgj_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdidhjbjgj_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdidhjbjgj_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdidhjbjgj_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdidhjbjgj_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdidhjbjgj_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdjdjkckhd_AbilityTarget_Target
+    {
+      get
+      {
+        ushort abilityTargetTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdjdjkckhd_AbilityTarget_Target, (void*) &abilityTargetTarget);
+        return abilityTargetTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdjdjkckhd_AbilityTarget_Target, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdjdjkckhd_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdjdjkckhd_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdjdjkckhd_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdkkhcbdcg_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdkkhcbdcg_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdkkhcbdcg_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdkkhcbdcg_SpawnSequenceForEntity_SecondaryTarget
+    {
+      get
+      {
+        ushort entitySecondaryTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdkkhcbdcg_SpawnSequenceForEntity_SecondaryTarget, (void*) &entitySecondaryTarget);
+        return entitySecondaryTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdkkhcbdcg_SpawnSequenceForEntity_SecondaryTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acdkkhcbdcg_SpawnSequenceForEntity_Target
+    {
+      get
+      {
+        ushort sequenceForEntityTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdkkhcbdcg_SpawnSequenceForEntity_Target, (void*) &sequenceForEntityTarget);
+        return sequenceForEntityTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acdkkhcbdcg_SpawnSequenceForEntity_Target, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acecggedbff_MapIconTargetEntity_TargetEntity
+    {
+      get
+      {
+        ushort entityTargetEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acecggedbff_MapIconTargetEntity_TargetEntity, (void*) &entityTargetEntity);
+        return entityTargetEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acecggedbff_MapIconTargetEntity_TargetEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aceegbjekgb_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceegbjekgb_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceegbjekgb_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aceegbjekgb_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceegbjekgb_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceegbjekgb_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aceegbjekgb_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceegbjekgb_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceegbjekgb_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aceegbjekgb_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceegbjekgb_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceegbjekgb_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aceegbjekgb_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceegbjekgb_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceegbjekgb_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aceegbjekgb_JewelCraftingStation_CraftedItem
+    {
+      get
+      {
+        ushort stationCraftedItem;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceegbjekgb_JewelCraftingStation_CraftedItem, (void*) &stationCraftedItem);
+        return stationCraftedItem;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceegbjekgb_JewelCraftingStation_CraftedItem, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aceehcgeedj_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceehcgeedj_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceehcgeedj_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acegbdcgkdf_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acegbdcgkdf_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acegbdcgkdf_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aceihfcgifd_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceihfcgifd_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aceihfcgifd_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acekjgheehk_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acekjgheehk_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acekjgheehk_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acfckgbfifj_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfckgbfifj_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfckgbfifj_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acfckgbfifj_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfckgbfifj_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfckgbfifj_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acfckgbfifj_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfckgbfifj_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfckgbfifj_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acfckgbfifj_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfckgbfifj_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfckgbfifj_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acfebiceeh_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfebiceeh_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfebiceeh_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acfebiceeh_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfebiceeh_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfebiceeh_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acfebiceeh_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfebiceeh_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfebiceeh_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acfebiceeh_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfebiceeh_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfebiceeh_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acfhdekidie_AbilityOwner_Ability
+    {
+      get
+      {
+        ushort abilityOwnerAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfhdekidie_AbilityOwner_Ability, (void*) &abilityOwnerAbility);
+        return abilityOwnerAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfhdekidie_AbilityOwner_Ability, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acfhdekidie_AbilityOwner_AbilityGroup
+    {
+      get
+      {
+        ushort ownerAbilityGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfhdekidie_AbilityOwner_AbilityGroup, (void*) &ownerAbilityGroup);
+        return ownerAbilityGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfhdekidie_AbilityOwner_AbilityGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acfhdekidie_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfhdekidie_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acfhdekidie_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acgbiiekebj_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgbiiekebj_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgbiiekebj_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acgchdfhdbe_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgchdfhdbe_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgchdfhdbe_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acgchdfhdbe_TravelToTarget_Target
+    {
+      get
+      {
+        ushort travelToTargetTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgchdfhdbe_TravelToTarget_Target, (void*) &travelToTargetTarget);
+        return travelToTargetTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgchdfhdbe_TravelToTarget_Target, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acgckficfjg_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgckficfjg_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgckficfjg_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acgckficfjg_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgckficfjg_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgckficfjg_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acgckficfjg_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgckficfjg_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgckficfjg_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acgckficfjg_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgckficfjg_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgckficfjg_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acgckficfjg_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgckficfjg_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgckficfjg_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acgddgdckdd_AbilityState_GroupEntity
+    {
+      get
+      {
+        ushort stateGroupEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgddgdckdd_AbilityState_GroupEntity, (void*) &stateGroupEntity);
+        return stateGroupEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgddgdckdd_AbilityState_GroupEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acgefcgggfi_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgefcgggfi_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgefcgggfi_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acgefcgggfi_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgefcgggfi_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgefcgggfi_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acgefcgggfi_CastleFloorRoof_RoofEntity
+    {
+      get
+      {
+        ushort floorRoofRoofEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgefcgggfi_CastleFloorRoof_RoofEntity, (void*) &floorRoofRoofEntity);
+        return floorRoofRoofEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgefcgggfi_CastleFloorRoof_RoofEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acgefcgggfi_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgefcgggfi_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgefcgggfi_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acgefcgggfi_CastleRoomConnection_RoomEntity
+    {
+      get
+      {
+        ushort connectionRoomEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgefcgggfi_CastleRoomConnection_RoomEntity, (void*) &connectionRoomEntity);
+        return connectionRoomEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgefcgggfi_CastleRoomConnection_RoomEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acgfefhihji_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgfefhihji_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acgfefhihji_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acggehdijfg_AbilityState_GroupEntity
+    {
+      get
+      {
+        ushort stateGroupEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acggehdijfg_AbilityState_GroupEntity, (void*) &stateGroupEntity);
+        return stateGroupEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acggehdijfg_AbilityState_GroupEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acggehdijfg_AbilityTarget_Target
+    {
+      get
+      {
+        ushort abilityTargetTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acggehdijfg_AbilityTarget_Target, (void*) &abilityTargetTarget);
+        return abilityTargetTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acggehdijfg_AbilityTarget_Target, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acggkbfbjck_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acggkbfbjck_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acggkbfbjck_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acggkbfbjck_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acggkbfbjck_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acggkbfbjck_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acggkbfbjck_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acggkbfbjck_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acggkbfbjck_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acggkbfbjck_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acggkbfbjck_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acggkbfbjck_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acggkbfbjck_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acggkbfbjck_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acggkbfbjck_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acghdchgjgf_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acghdchgjgf_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acghdchgjgf_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acghdchgjgf_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acghdchgjgf_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acghdchgjgf_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acghdchgjgf_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acghdchgjgf_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acghdchgjgf_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_achbffjechg_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achbffjechg_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achbffjechg_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_achbffjechg_SpawnSequenceForEntity_SecondaryTarget
+    {
+      get
+      {
+        ushort entitySecondaryTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achbffjechg_SpawnSequenceForEntity_SecondaryTarget, (void*) &entitySecondaryTarget);
+        return entitySecondaryTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achbffjechg_SpawnSequenceForEntity_SecondaryTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_achbffjechg_SpawnSequenceForEntity_Target
+    {
+      get
+      {
+        ushort sequenceForEntityTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achbffjechg_SpawnSequenceForEntity_Target, (void*) &sequenceForEntityTarget);
+        return sequenceForEntityTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achbffjechg_SpawnSequenceForEntity_Target, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_achbhefgeeh_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achbhefgeeh_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achbhefgeeh_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_achbhefgeeh_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achbhefgeeh_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achbhefgeeh_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_achbhhddbh_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achbhhddbh_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achbhhddbh_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_achbhhddbh_RespawnPoint_RespawnPointOwner
+    {
+      get
+      {
+        ushort respawnPointOwner;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achbhhddbh_RespawnPoint_RespawnPointOwner, (void*) &respawnPointOwner);
+        return respawnPointOwner;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achbhhddbh_RespawnPoint_RespawnPointOwner, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_achcbdhidik_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achcbdhidik_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achcbdhidik_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_achfcefeheb_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achfcefeheb_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achfcefeheb_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_achgegcdkcj_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achgegcdkcj_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achgegcdkcj_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_achicekidek_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achicekidek_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achicekidek_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_achicekidek_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achicekidek_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achicekidek_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_achicekidek_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achicekidek_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achicekidek_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_achicekidek_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achicekidek_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achicekidek_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_achjkicgkif_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achjkicgkif_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achjkicgkif_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_achjkicgkif_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achjkicgkif_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achjkicgkif_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_achjkicgkif_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achjkicgkif_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achjkicgkif_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_achjkicgkif_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achjkicgkif_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achjkicgkif_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_achjkicgkif_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achjkicgkif_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_achjkicgkif_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acidekciged_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acidekciged_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acidekciged_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acifkidfebh_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acifkidfebh_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acifkidfebh_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acifkidfebh_TravelToTarget_Target
+    {
+      get
+      {
+        ushort travelToTargetTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acifkidfebh_TravelToTarget_Target, (void*) &travelToTargetTarget);
+        return travelToTargetTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acifkidfebh_TravelToTarget_Target, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acigkbdedfb_AbilityGroupState_Character
+    {
+      get
+      {
+        ushort groupStateCharacter;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acigkbdedfb_AbilityGroupState_Character, (void*) &groupStateCharacter);
+        return groupStateCharacter;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acigkbdedfb_AbilityGroupState_Character, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acigkbdedfb_AbilityStateBuffer_StateEntity
+    {
+      get
+      {
+        ushort bufferStateEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acigkbdedfb_AbilityStateBuffer_StateEntity, (void*) &bufferStateEntity);
+        return bufferStateEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acigkbdedfb_AbilityStateBuffer_StateEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acihcehbbb_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acihcehbbb_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acihcehbbb_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acihehkdfeh_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acihehkdfeh_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acihehkdfeh_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acihehkdfeh_CastleFloorRoof_RoofEntity
+    {
+      get
+      {
+        ushort floorRoofRoofEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acihehkdfeh_CastleFloorRoof_RoofEntity, (void*) &floorRoofRoofEntity);
+        return floorRoofRoofEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acihehkdfeh_CastleFloorRoof_RoofEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acihehkdfeh_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acihehkdfeh_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acihehkdfeh_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acihehkdfeh_CastleRoomConnection_RoomEntity
+    {
+      get
+      {
+        ushort connectionRoomEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acihehkdfeh_CastleRoomConnection_RoomEntity, (void*) &connectionRoomEntity);
+        return connectionRoomEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acihehkdfeh_CastleRoomConnection_RoomEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acikhjeehkg_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acikhjeehkg_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acikhjeehkg_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acjbgiffidc_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjbgiffidc_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjbgiffidc_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acjbgiffidc_SpawnSequenceForEntity_SecondaryTarget
+    {
+      get
+      {
+        ushort entitySecondaryTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjbgiffidc_SpawnSequenceForEntity_SecondaryTarget, (void*) &entitySecondaryTarget);
+        return entitySecondaryTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjbgiffidc_SpawnSequenceForEntity_SecondaryTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acjbgiffidc_SpawnSequenceForEntity_Target
+    {
+      get
+      {
+        ushort sequenceForEntityTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjbgiffidc_SpawnSequenceForEntity_Target, (void*) &sequenceForEntityTarget);
+        return sequenceForEntityTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjbgiffidc_SpawnSequenceForEntity_Target, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acjbgiffidc_UserOwner_Owner
+    {
+      get
+      {
+        ushort acjbgiffidcUserOwnerOwner;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjbgiffidc_UserOwner_Owner, (void*) &acjbgiffidcUserOwnerOwner);
+        return acjbgiffidcUserOwnerOwner;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjbgiffidc_UserOwner_Owner, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acjdegcccg_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjdegcccg_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjdegcccg_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acjdegcccg_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjdegcccg_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjdegcccg_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acjdegcccg_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjdegcccg_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjdegcccg_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acjdegcccg_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjdegcccg_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjdegcccg_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acjdegcccg_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjdegcccg_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjdegcccg_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acjdegcccg_SpawnedUnitsBuffer_SpawnedUnit
+    {
+      get
+      {
+        ushort bufferSpawnedUnit;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjdegcccg_SpawnedUnitsBuffer_SpawnedUnit, (void*) &bufferSpawnedUnit);
+        return bufferSpawnedUnit;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjdegcccg_SpawnedUnitsBuffer_SpawnedUnit, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acjkcgkfjff_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjkcgkfjff_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjkcgkfjff_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acjkcgkfjff_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjkcgkfjff_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjkcgkfjff_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acjkcgkfjff_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjkcgkfjff_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjkcgkfjff_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_acjkcgkfjff_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjkcgkfjff_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_acjkcgkfjff_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ackdkfeghk_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackdkfeghk_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackdkfeghk_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ackdkfeghk_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackdkfeghk_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackdkfeghk_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ackdkfeghk_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackdkfeghk_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackdkfeghk_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ackdkfeghk_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackdkfeghk_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackdkfeghk_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ackdkfeghk_Forge_Shared_ItemEntity
+    {
+      get
+      {
+        ushort sharedItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackdkfeghk_Forge_Shared_ItemEntity, (void*) &sharedItemEntity);
+        return sharedItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackdkfeghk_Forge_Shared_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ackdkfeghk_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackdkfeghk_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackdkfeghk_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ackebkbdbjj_Equippable_EquipTarget
+    {
+      get
+      {
+        ushort equippableEquipTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackebkbdbjj_Equippable_EquipTarget, (void*) &equippableEquipTarget);
+        return equippableEquipTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackebkbdbjj_Equippable_EquipTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ackffdikde_SpawnSequenceForEntity_SecondaryTarget
+    {
+      get
+      {
+        ushort entitySecondaryTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackffdikde_SpawnSequenceForEntity_SecondaryTarget, (void*) &entitySecondaryTarget);
+        return entitySecondaryTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackffdikde_SpawnSequenceForEntity_SecondaryTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ackffdikde_SpawnSequenceForEntity_Target
+    {
+      get
+      {
+        ushort sequenceForEntityTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackffdikde_SpawnSequenceForEntity_Target, (void*) &sequenceForEntityTarget);
+        return sequenceForEntityTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackffdikde_SpawnSequenceForEntity_Target, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ackgdbibjbd_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackgdbibjbd_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackgdbibjbd_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ackgdbibjbd_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackgdbibjbd_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackgdbibjbd_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ackgdbibjbd_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackgdbibjbd_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackgdbibjbd_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ackjbcfijee_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackjbcfijee_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackjbcfijee_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ackkecjdkk_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackkecjdkk_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackkecjdkk_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ackkecjdkk_TravelToTarget_Target
+    {
+      get
+      {
+        ushort travelToTargetTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackkecjdkk_TravelToTarget_Target, (void*) &travelToTargetTarget);
+        return travelToTargetTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ackkecjdkk_TravelToTarget_Target, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adbgiccjej_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbgiccjej_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbgiccjej_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adbijghdjjj_AbilityGroupSlot_AbilityBar
+    {
+      get
+      {
+        ushort groupSlotAbilityBar;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbijghdjjj_AbilityGroupSlot_AbilityBar, (void*) &groupSlotAbilityBar);
+        return groupSlotAbilityBar;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbijghdjjj_AbilityGroupSlot_AbilityBar, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adbijghdjjj_AbilityGroupSlot_PreviousStateEntity
+    {
+      get
+      {
+        ushort previousStateEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbijghdjjj_AbilityGroupSlot_PreviousStateEntity, (void*) &previousStateEntity);
+        return previousStateEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbijghdjjj_AbilityGroupSlot_PreviousStateEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adbijghdjjj_AbilityGroupSlot_StateEntity
+    {
+      get
+      {
+        ushort groupSlotStateEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbijghdjjj_AbilityGroupSlot_StateEntity, (void*) &groupSlotStateEntity);
+        return groupSlotStateEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbijghdjjj_AbilityGroupSlot_StateEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adbjdjfkiif_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjdjfkiif_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjdjfkiif_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adbjdjfkiif_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjdjfkiif_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjdjfkiif_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adbjdjfkiif_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjdjfkiif_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjdjfkiif_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adbjdjfkiif_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjdjfkiif_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjdjfkiif_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adbjkedbgjg_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjkedbgjg_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjkedbgjg_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adbjkedbgjg_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjkedbgjg_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjkedbgjg_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adbjkedbgjg_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjkedbgjg_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjkedbgjg_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adbjkhhkffi_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjkhhkffi_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjkhhkffi_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adbjkhhkffi_SpawnSequenceForEntity_SecondaryTarget
+    {
+      get
+      {
+        ushort entitySecondaryTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjkhhkffi_SpawnSequenceForEntity_SecondaryTarget, (void*) &entitySecondaryTarget);
+        return entitySecondaryTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjkhhkffi_SpawnSequenceForEntity_SecondaryTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adbjkhhkffi_SpawnSequenceForEntity_Target
+    {
+      get
+      {
+        ushort sequenceForEntityTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjkhhkffi_SpawnSequenceForEntity_Target, (void*) &sequenceForEntityTarget);
+        return sequenceForEntityTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adbjkhhkffi_SpawnSequenceForEntity_Target, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adcbfjighfe_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adcbfjighfe_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adcbfjighfe_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adcdbdebfjg_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adcdbdebfjg_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adcdbdebfjg_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adcffdijihg_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adcffdijihg_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adcffdijihg_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adcffdijihg_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adcffdijihg_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adcffdijihg_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adcffdijihg_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adcffdijihg_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adcffdijihg_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adejkghcfk_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adejkghcfk_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adejkghcfk_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adejkghcfk_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adejkghcfk_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adejkghcfk_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adejkghcfk_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adejkghcfk_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adejkghcfk_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adejkghcfk_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adejkghcfk_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adejkghcfk_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adejkghcfk_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adejkghcfk_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adejkghcfk_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adgcbgkcfb_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adgcbgkcfb_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adgcbgkcfb_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adgcbgkcfb_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adgcbgkcfb_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adgcbgkcfb_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adjbidcgdh_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adjbidcgdh_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adjbidcgdh_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adjbidcgdh_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adjbidcgdh_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adjbidcgdh_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adjbidcgdh_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adjbidcgdh_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adjbidcgdh_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_adkecehjdk_MapIconTargetEntity_TargetEntity
+    {
+      get
+      {
+        ushort entityTargetEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adkecehjdk_MapIconTargetEntity_TargetEntity, (void*) &entityTargetEntity);
+        return entityTargetEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_adkecehjdk_MapIconTargetEntity_TargetEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aebfefikfc_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aebfefikfc_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aebfefikfc_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aegjbedggh_MapIconTargetEntity_TargetEntity
+    {
+      get
+      {
+        ushort entityTargetEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aegjbedggh_MapIconTargetEntity_TargetEntity, (void*) &entityTargetEntity);
+        return entityTargetEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aegjbedggh_MapIconTargetEntity_TargetEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afdcikchcf_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdcikchcf_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdcikchcf_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afdcikchcf_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdcikchcf_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdcikchcf_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afdcikchcf_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdcikchcf_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdcikchcf_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afdcikchcf_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdcikchcf_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdcikchcf_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afdgichhbg_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdgichhbg_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdgichhbg_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afdgichhbg_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdgichhbg_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdgichhbg_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afdgichhbg_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdgichhbg_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdgichhbg_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afdgichhbg_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdgichhbg_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdgichhbg_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afdgichhbg_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdgichhbg_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdgichhbg_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afdgigchdc_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdgigchdc_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afdgigchdc_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afejhccjki_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afejhccjki_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afejhccjki_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afejhccjki_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afejhccjki_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afejhccjki_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afejhccjki_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afejhccjki_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afejhccjki_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afejhccjki_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afejhccjki_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afejhccjki_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afejhccjki_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afejhccjki_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afejhccjki_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afejhccjki_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afejhccjki_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afejhccjki_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afgfgihgc_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afgfgihgc_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afgfgihgc_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afgfgihgc_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afgfgihgc_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afgfgihgc_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afgfgihgc_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afgfgihgc_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afgfgihgc_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afgfgihgc_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afgfgihgc_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afgfgihgc_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afgfgihgc_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afgfgihgc_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afgfgihgc_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afgfgihgc_Refinementstation_InputInventoryEntity
+    {
+      get
+      {
+        ushort inputInventoryEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afgfgihgc_Refinementstation_InputInventoryEntity, (void*) &inputInventoryEntity);
+        return inputInventoryEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afgfgihgc_Refinementstation_InputInventoryEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afgfgihgc_Refinementstation_OutputInventoryEntity
+    {
+      get
+      {
+        ushort outputInventoryEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afgfgihgc_Refinementstation_OutputInventoryEntity, (void*) &outputInventoryEntity);
+        return outputInventoryEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afgfgihgc_Refinementstation_OutputInventoryEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afghjhgcgk_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afghjhgcgk_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afghjhgcgk_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afibjfgjj_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afibjfgjj_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afibjfgjj_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afibjfgjj_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afibjfgjj_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afibjfgjj_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afibjfgjj_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afibjfgjj_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afibjfgjj_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afibjfgjj_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afibjfgjj_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afibjfgjj_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afibjfgjj_ServantCoffinstation_ConnectedServant
+    {
+      get
+      {
+        ushort connectedServant;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afibjfgjj_ServantCoffinstation_ConnectedServant, (void*) &connectedServant);
+        return connectedServant;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afibjfgjj_ServantCoffinstation_ConnectedServant, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afiidbjjg_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afiidbjjg_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afiidbjjg_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afiidbjjg_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afiidbjjg_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afiidbjjg_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afiidbjjg_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afiidbjjg_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afiidbjjg_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afiidbjjg_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afiidbjjg_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afiidbjjg_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afkbfgfhef_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afkbfgfhef_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afkbfgfhef_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afkbfgfhef_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afkbfgfhef_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afkbfgfhef_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afkbfgfhef_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afkbfgfhef_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afkbfgfhef_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afkbfgfhef_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afkbfgfhef_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afkbfgfhef_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afkbfgfhef_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afkbfgfhef_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afkbfgfhef_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_afkbfgfhef_PrisonCell_ImprisonedEntity
+    {
+      get
+      {
+        ushort imprisonedEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afkbfgfhef_PrisonCell_ImprisonedEntity, (void*) &imprisonedEntity);
+        return imprisonedEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_afkbfgfhef_PrisonCell_ImprisonedEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_agcdkcdjfe_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agcdkcdjfe_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agcdkcdjfe_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_agcdkcdjfe_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agcdkcdjfe_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agcdkcdjfe_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_agcdkcdjfe_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agcdkcdjfe_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agcdkcdjfe_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_agcdkcdjfe_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agcdkcdjfe_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agcdkcdjfe_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aggchckijc_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aggchckijc_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aggchckijc_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_agghikgigk_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agghikgigk_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agghikgigk_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aghhkgkfc_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aghhkgkfc_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aghhkgkfc_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_agijkdicg_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agijkdicg_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agijkdicg_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_agijkdicg_SpawnSequenceForEntity_SecondaryTarget
+    {
+      get
+      {
+        ushort entitySecondaryTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agijkdicg_SpawnSequenceForEntity_SecondaryTarget, (void*) &entitySecondaryTarget);
+        return entitySecondaryTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agijkdicg_SpawnSequenceForEntity_SecondaryTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_agijkdicg_SpawnSequenceForEntity_Target
+    {
+      get
+      {
+        ushort sequenceForEntityTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agijkdicg_SpawnSequenceForEntity_Target, (void*) &sequenceForEntityTarget);
+        return sequenceForEntityTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agijkdicg_SpawnSequenceForEntity_Target, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_agjkgikkig_AbilityGroupState_Character
+    {
+      get
+      {
+        ushort groupStateCharacter;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agjkgikkig_AbilityGroupState_Character, (void*) &groupStateCharacter);
+        return groupStateCharacter;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agjkgikkig_AbilityGroupState_Character, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_agjkgikkig_AbilityStateBuffer_StateEntity
+    {
+      get
+      {
+        ushort bufferStateEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agjkgikkig_AbilityStateBuffer_StateEntity, (void*) &bufferStateEntity);
+        return bufferStateEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agjkgikkig_AbilityStateBuffer_StateEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_agjkgikkig_PlaceTilemodelAbility_TransformedTileModel
+    {
+      get
+      {
+        ushort transformedTileModel;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agjkgikkig_PlaceTilemodelAbility_TransformedTileModel, (void*) &transformedTileModel);
+        return transformedTileModel;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agjkgikkig_PlaceTilemodelAbility_TransformedTileModel, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_agkckkkggd_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agkckkkggd_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agkckkkggd_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_agkckkkggd_NetworkedSpawnChainChild_SpawnChain
+    {
+      get
+      {
+        ushort chainChildSpawnChain;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agkckkkggd_NetworkedSpawnChainChild_SpawnChain, (void*) &chainChildSpawnChain);
+        return chainChildSpawnChain;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_agkckkkggd_NetworkedSpawnChainChild_SpawnChain, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ahbgechgbk_MapIconTargetEntity_TargetEntity
+    {
+      get
+      {
+        ushort entityTargetEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahbgechgbk_MapIconTargetEntity_TargetEntity, (void*) &entityTargetEntity);
+        return entityTargetEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahbgechgbk_MapIconTargetEntity_TargetEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ahciehbbdc_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahciehbbdc_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahciehbbdc_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ahciehbbdc_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahciehbbdc_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahciehbbdc_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ahiggbegei_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahiggbegei_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahiggbegei_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ahiggbegei_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahiggbegei_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahiggbegei_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ahiggbegei_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahiggbegei_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahiggbegei_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ahijjfgjce_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahijjfgjce_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahijjfgjce_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ahijjfgjce_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahijjfgjce_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahijjfgjce_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ahijjfgjce_CastleBuildingFusedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahijjfgjce_CastleBuildingFusedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahijjfgjce_CastleBuildingFusedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ahijjfgjce_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahijjfgjce_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahijjfgjce_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ahijjfgjce_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahijjfgjce_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahijjfgjce_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ahkijdhjcb_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahkijdhjcb_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ahkijdhjcb_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aicgdjfcgb_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aicgdjfcgb_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aicgdjfcgb_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aidbefcifj_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidbefcifj_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidbefcifj_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aidbefcifj_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidbefcifj_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidbefcifj_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aidbefcifj_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidbefcifj_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidbefcifj_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aidbefcifj_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidbefcifj_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidbefcifj_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aidcegcehg_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidcegcehg_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidcegcehg_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aidcegcehg_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidcegcehg_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidcegcehg_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aidcegcehg_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidcegcehg_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidcegcehg_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aidcegcehg_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidcegcehg_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidcegcehg_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aidcegcehg_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidcegcehg_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aidcegcehg_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aiebecdijh_MapIconTargetEntity_TargetEntity
+    {
+      get
+      {
+        ushort entityTargetEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aiebecdijh_MapIconTargetEntity_TargetEntity, (void*) &entityTargetEntity);
+        return entityTargetEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aiebecdijh_MapIconTargetEntity_TargetEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aieefjchbd_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aieefjchbd_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aieefjchbd_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aieefjchbd_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aieefjchbd_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aieefjchbd_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aieefjchbd_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aieefjchbd_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aieefjchbd_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aieefjchbd_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aieefjchbd_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aieefjchbd_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aiejbddfde_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aiejbddfde_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aiejbddfde_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aiejbddfde_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aiejbddfde_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aiejbddfde_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aiejbddfde_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aiejbddfde_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aiejbddfde_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aiejbddfde_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aiejbddfde_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aiejbddfde_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aiejbddfde_RespawnPoint_RespawnPointOwner
+    {
+      get
+      {
+        ushort respawnPointOwner;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aiejbddfde_RespawnPoint_RespawnPointOwner, (void*) &respawnPointOwner);
+        return respawnPointOwner;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aiejbddfde_RespawnPoint_RespawnPointOwner, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aifejkfbkk_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aifejkfbkk_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aifejkfbkk_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aifejkfbkk_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aifejkfbkk_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aifejkfbkk_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aifejkfbkk_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aifejkfbkk_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aifejkfbkk_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aifejkfbkk_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aifejkfbkk_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aifejkfbkk_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aifkcjfiic_Equippable_EquipTarget
+    {
+      get
+      {
+        ushort equippableEquipTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aifkcjfiic_Equippable_EquipTarget, (void*) &equippableEquipTarget);
+        return equippableEquipTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aifkcjfiic_Equippable_EquipTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_aigchgfejj_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aigchgfejj_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_aigchgfejj_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ajcejdgdjc_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ajcejdgdjc_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ajcejdgdjc_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ajchjhccfg_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ajchjhccfg_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ajchjhccfg_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ajfedjbbig_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ajfedjbbig_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ajfedjbbig_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ajfedjbbig_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ajfedjbbig_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ajfedjbbig_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ajfedjbbig_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ajfedjbbig_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ajfedjbbig_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_akdddhikjj_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akdddhikjj_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akdddhikjj_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_akdhbfiiid_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akdhbfiiid_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akdhbfiiid_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_akhbjjbcei_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akhbjjbcei_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akhbjjbcei_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_akhbjjbcei_CastleFloorRoof_RoofEntity
+    {
+      get
+      {
+        ushort floorRoofRoofEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akhbjjbcei_CastleFloorRoof_RoofEntity, (void*) &floorRoofRoofEntity);
+        return floorRoofRoofEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akhbjjbcei_CastleFloorRoof_RoofEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_akhbjjbcei_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akhbjjbcei_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akhbjjbcei_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_akhbjjbcei_CastleRoomConnection_RoomEntity
+    {
+      get
+      {
+        ushort connectionRoomEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akhbjjbcei_CastleRoomConnection_RoomEntity, (void*) &connectionRoomEntity);
+        return connectionRoomEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akhbjjbcei_CastleRoomConnection_RoomEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_akhbjjbcei_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akhbjjbcei_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akhbjjbcei_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_akjcidekhd_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akjcidekhd_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akjcidekhd_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_akjcidekhd_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akjcidekhd_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akjcidekhd_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_akjcidekhd_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akjcidekhd_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akjcidekhd_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_akjcidekhd_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akjcidekhd_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_akjcidekhd_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cbggkebbfk_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbggkebbfk_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbggkebbfk_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cbhkgfiiif_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cbhkgfiiif_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cbhkgfiiif_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cbhkgfiiif_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cbhkgfiiif_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cbhkgfiiif_ServantConnectedCoffin_CoffinEntity
+    {
+      get
+      {
+        ushort coffinCoffinEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantConnectedCoffin_CoffinEntity, (void*) &coffinCoffinEntity);
+        return coffinCoffinEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantConnectedCoffin_CoffinEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cbhkgfiiif_ServantEquipment_ArmorChestSlotEntity
+    {
+      get
+      {
+        ushort armorChestSlotEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_ArmorChestSlotEntity, (void*) &armorChestSlotEntity);
+        return armorChestSlotEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_ArmorChestSlotEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cbhkgfiiif_ServantEquipment_ArmorFootgearSlotEntity
+    {
+      get
+      {
+        ushort footgearSlotEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_ArmorFootgearSlotEntity, (void*) &footgearSlotEntity);
+        return footgearSlotEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_ArmorFootgearSlotEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cbhkgfiiif_ServantEquipment_ArmorGlovesSlotEntity
+    {
+      get
+      {
+        ushort glovesSlotEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_ArmorGlovesSlotEntity, (void*) &glovesSlotEntity);
+        return glovesSlotEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_ArmorGlovesSlotEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cbhkgfiiif_ServantEquipment_ArmorLegsSlotEntity
+    {
+      get
+      {
+        ushort armorLegsSlotEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_ArmorLegsSlotEntity, (void*) &armorLegsSlotEntity);
+        return armorLegsSlotEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_ArmorLegsSlotEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cbhkgfiiif_ServantEquipment_GrimoireSlotEntity
+    {
+      get
+      {
+        ushort grimoireSlotEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_GrimoireSlotEntity, (void*) &grimoireSlotEntity);
+        return grimoireSlotEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_GrimoireSlotEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cbhkgfiiif_ServantEquipment_WeaponSlotEntity
+    {
+      get
+      {
+        ushort weaponSlotEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_WeaponSlotEntity, (void*) &weaponSlotEntity);
+        return weaponSlotEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbhkgfiiif_ServantEquipment_WeaponSlotEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cbjidfdhfg_AbilityGroupState_Character
+    {
+      get
+      {
+        ushort groupStateCharacter;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbjidfdhfg_AbilityGroupState_Character, (void*) &groupStateCharacter);
+        return groupStateCharacter;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbjidfdhfg_AbilityGroupState_Character, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cbjidfdhfg_AbilitySpellModItem_SpellModItem
+    {
+      get
+      {
+        ushort itemSpellModItem;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbjidfdhfg_AbilitySpellModItem_SpellModItem, (void*) &itemSpellModItem);
+        return itemSpellModItem;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbjidfdhfg_AbilitySpellModItem_SpellModItem, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cbjidfdhfg_AbilityStateBuffer_StateEntity
+    {
+      get
+      {
+        ushort bufferStateEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbjidfdhfg_AbilityStateBuffer_StateEntity, (void*) &bufferStateEntity);
+        return bufferStateEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbjidfdhfg_AbilityStateBuffer_StateEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cbkcbhjiek_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbkcbhjiek_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cbkcbhjiek_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cccffebffc_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cccffebffc_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cccffebffc_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ccekgicgfh_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ccekgicgfh_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ccekgicgfh_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ccekgicgfh_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ccekgicgfh_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ccekgicgfh_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ccekgicgfh_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ccekgicgfh_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ccekgicgfh_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ccekgicgfh_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ccekgicgfh_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ccekgicgfh_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ccgjgbjcgi_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ccgjgbjcgi_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ccgjgbjcgi_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cchfdhghjd_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cchfdhghjd_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cchfdhghjd_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cchfdhghjd_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cchfdhghjd_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cchfdhghjd_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cchfdhghjd_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cchfdhghjd_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cchfdhghjd_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cchfdhghjd_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cchfdhghjd_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cchfdhghjd_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cddckigibk_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cddckigibk_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cddckigibk_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cddckigibk_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cddckigibk_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cddckigibk_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cddckigibk_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cddckigibk_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cddckigibk_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cddckigibk_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cddckigibk_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cddckigibk_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cddckigibk_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cddckigibk_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cddckigibk_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdedfgfkdj_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdedfgfkdj_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdedfgfkdj_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdedfgfkdj_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdedfgfkdj_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdedfgfkdj_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdedfgfkdj_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdedfgfkdj_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdedfgfkdj_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdedfgfkdj_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdedfgfkdj_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdedfgfkdj_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdedfgfkdj_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdedfgfkdj_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdedfgfkdj_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdedfgfkdj_Refinementstation_InputInventoryEntity
+    {
+      get
+      {
+        ushort inputInventoryEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdedfgfkdj_Refinementstation_InputInventoryEntity, (void*) &inputInventoryEntity);
+        return inputInventoryEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdedfgfkdj_Refinementstation_InputInventoryEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdedfgfkdj_Refinementstation_OutputInventoryEntity
+    {
+      get
+      {
+        ushort outputInventoryEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdedfgfkdj_Refinementstation_OutputInventoryEntity, (void*) &outputInventoryEntity);
+        return outputInventoryEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdedfgfkdj_Refinementstation_OutputInventoryEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdfdcchhe_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfdcchhe_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfdcchhe_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdfdcchhe_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfdcchhe_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfdcchhe_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdfdcchhe_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfdcchhe_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfdcchhe_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdfdcchhe_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfdcchhe_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfdcchhe_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdfibdbkfb_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfibdbkfb_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfibdbkfb_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdfibdbkfb_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfibdbkfb_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfibdbkfb_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdfibdbkfb_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfibdbkfb_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfibdbkfb_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdfjfbikid_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfjfbikid_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfjfbikid_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdfjfbikid_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfjfbikid_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfjfbikid_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdfjfbikid_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfjfbikid_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfjfbikid_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdfjfbikid_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfjfbikid_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdfjfbikid_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdgbkkidfd_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdgbkkidfd_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdgbkkidfd_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdgbkkidfd_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdgbkkidfd_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdgbkkidfd_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdgbkkidfd_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdgbkkidfd_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdgbkkidfd_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdgbkkidfd_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdgbkkidfd_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdgbkkidfd_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdgbkkidfd_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdgbkkidfd_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdgbkkidfd_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdgibkchih_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdgibkchih_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdgibkchih_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cdidfjjidb_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdidfjjidb_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cdidfjjidb_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cebdekghcc_AbilityState_GroupEntity
+    {
+      get
+      {
+        ushort stateGroupEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cebdekghcc_AbilityState_GroupEntity, (void*) &stateGroupEntity);
+        return stateGroupEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cebdekghcc_AbilityState_GroupEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ceceehkkdb_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceceehkkdb_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceceehkkdb_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ceceehkkdb_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceceehkkdb_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceceehkkdb_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ceceehkkdb_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceceehkkdb_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceceehkkdb_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ceceehkkdb_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceceehkkdb_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceceehkkdb_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cechbcjbje_Equippable_EquipTarget
+    {
+      get
+      {
+        ushort equippableEquipTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechbcjbje_Equippable_EquipTarget, (void*) &equippableEquipTarget);
+        return equippableEquipTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechbcjbje_Equippable_EquipTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cechibbibc_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cechibbibc_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cechibbibc_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cechibbibc_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cechibbibc_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cechibbibc_ServantConnectedCoffin_CoffinEntity
+    {
+      get
+      {
+        ushort coffinCoffinEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_ServantConnectedCoffin_CoffinEntity, (void*) &coffinCoffinEntity);
+        return coffinCoffinEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_ServantConnectedCoffin_CoffinEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cechibbibc_ServantEquipment_ArmorChestSlotEntity
+    {
+      get
+      {
+        ushort armorChestSlotEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_ArmorChestSlotEntity, (void*) &armorChestSlotEntity);
+        return armorChestSlotEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_ArmorChestSlotEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cechibbibc_ServantEquipment_ArmorFootgearSlotEntity
+    {
+      get
+      {
+        ushort footgearSlotEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_ArmorFootgearSlotEntity, (void*) &footgearSlotEntity);
+        return footgearSlotEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_ArmorFootgearSlotEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cechibbibc_ServantEquipment_ArmorGlovesSlotEntity
+    {
+      get
+      {
+        ushort glovesSlotEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_ArmorGlovesSlotEntity, (void*) &glovesSlotEntity);
+        return glovesSlotEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_ArmorGlovesSlotEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cechibbibc_ServantEquipment_ArmorLegsSlotEntity
+    {
+      get
+      {
+        ushort armorLegsSlotEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_ArmorLegsSlotEntity, (void*) &armorLegsSlotEntity);
+        return armorLegsSlotEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_ArmorLegsSlotEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cechibbibc_ServantEquipment_GrimoireSlotEntity
+    {
+      get
+      {
+        ushort grimoireSlotEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_GrimoireSlotEntity, (void*) &grimoireSlotEntity);
+        return grimoireSlotEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_GrimoireSlotEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cechibbibc_ServantEquipment_WeaponSlotEntity
+    {
+      get
+      {
+        ushort weaponSlotEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_WeaponSlotEntity, (void*) &weaponSlotEntity);
+        return weaponSlotEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cechibbibc_ServantEquipment_WeaponSlotEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cedekbhedh_ActiveServantMission_Servant1
+    {
+      get
+      {
+        ushort servantMissionServant1;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_ActiveServantMission_Servant1, (void*) &servantMissionServant1);
+        return servantMissionServant1;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_ActiveServantMission_Servant1, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cedekbhedh_ActiveServantMission_Servant2
+    {
+      get
+      {
+        ushort servantMissionServant2;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_ActiveServantMission_Servant2, (void*) &servantMissionServant2);
+        return servantMissionServant2;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_ActiveServantMission_Servant2, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cedekbhedh_ActiveServantMission_Servant3
+    {
+      get
+      {
+        ushort servantMissionServant3;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_ActiveServantMission_Servant3, (void*) &servantMissionServant3);
+        return servantMissionServant3;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_ActiveServantMission_Servant3, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cedekbhedh_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cedekbhedh_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cedekbhedh_CastleFloorRoof_RoofEntity
+    {
+      get
+      {
+        ushort floorRoofRoofEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleFloorRoof_RoofEntity, (void*) &floorRoofRoofEntity);
+        return floorRoofRoofEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleFloorRoof_RoofEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cedekbhedh_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cedekbhedh_CastleRoomConnection_RoomEntity
+    {
+      get
+      {
+        ushort connectionRoomEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleRoomConnection_RoomEntity, (void*) &connectionRoomEntity);
+        return connectionRoomEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleRoomConnection_RoomEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cedekbhedh_CastleTeleporterElement_Entity
+    {
+      get
+      {
+        ushort teleporterElementEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleTeleporterElement_Entity, (void*) &teleporterElementEntity);
+        return teleporterElementEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_CastleTeleporterElement_Entity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cedekbhedh_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cedekbhedh_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cedekbhedh_UserOwner_Owner
+    {
+      get
+      {
+        ushort cedekbhedhUserOwnerOwner;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_UserOwner_Owner, (void*) &cedekbhedhUserOwnerOwner);
+        return cedekbhedhUserOwnerOwner;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cedekbhedh_UserOwner_Owner, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ceecjebgfd_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceecjebgfd_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceecjebgfd_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ceffhbdbf_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceffhbdbf_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceffhbdbf_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cegbicbcfg_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegbicbcfg_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegbicbcfg_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cegbicbcfg_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegbicbcfg_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegbicbcfg_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cegbicbcfg_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegbicbcfg_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegbicbcfg_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cegbicbcfg_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegbicbcfg_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegbicbcfg_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cegbicbcfg_FeedableInventory_FeedableInventoryEntity
+    {
+      get
+      {
+        ushort feedableInventoryEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegbicbcfg_FeedableInventory_FeedableInventoryEntity, (void*) &feedableInventoryEntity);
+        return feedableInventoryEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegbicbcfg_FeedableInventory_FeedableInventoryEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cegbicbcfg_InventoryInstanceElement_ExternalInventoryEntity
+    {
+      get
+      {
+        ushort externalInventoryEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegbicbcfg_InventoryInstanceElement_ExternalInventoryEntity, (void*) &externalInventoryEntity);
+        return externalInventoryEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegbicbcfg_InventoryInstanceElement_ExternalInventoryEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cegkcgkkgb_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegkcgkkgb_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegkcgkkgb_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cegkcgkkgb_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegkcgkkgb_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegkcgkkgb_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cegkcgkkgb_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegkcgkkgb_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cegkcgkkgb_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ceiggdddik_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceiggdddik_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceiggdddik_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ceiggdddik_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceiggdddik_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ceiggdddik_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cekhfceefg_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cekhfceefg_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cekhfceefg_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cekhfceefg_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cekhfceefg_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cekhfceefg_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cekhfceefg_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cekhfceefg_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cekhfceefg_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cekhfceefg_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cekhfceefg_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cekhfceefg_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfbedkikg_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbedkikg_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbedkikg_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfbedkikg_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbedkikg_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbedkikg_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfbedkikg_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbedkikg_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbedkikg_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfbedkikg_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbedkikg_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbedkikg_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfbjdedjcj_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjdedjcj_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjdedjcj_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfbjdedjcj_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjdedjcj_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjdedjcj_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfbjdedjcj_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjdedjcj_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjdedjcj_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfbjdedjcj_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjdedjcj_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjdedjcj_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfbjghgjgf_AchievementOwner_Entity
+    {
+      get
+      {
+        ushort achievementOwnerEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_AchievementOwner_Entity, (void*) &achievementOwnerEntity);
+        return achievementOwnerEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_AchievementOwner_Entity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfbjghgjgf_AllyPermission_User
+    {
+      get
+      {
+        ushort allyPermissionUser;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_AllyPermission_User, (void*) &allyPermissionUser);
+        return allyPermissionUser;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_AllyPermission_User, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfbjghgjgf_Controller_Controlled
+    {
+      get
+      {
+        ushort controllerControlled;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_Controller_Controlled, (void*) &controllerControlled);
+        return controllerControlled;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_Controller_Controlled, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfbjghgjgf_InputCommandDataProxy_CommandDataEntity
+    {
+      get
+      {
+        ushort commandDataEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_InputCommandDataProxy_CommandDataEntity, (void*) &commandDataEntity);
+        return commandDataEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_InputCommandDataProxy_CommandDataEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfbjghgjgf_ProgressionMapper_ProgressionEntity
+    {
+      get
+      {
+        ushort progressionEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_ProgressionMapper_ProgressionEntity, (void*) &progressionEntity);
+        return progressionEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_ProgressionMapper_ProgressionEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfbjghgjgf_RespawnPointOwnerBuffer_RespawnPoint
+    {
+      get
+      {
+        ushort bufferRespawnPoint;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_RespawnPointOwnerBuffer_RespawnPoint, (void*) &bufferRespawnPoint);
+        return bufferRespawnPoint;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_RespawnPointOwnerBuffer_RespawnPoint, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfbjghgjgf_User_ClanEntity
+    {
+      get
+      {
+        ushort cfbjghgjgfUserClanEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_User_ClanEntity, (void*) &cfbjghgjgfUserClanEntity);
+        return cfbjghgjgfUserClanEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_User_ClanEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfbjghgjgf_User_LocalCharacter
+    {
+      get
+      {
+        ushort userLocalCharacter;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_User_LocalCharacter, (void*) &userLocalCharacter);
+        return userLocalCharacter;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_User_LocalCharacter, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfbjghgjgf_UserMapZoneElement_UserZoneEntity
+    {
+      get
+      {
+        ushort elementUserZoneEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_UserMapZoneElement_UserZoneEntity, (void*) &elementUserZoneEntity);
+        return elementUserZoneEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfbjghgjgf_UserMapZoneElement_UserZoneEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfcfjiceg_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfcfjiceg_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfcfjiceg_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfcfjiceg_SpawnSequenceForEntity_SecondaryTarget
+    {
+      get
+      {
+        ushort entitySecondaryTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfcfjiceg_SpawnSequenceForEntity_SecondaryTarget, (void*) &entitySecondaryTarget);
+        return entitySecondaryTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfcfjiceg_SpawnSequenceForEntity_SecondaryTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfcfjiceg_SpawnSequenceForEntity_Target
+    {
+      get
+      {
+        ushort sequenceForEntityTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfcfjiceg_SpawnSequenceForEntity_Target, (void*) &sequenceForEntityTarget);
+        return sequenceForEntityTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfcfjiceg_SpawnSequenceForEntity_Target, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfcjbdhdik_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfcjbdhdik_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfcjbdhdik_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfcjbdhdik_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfcjbdhdik_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfcjbdhdik_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfcjbdhdik_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfcjbdhdik_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfcjbdhdik_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfcjgefdjg_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfcjgefdjg_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfcjgefdjg_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfedcgehh_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfedcgehh_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfedcgehh_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfffedbhfg_AbilityState_GroupEntity
+    {
+      get
+      {
+        ushort stateGroupEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfffedbhfg_AbilityState_GroupEntity, (void*) &stateGroupEntity);
+        return stateGroupEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfffedbhfg_AbilityState_GroupEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfiggjfcfh_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfiggjfcfh_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfiggjfcfh_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfjbbdjcdi_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfjbbdjcdi_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfjbbdjcdi_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfjbbdjcdi_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfjbbdjcdi_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfjbbdjcdi_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfjbbdjcdi_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfjbbdjcdi_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfjbbdjcdi_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cfjbbdjcdi_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfjbbdjcdi_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cfjbbdjcdi_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cgbeibighh_AbilityOwner_Ability
+    {
+      get
+      {
+        ushort abilityOwnerAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgbeibighh_AbilityOwner_Ability, (void*) &abilityOwnerAbility);
+        return abilityOwnerAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgbeibighh_AbilityOwner_Ability, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cgbeibighh_AbilityOwner_AbilityGroup
+    {
+      get
+      {
+        ushort ownerAbilityGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgbeibighh_AbilityOwner_AbilityGroup, (void*) &ownerAbilityGroup);
+        return ownerAbilityGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgbeibighh_AbilityOwner_AbilityGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cgbeibighh_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgbeibighh_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgbeibighh_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cgighkjefc_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgighkjefc_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgighkjefc_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cgighkjefc_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgighkjefc_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgighkjefc_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cgighkjefc_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgighkjefc_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgighkjefc_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cgighkjefc_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgighkjefc_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgighkjefc_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cgjchkijib_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgjchkijib_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cgjchkijib_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_chedkdbce_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chedkdbce_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chedkdbce_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_chedkdbce_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chedkdbce_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chedkdbce_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_chedkdbce_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chedkdbce_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chedkdbce_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_chhcdcgigb_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chhcdcgigb_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chhcdcgigb_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_chhcdcgigb_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chhcdcgigb_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chhcdcgigb_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_chhcdcgigb_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chhcdcgigb_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chhcdcgigb_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_chhcdcgigb_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chhcdcgigb_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chhcdcgigb_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_chhcdcgigb_RespawnPoint_RespawnPointOwner
+    {
+      get
+      {
+        ushort respawnPointOwner;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chhcdcgigb_RespawnPoint_RespawnPointOwner, (void*) &respawnPointOwner);
+        return respawnPointOwner;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chhcdcgigb_RespawnPoint_RespawnPointOwner, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_chibdbkfde_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chibdbkfde_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chibdbkfde_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_chibdbkfde_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chibdbkfde_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chibdbkfde_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_chibdbkfde_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chibdbkfde_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chibdbkfde_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_chiceijbgj_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chiceijbgj_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chiceijbgj_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_chiceijbgj_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chiceijbgj_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chiceijbgj_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_chiceijbgj_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chiceijbgj_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chiceijbgj_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_chiceijbgj_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chiceijbgj_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chiceijbgj_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_chiiihhffh_AbilityState_GroupEntity
+    {
+      get
+      {
+        ushort stateGroupEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chiiihhffh_AbilityState_GroupEntity, (void*) &stateGroupEntity);
+        return stateGroupEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_chiiihhffh_AbilityState_GroupEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cichefikeb_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cichefikeb_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cichefikeb_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cichefikeb_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cichefikeb_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cichefikeb_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cichefikeb_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cichefikeb_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cichefikeb_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cichefikeb_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cichefikeb_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cichefikeb_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cifbcfjkdj_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cifbcfjkdj_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cifbcfjkdj_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cifbcfjkdj_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cifbcfjkdj_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cifbcfjkdj_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cifbcfjkdj_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cifbcfjkdj_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cifbcfjkdj_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cifbcfjkdj_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cifbcfjkdj_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cifbcfjkdj_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cigfkckdgc_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cigfkckdgc_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cigfkckdgc_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cigfkckdgc_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cigfkckdgc_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cigfkckdgc_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cigfkckdgc_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cigfkckdgc_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cigfkckdgc_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cigfkckdgc_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cigfkckdgc_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cigfkckdgc_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cigfkckdgc_RespawnPoint_RespawnPointOwner
+    {
+      get
+      {
+        ushort respawnPointOwner;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cigfkckdgc_RespawnPoint_RespawnPointOwner, (void*) &respawnPointOwner);
+        return respawnPointOwner;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cigfkckdgc_RespawnPoint_RespawnPointOwner, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cijeifhgec_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cijeifhgec_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cijeifhgec_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cijijgbkgk_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cijijgbkgk_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cijijgbkgk_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cijijgbkgk_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cijijgbkgk_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cijijgbkgk_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cijijgbkgk_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cijijgbkgk_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cijijgbkgk_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cijijgbkgk_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cijijgbkgk_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cijijgbkgk_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cijijgbkgk_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cijijgbkgk_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cijijgbkgk_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cijijgbkgk_SpawnedUnitsBuffer_SpawnedUnit
+    {
+      get
+      {
+        ushort bufferSpawnedUnit;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cijijgbkgk_SpawnedUnitsBuffer_SpawnedUnit, (void*) &bufferSpawnedUnit);
+        return bufferSpawnedUnit;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cijijgbkgk_SpawnedUnitsBuffer_SpawnedUnit, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cjbjeehdbk_AbilityGroupState_Character
+    {
+      get
+      {
+        ushort groupStateCharacter;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjbjeehdbk_AbilityGroupState_Character, (void*) &groupStateCharacter);
+        return groupStateCharacter;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjbjeehdbk_AbilityGroupState_Character, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cjbjeehdbk_AbilityStateBuffer_StateEntity
+    {
+      get
+      {
+        ushort bufferStateEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjbjeehdbk_AbilityStateBuffer_StateEntity, (void*) &bufferStateEntity);
+        return bufferStateEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjbjeehdbk_AbilityStateBuffer_StateEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cjdkihjijd_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjdkihjijd_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjdkihjijd_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cjdkihjijd_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjdkihjijd_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjdkihjijd_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cjgbfhfgef_MapIconTargetEntity_TargetEntity
+    {
+      get
+      {
+        ushort entityTargetEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjgbfhfgef_MapIconTargetEntity_TargetEntity, (void*) &entityTargetEntity);
+        return entityTargetEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjgbfhfgef_MapIconTargetEntity_TargetEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cjhkjfhhf_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjhkjfhhf_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjhkjfhhf_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cjhkjfhhf_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjhkjfhhf_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjhkjfhhf_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cjicjgdfff_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cjicjgdfff_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cjicjgdfff_CastleBuildingFusedChild_ParentEntity
+    {
+      get
+      {
+        ushort childParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleBuildingFusedChild_ParentEntity, (void*) &childParentEntity);
+        return childParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleBuildingFusedChild_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cjicjgdfff_CastleFloorRoof_RoofEntity
+    {
+      get
+      {
+        ushort floorRoofRoofEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleFloorRoof_RoofEntity, (void*) &floorRoofRoofEntity);
+        return floorRoofRoofEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleFloorRoof_RoofEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cjicjgdfff_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cjicjgdfff_CastleRoomConnection_RoomEntity
+    {
+      get
+      {
+        ushort connectionRoomEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleRoomConnection_RoomEntity, (void*) &connectionRoomEntity);
+        return connectionRoomEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjicjgdfff_CastleRoomConnection_RoomEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cjicjgdfff_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjicjgdfff_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjicjgdfff_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cjjdkdfkkh_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjjdkdfkkh_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjjdkdfkkh_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_cjjdkdfkkh_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjjdkdfkkh_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_cjjdkdfkkh_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ckbiikefid_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckbiikefid_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckbiikefid_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ckbiikefid_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckbiikefid_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckbiikefid_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ckbiikefid_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckbiikefid_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckbiikefid_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ckbiikefid_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckbiikefid_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckbiikefid_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ckeiejdgib_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckeiejdgib_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckeiejdgib_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ckkddehif_AbilityOwner_Ability
+    {
+      get
+      {
+        ushort abilityOwnerAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckkddehif_AbilityOwner_Ability, (void*) &abilityOwnerAbility);
+        return abilityOwnerAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckkddehif_AbilityOwner_Ability, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ckkddehif_AbilityOwner_AbilityGroup
+    {
+      get
+      {
+        ushort ownerAbilityGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckkddehif_AbilityOwner_AbilityGroup, (void*) &ownerAbilityGroup);
+        return ownerAbilityGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckkddehif_AbilityOwner_AbilityGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ckkddehif_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckkddehif_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ckkddehif_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_dbfehhjdb_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dbfehhjdb_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dbfehhjdb_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_dbjjcgeeki_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dbjjcgeeki_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dbjjcgeeki_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_dcbffdidkk_CastleBuildingFusedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcbffdidkk_CastleBuildingFusedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcbffdidkk_CastleBuildingFusedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_dcbffdidkk_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcbffdidkk_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcbffdidkk_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_dcbffdidkk_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcbffdidkk_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcbffdidkk_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_dcbkfgcjid_CastleBuildingFusedChild_ParentEntity
+    {
+      get
+      {
+        ushort childParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcbkfgcjid_CastleBuildingFusedChild_ParentEntity, (void*) &childParentEntity);
+        return childParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcbkfgcjid_CastleBuildingFusedChild_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_dcbkfgcjid_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcbkfgcjid_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcbkfgcjid_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_dcbkfgcjid_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcbkfgcjid_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcbkfgcjid_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_dcdjbbkec_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcdjbbkec_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcdjbbkec_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_dcfehdgdkj_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcfehdgdkj_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dcfehdgdkj_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ddffjifbf_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ddffjifbf_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ddffjifbf_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ddffjifbf_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ddffjifbf_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ddffjifbf_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ddffjifbf_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ddffjifbf_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ddffjifbf_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ddffjifbf_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ddffjifbf_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ddffjifbf_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_debdghice_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_debdghice_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_debdghice_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_debdghice_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_debdghice_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_debdghice_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_dfcjdjkjk_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dfcjdjkjk_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dfcjdjkjk_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_dfjibkhbh_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dfjibkhbh_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dfjibkhbh_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_dfjibkhbh_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dfjibkhbh_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dfjibkhbh_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_dfjibkhbh_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dfjibkhbh_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dfjibkhbh_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_dfjibkhbh_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dfjibkhbh_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_dfjibkhbh_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_djigibich_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_djigibich_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_djigibich_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ecgibfdjb_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ecgibfdjb_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ecgibfdjb_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ecgibfdjb_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ecgibfdjb_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ecgibfdjb_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ecgibfdjb_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ecgibfdjb_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ecgibfdjb_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ecgibfdjb_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ecgibfdjb_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ecgibfdjb_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ecgibfdjb_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ecgibfdjb_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ecgibfdjb_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_edfkjgfch_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_edfkjgfch_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_edfkjgfch_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ehkcekjii_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ehkcekjii_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ehkcekjii_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_eidhfehik_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_eidhfehik_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_eidhfehik_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_eidhfehik_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_eidhfehik_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_eidhfehik_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_eidhfehik_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_eidhfehik_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_eidhfehik_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_eidhfehik_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_eidhfehik_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_eidhfehik_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_eiehjkdd_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_eiehjkdd_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_eiehjkdd_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ejjgbkdff_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ejjgbkdff_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ejjgbkdff_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ejjgbkdff_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ejjgbkdff_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ejjgbkdff_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ejjgbkdff_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ejjgbkdff_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ejjgbkdff_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ejjgbkdff_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ejjgbkdff_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ejjgbkdff_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ejjgbkdff_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ejjgbkdff_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ejjgbkdff_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ejjgbkdff_Salvagestation_InputInventoryEntity
+    {
+      get
+      {
+        ushort inputInventoryEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ejjgbkdff_Salvagestation_InputInventoryEntity, (void*) &inputInventoryEntity);
+        return inputInventoryEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ejjgbkdff_Salvagestation_InputInventoryEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ejjgbkdff_Salvagestation_OutputInventoryEntity
+    {
+      get
+      {
+        ushort outputInventoryEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ejjgbkdff_Salvagestation_OutputInventoryEntity, (void*) &outputInventoryEntity);
+        return outputInventoryEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ejjgbkdff_Salvagestation_OutputInventoryEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_fbejgkdib_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fbejgkdib_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fbejgkdib_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_fbejgkdib_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fbejgkdib_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fbejgkdib_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_fbejgkdib_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fbejgkdib_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fbejgkdib_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_fbejgkdib_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fbejgkdib_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fbejgkdib_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_fekcijijf_AbilityGroupState_Character
+    {
+      get
+      {
+        ushort groupStateCharacter;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fekcijijf_AbilityGroupState_Character, (void*) &groupStateCharacter);
+        return groupStateCharacter;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fekcijijf_AbilityGroupState_Character, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_fekcijijf_AbilityStateBuffer_StateEntity
+    {
+      get
+      {
+        ushort bufferStateEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fekcijijf_AbilityStateBuffer_StateEntity, (void*) &bufferStateEntity);
+        return bufferStateEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fekcijijf_AbilityStateBuffer_StateEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_fgfckhdf_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fgfckhdf_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fgfckhdf_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_fhjkfjice_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fhjkfjice_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fhjkfjice_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_fhjkfjice_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fhjkfjice_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fhjkfjice_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_fjkikekhi_MapIconTargetEntity_TargetEntity
+    {
+      get
+      {
+        ushort entityTargetEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fjkikekhi_MapIconTargetEntity_TargetEntity, (void*) &entityTargetEntity);
+        return entityTargetEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fjkikekhi_MapIconTargetEntity_TargetEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_fkbkbchgb_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fkbkbchgb_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fkbkbchgb_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_fkedkejgf_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fkedkejgf_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fkedkejgf_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_fkfbciibe_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fkfbciibe_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fkfbciibe_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_fkfbciibe_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fkfbciibe_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_fkfbciibe_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_gbchjfieb_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gbchjfieb_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gbchjfieb_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_gbibihicb_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gbibihicb_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gbibihicb_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_gbibihicb_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gbibihicb_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gbibihicb_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_gbibihicb_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gbibihicb_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gbibihicb_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_gbibihicb_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gbibihicb_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gbibihicb_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_geijfbdhc_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_geijfbdhc_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_geijfbdhc_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_geijfbdhc_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_geijfbdhc_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_geijfbdhc_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_geijfbdhc_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_geijfbdhc_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_geijfbdhc_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_geijfbdhc_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_geijfbdhc_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_geijfbdhc_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_gfgdjegbe_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gfgdjegbe_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gfgdjegbe_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_gihjfdefi_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gihjfdefi_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gihjfdefi_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_gihjfdefi_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gihjfdefi_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gihjfdefi_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_gihjfdefi_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gihjfdefi_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gihjfdefi_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_gihjfdefi_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gihjfdefi_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gihjfdefi_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_gjgidfgeh_MapIconTargetEntity_TargetEntity
+    {
+      get
+      {
+        ushort entityTargetEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gjgidfgeh_MapIconTargetEntity_TargetEntity, (void*) &entityTargetEntity);
+        return entityTargetEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_gjgidfgeh_MapIconTargetEntity_TargetEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_hcehhjdfk_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hcehhjdfk_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hcehhjdfk_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_hcehhjdfk_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hcehhjdfk_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hcehhjdfk_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_hcehhjdfk_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hcehhjdfk_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hcehhjdfk_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_hcehhjdfk_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hcehhjdfk_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hcehhjdfk_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_hekdkcdeh_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hekdkcdeh_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hekdkcdeh_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_hekdkcdeh_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hekdkcdeh_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hekdkcdeh_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_hekdkcdeh_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hekdkcdeh_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hekdkcdeh_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_hekdkcdeh_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hekdkcdeh_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hekdkcdeh_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_hekdkcdeh_RespawnPoint_RespawnPointOwner
+    {
+      get
+      {
+        ushort respawnPointOwner;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hekdkcdeh_RespawnPoint_RespawnPointOwner, (void*) &respawnPointOwner);
+        return respawnPointOwner;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hekdkcdeh_RespawnPoint_RespawnPointOwner, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_hhbehfckd_AbilityBar_Shared_CastAbility
+    {
+      get
+      {
+        ushort sharedCastAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hhbehfckd_AbilityBar_Shared_CastAbility, (void*) &sharedCastAbility);
+        return sharedCastAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hhbehfckd_AbilityBar_Shared_CastAbility, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_hhbehfckd_AbilityBar_Shared_CastGroup
+    {
+      get
+      {
+        ushort barSharedCastGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hhbehfckd_AbilityBar_Shared_CastGroup, (void*) &barSharedCastGroup);
+        return barSharedCastGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hhbehfckd_AbilityBar_Shared_CastGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_hhbehfckd_AggroConsumer_AggroTarget
+    {
+      get
+      {
+        ushort consumerAggroTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hhbehfckd_AggroConsumer_AggroTarget, (void*) &consumerAggroTarget);
+        return consumerAggroTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hhbehfckd_AggroConsumer_AggroTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_hhbehfckd_AggroConsumer_AlertTarget
+    {
+      get
+      {
+        ushort consumerAlertTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hhbehfckd_AggroConsumer_AlertTarget, (void*) &consumerAlertTarget);
+        return consumerAlertTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hhbehfckd_AggroConsumer_AlertTarget, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_hhkbgdice_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hhkbgdice_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hhkbgdice_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_hikdcfgkb_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hikdcfgkb_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hikdcfgkb_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_hkdbgkgik_AbilityState_GroupEntity
+    {
+      get
+      {
+        ushort stateGroupEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hkdbgkgik_AbilityState_GroupEntity, (void*) &stateGroupEntity);
+        return stateGroupEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_hkdbgkgik_AbilityState_GroupEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ibbddjcfb_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ibbddjcfb_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ibbddjcfb_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ibbddjcfb_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ibbddjcfb_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ibbddjcfb_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_iddeebfkg_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_iddeebfkg_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_iddeebfkg_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_idjfhgckc_ScrollingCombatTextMessage_Source
+    {
+      get
+      {
+        ushort textMessageSource;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_idjfhgckc_ScrollingCombatTextMessage_Source, (void*) &textMessageSource);
+        return textMessageSource;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_idjfhgckc_ScrollingCombatTextMessage_Source, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_idjfhgckc_ScrollingCombatTextMessage_Target
+    {
+      get
+      {
+        ushort textMessageTarget;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_idjfhgckc_ScrollingCombatTextMessage_Target, (void*) &textMessageTarget);
+        return textMessageTarget;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_idjfhgckc_ScrollingCombatTextMessage_Target, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ihbgcbhic_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ihbgcbhic_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ihbgcbhic_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ihbgcbhic_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ihbgcbhic_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ihbgcbhic_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ihbgcbhic_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ihbgcbhic_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ihbgcbhic_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_iifbheddf_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_iifbheddf_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_iifbheddf_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_iifbheddf_NetworkedSpawnChainChild_SpawnChain
+    {
+      get
+      {
+        ushort chainChildSpawnChain;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_iifbheddf_NetworkedSpawnChainChild_SpawnChain, (void*) &chainChildSpawnChain);
+        return chainChildSpawnChain;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_iifbheddf_NetworkedSpawnChainChild_SpawnChain, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ikejdbedk_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ikejdbedk_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ikejdbedk_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_ikejdbedk_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ikejdbedk_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_ikejdbedk_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_jcdhbjde_AbilityOwner_Ability
+    {
+      get
+      {
+        ushort abilityOwnerAbility;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jcdhbjde_AbilityOwner_Ability, (void*) &abilityOwnerAbility);
+        return abilityOwnerAbility;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jcdhbjde_AbilityOwner_Ability, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_jcdhbjde_AbilityOwner_AbilityGroup
+    {
+      get
+      {
+        ushort ownerAbilityGroup;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jcdhbjde_AbilityOwner_AbilityGroup, (void*) &ownerAbilityGroup);
+        return ownerAbilityGroup;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jcdhbjde_AbilityOwner_AbilityGroup, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_jcdhbjde_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jcdhbjde_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jcdhbjde_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_jceehdeeh_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jceehdeeh_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jceehdeeh_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_jchhdjhkg_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jchhdjhkg_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jchhdjhkg_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_jgcekgbii_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jgcekgbii_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jgcekgbii_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_jkekeckbf_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jkekeckbf_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jkekeckbf_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_jkekeckbf_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jkekeckbf_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_jkekeckbf_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_kbcfjkedc_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kbcfjkedc_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kbcfjkedc_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_kbcfjkedc_InventoryBuffer_ItemEntity
+    {
+      get
+      {
+        ushort bufferItemEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kbcfjkedc_InventoryBuffer_ItemEntity, (void*) &bufferItemEntity);
+        return bufferItemEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kbcfjkedc_InventoryBuffer_ItemEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_kddgijibc_CastleBuildingAttachedChildrenBuffer_ChildEntity
+    {
+      get
+      {
+        ushort bufferChildEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kddgijibc_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &bufferChildEntity);
+        return bufferChildEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kddgijibc_CastleBuildingAttachedChildrenBuffer_ChildEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_kddgijibc_CastleBuildingAttachToParentsBuffer_ParentEntity
+    {
+      get
+      {
+        ushort bufferParentEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kddgijibc_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &bufferParentEntity);
+        return bufferParentEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kddgijibc_CastleBuildingAttachToParentsBuffer_ParentEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_kddgijibc_CastleFloorRoof_RoofEntity
+    {
+      get
+      {
+        ushort floorRoofRoofEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kddgijibc_CastleFloorRoof_RoofEntity, (void*) &floorRoofRoofEntity);
+        return floorRoofRoofEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kddgijibc_CastleFloorRoof_RoofEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_kddgijibc_CastleHeartConnection_CastleHeartEntity
+    {
+      get
+      {
+        ushort castleHeartEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kddgijibc_CastleHeartConnection_CastleHeartEntity, (void*) &castleHeartEntity);
+        return castleHeartEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kddgijibc_CastleHeartConnection_CastleHeartEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_kddgijibc_CastleRoomConnection_RoomEntity
+    {
+      get
+      {
+        ushort connectionRoomEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kddgijibc_CastleRoomConnection_RoomEntity, (void*) &connectionRoomEntity);
+        return connectionRoomEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kddgijibc_CastleRoomConnection_RoomEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_kddgijibc_EditableTileModel_CurrentEditor
+    {
+      get
+      {
+        ushort modelCurrentEditor;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kddgijibc_EditableTileModel_CurrentEditor, (void*) &modelCurrentEditor);
+        return modelCurrentEditor;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kddgijibc_EditableTileModel_CurrentEditor, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_kdhdheib_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kdhdheib_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kdhdheib_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_kfbbiddfg_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kfbbiddfg_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kfbbiddfg_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_kfkchgjdd_EntityCreator_Creator
+    {
+      get
+      {
+        ushort entityCreatorCreator;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kfkchgjdd_EntityCreator_Creator, (void*) &entityCreatorCreator);
+        return entityCreatorCreator;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kfkchgjdd_EntityCreator_Creator, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort Snapshot_kijdhbiid_MapIconTargetEntity_TargetEntity
+    {
+      get
+      {
+        ushort entityTargetEntity;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kijdhbiid_MapIconTargetEntity_TargetEntity, (void*) &entityTargetEntity);
+        return entityTargetEntity;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_Snapshot_kijdhbiid_MapIconTargetEntity_TargetEntity, (void*) &value);
+      }
+    }
+
+    public static unsafe ushort None
+    {
+      get
+      {
+        ushort none;
+        IL2CPP.il2cpp_field_static_get_value(WeakRefFieldIds.NativeFieldInfoPtr_None, (void*) &none);
+        return none;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(WeakRefFieldIds.NativeFieldInfoPtr_None, (void*) &value);
+      }
+    }
+  }
+}

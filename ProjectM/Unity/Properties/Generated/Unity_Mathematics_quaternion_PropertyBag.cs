@@ -1,0 +1,127 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Unity.Properties.Generated.Unity_Mathematics_quaternion_PropertyBag
+// Assembly: ProjectM, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: 83E42B70-D81B-4F1F-9FB5-6B5ABD5FF9FC
+// Assembly location: C:\Users\mitch\.nuget\packages\vrising.unhollowed.client\0.6.5.57575090\lib\net6.0\ProjectM.dll
+
+using Il2CppInterop.Common.Attributes;
+using Il2CppInterop.Runtime;
+using Il2CppInterop.Runtime.InteropTypes;
+using System;
+using Unity.Mathematics;
+
+#nullable disable
+namespace Unity.Properties.Generated
+{
+  public class Unity_Mathematics_quaternion_PropertyBag : ContainerPropertyBag<quaternion>
+  {
+    private static readonly IntPtr NativeMethodInfoPtr__ctor_Public_Void_0;
+
+    [CallerCount(1)]
+    [CachedScanResults(RefRangeStart = 1170708, RefRangeEnd = 1170709, XrefRangeStart = 1170695, XrefRangeEnd = 1170708, MetadataInitTokenRva = 0, MetadataInitFlagRva = 0)]
+    public unsafe Unity_Mathematics_quaternion_PropertyBag()
+      : this(IL2CPP.il2cpp_object_new(Il2CppClassPointerStore<Unity_Mathematics_quaternion_PropertyBag>.NativeClassPtr))
+    {
+      IntPtr* numPtr = (IntPtr*) null;
+      IntPtr exc;
+      IL2CPP.il2cpp_runtime_invoke(Unity_Mathematics_quaternion_PropertyBag.NativeMethodInfoPtr__ctor_Public_Void_0, IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this), (void**) numPtr, ref exc);
+      Il2CppException.RaiseExceptionIfNecessary(exc);
+    }
+
+    static Unity_Mathematics_quaternion_PropertyBag()
+    {
+      Il2CppClassPointerStore<Unity_Mathematics_quaternion_PropertyBag>.NativeClassPtr = IL2CPP.GetIl2CppClass("ProjectM.dll", "Unity.Properties.Generated", nameof (Unity_Mathematics_quaternion_PropertyBag));
+      Unity_Mathematics_quaternion_PropertyBag.NativeMethodInfoPtr__ctor_Public_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Unity_Mathematics_quaternion_PropertyBag>.NativeClassPtr, 100693089);
+    }
+
+    public Unity_Mathematics_quaternion_PropertyBag(IntPtr pointer)
+      : base(pointer)
+    {
+    }
+
+    public class value_Property : Property<quaternion, float4>
+    {
+      private static readonly IntPtr NativeMethodInfoPtr_get_Name_Public_Virtual_get_String_0;
+      private static readonly IntPtr NativeMethodInfoPtr_get_IsReadOnly_Public_Virtual_get_Boolean_0;
+      private static readonly IntPtr NativeMethodInfoPtr__ctor_Public_Void_0;
+      private static readonly IntPtr NativeMethodInfoPtr_GetValue_Public_Virtual_float4_byref_quaternion_0;
+      private static readonly IntPtr NativeMethodInfoPtr_SetValue_Public_Virtual_Void_byref_quaternion_float4_0;
+
+      public override unsafe string Name
+      {
+        [CallerCount(0), CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1170689, XrefRangeEnd = 1170691, MetadataInitTokenRva = 0, MetadataInitFlagRva = 0)] get
+        {
+          IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this);
+          IntPtr* numPtr = (IntPtr*) null;
+          IntPtr exc;
+          IntPtr il2CppString = IL2CPP.il2cpp_runtime_invoke(IL2CPP.il2cpp_object_get_virtual_method(IL2CPP.Il2CppObjectBaseToPtr((Il2CppObjectBase) this), Unity_Mathematics_quaternion_PropertyBag.value_Property.NativeMethodInfoPtr_get_Name_Public_Virtual_get_String_0), IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this), (void**) numPtr, ref exc);
+          Il2CppException.RaiseExceptionIfNecessary(exc);
+          return IL2CPP.Il2CppStringToManaged(il2CppString);
+        }
+      }
+
+      public override unsafe bool IsReadOnly
+      {
+        [CallerCount(1858), CachedScanResults(RefRangeStart = 33151, RefRangeEnd = 35009, XrefRangeStart = 33151, XrefRangeEnd = 35009, MetadataInitTokenRva = 0, MetadataInitFlagRva = 0)] get
+        {
+          IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this);
+          IntPtr* numPtr = (IntPtr*) null;
+          IntPtr exc;
+          IntPtr num = IL2CPP.il2cpp_runtime_invoke(IL2CPP.il2cpp_object_get_virtual_method(IL2CPP.Il2CppObjectBaseToPtr((Il2CppObjectBase) this), Unity_Mathematics_quaternion_PropertyBag.value_Property.NativeMethodInfoPtr_get_IsReadOnly_Public_Virtual_get_Boolean_0), IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this), (void**) numPtr, ref exc);
+          Il2CppException.RaiseExceptionIfNecessary(exc);
+          return *(bool*) IL2CPP.il2cpp_object_unbox(num);
+        }
+      }
+
+      [CallerCount(1)]
+      [CachedScanResults(RefRangeStart = 1170694, RefRangeEnd = 1170695, XrefRangeStart = 1170691, XrefRangeEnd = 1170694, MetadataInitTokenRva = 0, MetadataInitFlagRva = 0)]
+      public unsafe value_Property()
+        : this(IL2CPP.il2cpp_object_new(Il2CppClassPointerStore<Unity_Mathematics_quaternion_PropertyBag.value_Property>.NativeClassPtr))
+      {
+        IntPtr* numPtr = (IntPtr*) null;
+        IntPtr exc;
+        IL2CPP.il2cpp_runtime_invoke(Unity_Mathematics_quaternion_PropertyBag.value_Property.NativeMethodInfoPtr__ctor_Public_Void_0, IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this), (void**) numPtr, ref exc);
+        Il2CppException.RaiseExceptionIfNecessary(exc);
+      }
+
+      [CallerCount(0)]
+      public override unsafe float4 GetValue(ref quaternion container)
+      {
+        IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this);
+        IntPtr* numPtr = stackalloc IntPtr[1];
+        numPtr[0] = (IntPtr) ref container;
+        IntPtr exc;
+        IntPtr num = IL2CPP.il2cpp_runtime_invoke(IL2CPP.il2cpp_object_get_virtual_method(IL2CPP.Il2CppObjectBaseToPtr((Il2CppObjectBase) this), Unity_Mathematics_quaternion_PropertyBag.value_Property.NativeMethodInfoPtr_GetValue_Public_Virtual_float4_byref_quaternion_0), IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this), (void**) numPtr, ref exc);
+        Il2CppException.RaiseExceptionIfNecessary(exc);
+        return *(float4*) IL2CPP.il2cpp_object_unbox(num);
+      }
+
+      [CallerCount(0)]
+      public override unsafe void SetValue(ref quaternion container, float4 value)
+      {
+        IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this);
+        IntPtr* numPtr = stackalloc IntPtr[2];
+        numPtr[0] = (IntPtr) ref container;
+        *(IntPtr*) ((IntPtr) numPtr + checked (new IntPtr(1) * sizeof (IntPtr))) = (IntPtr) &value;
+        IntPtr exc;
+        IL2CPP.il2cpp_runtime_invoke(IL2CPP.il2cpp_object_get_virtual_method(IL2CPP.Il2CppObjectBaseToPtr((Il2CppObjectBase) this), Unity_Mathematics_quaternion_PropertyBag.value_Property.NativeMethodInfoPtr_SetValue_Public_Virtual_Void_byref_quaternion_float4_0), IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this), (void**) numPtr, ref exc);
+        Il2CppException.RaiseExceptionIfNecessary(exc);
+      }
+
+      static value_Property()
+      {
+        Il2CppClassPointerStore<Unity_Mathematics_quaternion_PropertyBag.value_Property>.NativeClassPtr = IL2CPP.GetIl2CppNestedType(Il2CppClassPointerStore<Unity_Mathematics_quaternion_PropertyBag>.NativeClassPtr, nameof (value_Property));
+        Unity_Mathematics_quaternion_PropertyBag.value_Property.NativeMethodInfoPtr_get_Name_Public_Virtual_get_String_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Unity_Mathematics_quaternion_PropertyBag.value_Property>.NativeClassPtr, 100693090);
+        Unity_Mathematics_quaternion_PropertyBag.value_Property.NativeMethodInfoPtr_get_IsReadOnly_Public_Virtual_get_Boolean_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Unity_Mathematics_quaternion_PropertyBag.value_Property>.NativeClassPtr, 100693091);
+        Unity_Mathematics_quaternion_PropertyBag.value_Property.NativeMethodInfoPtr__ctor_Public_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Unity_Mathematics_quaternion_PropertyBag.value_Property>.NativeClassPtr, 100693092);
+        Unity_Mathematics_quaternion_PropertyBag.value_Property.NativeMethodInfoPtr_GetValue_Public_Virtual_float4_byref_quaternion_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Unity_Mathematics_quaternion_PropertyBag.value_Property>.NativeClassPtr, 100693093);
+        Unity_Mathematics_quaternion_PropertyBag.value_Property.NativeMethodInfoPtr_SetValue_Public_Virtual_Void_byref_quaternion_float4_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Unity_Mathematics_quaternion_PropertyBag.value_Property>.NativeClassPtr, 100693094);
+      }
+
+      public value_Property(IntPtr pointer)
+        : base(pointer)
+      {
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: ObjectPrivateAbstractSealedInVo9
+// Assembly: ProjectM.CastleBuilding.Systems, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: DA7B9521-B45B-4FC8-A2B0-77040A5D8FB7
+// Assembly location: C:\Users\mitch\.nuget\packages\vrising.unhollowed.client\0.6.5.57575090\lib\net6.0\ProjectM.CastleBuilding.Systems.dll
+
+using Il2CppInterop.Common.Attributes;
+using Il2CppInterop.Runtime;
+
+#nullable disable
+[ObfuscatedName("$BurstDirectCallInitializer")]
+public static class ObjectPrivateAbstractSealedInVo9 : Il2CppSystem.Object
+{
+  private static readonly System.IntPtr NativeMethodInfoPtr_Initialize_Private_Static_Void_0;
+
+  [CallerCount(0)]
+  [CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1205135, XrefRangeEnd = 1205262, MetadataInitTokenRva = 0, MetadataInitFlagRva = 0)]
+  public static unsafe void Initialize()
+  {
+    System.IntPtr* numPtr = (System.IntPtr*) null;
+    System.IntPtr exc;
+    IL2CPP.il2cpp_runtime_invoke(ObjectPrivateAbstractSealedInVo9.NativeMethodInfoPtr_Initialize_Private_Static_Void_0, System.IntPtr.Zero, (void**) numPtr, ref exc);
+    Il2CppException.RaiseExceptionIfNecessary(exc);
+  }
+
+  static ObjectPrivateAbstractSealedInVo9()
+  {
+    Il2CppClassPointerStore<ObjectPrivateAbstractSealedInVo9>.NativeClassPtr = IL2CPP.GetIl2CppClass("ProjectM.CastleBuilding.Systems.dll", "", "$BurstDirectCallInitializer");
+    IL2CPP.il2cpp_runtime_class_init(Il2CppClassPointerStore<ObjectPrivateAbstractSealedInVo9>.NativeClassPtr);
+    ObjectPrivateAbstractSealedInVo9.NativeMethodInfoPtr_Initialize_Private_Static_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ObjectPrivateAbstractSealedInVo9>.NativeClassPtr, 100664657);
+  }
+
+  public ObjectPrivateAbstractSealedInVo9(System.IntPtr pointer)
+    : base(pointer)
+  {
+  }
+}

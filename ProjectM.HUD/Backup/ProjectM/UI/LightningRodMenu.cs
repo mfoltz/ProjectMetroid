@@ -1,0 +1,165 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: ProjectM.UI.LightningRodMenu
+// Assembly: ProjectM.HUD, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: 19DF27AB-2445-4ADB-A558-10C99A6E640A
+// Assembly location: C:\Users\mitch\.nuget\packages\vrising.unhollowed.client\0.6.5.57575090\lib\net6.0\ProjectM.HUD.dll
+
+using Il2CppInterop.Common.Attributes;
+using Il2CppInterop.Runtime;
+using Il2CppInterop.Runtime.InteropTypes;
+using System.Runtime.InteropServices;
+using Unity.Entities;
+using UnityEngine;
+
+#nullable disable
+namespace ProjectM.UI
+{
+  public class LightningRodMenu : HUDMenu
+  {
+    private static readonly System.IntPtr NativeFieldInfoPtr_InventorySubMenu;
+    private static readonly System.IntPtr NativeFieldInfoPtr_LightningRodSubMenu;
+    private static readonly System.IntPtr NativeFieldInfoPtr_SubMenusParent;
+    private static readonly System.IntPtr NativeFieldInfoPtr_LocalizationKeys;
+    private static readonly System.IntPtr NativeFieldInfoPtr_HideHUDElements;
+    private static readonly System.IntPtr NativeMethodInfoPtr_Convert_Public_Virtual_Final_New_Void_Entity_EntityManager_GameObjectConversionSystem_0;
+    private static readonly System.IntPtr NativeMethodInfoPtr__ctor_Public_Void_0;
+
+    [CallerCount(10560)]
+    [CachedScanResults(RefRangeStart = 24, RefRangeEnd = 10584, XrefRangeStart = 24, XrefRangeEnd = 10584, MetadataInitTokenRva = 0, MetadataInitFlagRva = 0)]
+    public virtual unsafe void Convert(
+      Entity entity,
+      EntityManager dstManager,
+      GameObjectConversionSystem conversionSystem)
+    {
+      IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this);
+      System.IntPtr* numPtr = stackalloc System.IntPtr[3];
+      numPtr[0] = (System.IntPtr) &entity;
+      *(System.IntPtr*) ((System.IntPtr) numPtr + checked (new System.IntPtr(1) * sizeof (System.IntPtr))) = (System.IntPtr) &dstManager;
+      *(System.IntPtr*) ((System.IntPtr) numPtr + checked (new System.IntPtr(2) * sizeof (System.IntPtr))) = IL2CPP.Il2CppObjectBaseToPtr((Il2CppObjectBase) conversionSystem);
+      System.IntPtr exc;
+      IL2CPP.il2cpp_runtime_invoke(LightningRodMenu.NativeMethodInfoPtr_Convert_Public_Virtual_Final_New_Void_Entity_EntityManager_GameObjectConversionSystem_0, IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this), (void**) numPtr, ref exc);
+      Il2CppException.RaiseExceptionIfNecessary(exc);
+    }
+
+    [CallerCount(41)]
+    [CachedScanResults(RefRangeStart = 321963, RefRangeEnd = 322004, XrefRangeStart = 321963, XrefRangeEnd = 322004, MetadataInitTokenRva = 0, MetadataInitFlagRva = 0)]
+    public unsafe LightningRodMenu()
+      : this(IL2CPP.il2cpp_object_new(Il2CppClassPointerStore<LightningRodMenu>.NativeClassPtr))
+    {
+      System.IntPtr* numPtr = (System.IntPtr*) null;
+      System.IntPtr exc;
+      IL2CPP.il2cpp_runtime_invoke(LightningRodMenu.NativeMethodInfoPtr__ctor_Public_Void_0, IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this), (void**) numPtr, ref exc);
+      Il2CppException.RaiseExceptionIfNecessary(exc);
+    }
+
+    static LightningRodMenu()
+    {
+      Il2CppClassPointerStore<LightningRodMenu>.NativeClassPtr = IL2CPP.GetIl2CppClass("ProjectM.HUD.dll", "ProjectM.UI", nameof (LightningRodMenu));
+      IL2CPP.il2cpp_runtime_class_init(Il2CppClassPointerStore<LightningRodMenu>.NativeClassPtr);
+      LightningRodMenu.NativeFieldInfoPtr_InventorySubMenu = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<LightningRodMenu>.NativeClassPtr, nameof (InventorySubMenu));
+      LightningRodMenu.NativeFieldInfoPtr_LightningRodSubMenu = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<LightningRodMenu>.NativeClassPtr, nameof (LightningRodSubMenu));
+      LightningRodMenu.NativeFieldInfoPtr_SubMenusParent = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<LightningRodMenu>.NativeClassPtr, nameof (SubMenusParent));
+      LightningRodMenu.NativeFieldInfoPtr_LocalizationKeys = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<LightningRodMenu>.NativeClassPtr, nameof (LocalizationKeys));
+      LightningRodMenu.NativeFieldInfoPtr_HideHUDElements = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<LightningRodMenu>.NativeClassPtr, nameof (HideHUDElements));
+      LightningRodMenu.NativeMethodInfoPtr_Convert_Public_Virtual_Final_New_Void_Entity_EntityManager_GameObjectConversionSystem_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<LightningRodMenu>.NativeClassPtr, 100666084);
+      LightningRodMenu.NativeMethodInfoPtr__ctor_Public_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<LightningRodMenu>.NativeClassPtr, 100666085);
+    }
+
+    public LightningRodMenu(System.IntPtr pointer)
+      : base(pointer)
+    {
+    }
+
+    public unsafe InventorySubMenu InventorySubMenu
+    {
+      get
+      {
+        System.IntPtr pointer = *(System.IntPtr*) (IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this) + (int) IL2CPP.il2cpp_field_get_offset(LightningRodMenu.NativeFieldInfoPtr_InventorySubMenu));
+        return pointer == System.IntPtr.Zero ? (InventorySubMenu) null : new InventorySubMenu(pointer);
+      }
+      [param: In] set
+      {
+        System.IntPtr ptrNotNull = IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this);
+        IL2CPP.il2cpp_gc_wbarrier_set_field(ptrNotNull, ptrNotNull + (int) IL2CPP.il2cpp_field_get_offset(LightningRodMenu.NativeFieldInfoPtr_InventorySubMenu), IL2CPP.Il2CppObjectBaseToPtr((Il2CppObjectBase) value));
+      }
+    }
+
+    public unsafe LightningRodSubMenu LightningRodSubMenu
+    {
+      get
+      {
+        System.IntPtr pointer = *(System.IntPtr*) (IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this) + (int) IL2CPP.il2cpp_field_get_offset(LightningRodMenu.NativeFieldInfoPtr_LightningRodSubMenu));
+        return pointer == System.IntPtr.Zero ? (LightningRodSubMenu) null : new LightningRodSubMenu(pointer);
+      }
+      [param: In] set
+      {
+        System.IntPtr ptrNotNull = IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this);
+        IL2CPP.il2cpp_gc_wbarrier_set_field(ptrNotNull, ptrNotNull + (int) IL2CPP.il2cpp_field_get_offset(LightningRodMenu.NativeFieldInfoPtr_LightningRodSubMenu), IL2CPP.Il2CppObjectBaseToPtr((Il2CppObjectBase) value));
+      }
+    }
+
+    public unsafe RectTransform SubMenusParent
+    {
+      get
+      {
+        System.IntPtr pointer = *(System.IntPtr*) (IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this) + (int) IL2CPP.il2cpp_field_get_offset(LightningRodMenu.NativeFieldInfoPtr_SubMenusParent));
+        return pointer == System.IntPtr.Zero ? (RectTransform) null : new RectTransform(pointer);
+      }
+      [param: In] set
+      {
+        System.IntPtr ptrNotNull = IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this);
+        IL2CPP.il2cpp_gc_wbarrier_set_field(ptrNotNull, ptrNotNull + (int) IL2CPP.il2cpp_field_get_offset(LightningRodMenu.NativeFieldInfoPtr_SubMenusParent), IL2CPP.Il2CppObjectBaseToPtr((Il2CppObjectBase) value));
+      }
+    }
+
+    public unsafe InventoryLocalizationKeys LocalizationKeys
+    {
+      get
+      {
+        System.IntPtr pointer = *(System.IntPtr*) (IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this) + (int) IL2CPP.il2cpp_field_get_offset(LightningRodMenu.NativeFieldInfoPtr_LocalizationKeys));
+        return pointer == System.IntPtr.Zero ? (InventoryLocalizationKeys) null : new InventoryLocalizationKeys(pointer);
+      }
+      [param: In] set
+      {
+        System.IntPtr ptrNotNull = IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this);
+        IL2CPP.il2cpp_gc_wbarrier_set_field(ptrNotNull, ptrNotNull + (int) IL2CPP.il2cpp_field_get_offset(LightningRodMenu.NativeFieldInfoPtr_LocalizationKeys), IL2CPP.Il2CppObjectBaseToPtr((Il2CppObjectBase) value));
+      }
+    }
+
+    public unsafe HUDElementType HideHUDElements
+    {
+      get
+      {
+        return *(HUDElementType*) (IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this) + (int) IL2CPP.il2cpp_field_get_offset(LightningRodMenu.NativeFieldInfoPtr_HideHUDElements));
+      }
+      [param: In] set
+      {
+        *(HUDElementType*) (IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) this) + (int) IL2CPP.il2cpp_field_get_offset(LightningRodMenu.NativeFieldInfoPtr_HideHUDElements)) = value;
+      }
+    }
+
+    [StructLayout(LayoutKind.Explicit)]
+    public struct InitData
+    {
+      private static readonly System.IntPtr NativeFieldInfoPtr_TargetWorkstation;
+      private static readonly System.IntPtr NativeFieldInfoPtr_InteractBuff;
+      [FieldOffset(0)]
+      public Entity TargetWorkstation;
+      [FieldOffset(8)]
+      public Entity InteractBuff;
+
+      static InitData()
+      {
+        Il2CppClassPointerStore<LightningRodMenu.InitData>.NativeClassPtr = IL2CPP.GetIl2CppNestedType(Il2CppClassPointerStore<LightningRodMenu>.NativeClassPtr, nameof (InitData));
+        IL2CPP.il2cpp_runtime_class_init(Il2CppClassPointerStore<LightningRodMenu.InitData>.NativeClassPtr);
+        LightningRodMenu.InitData.NativeFieldInfoPtr_TargetWorkstation = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<LightningRodMenu.InitData>.NativeClassPtr, nameof (TargetWorkstation));
+        LightningRodMenu.InitData.NativeFieldInfoPtr_InteractBuff = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<LightningRodMenu.InitData>.NativeClassPtr, nameof (InteractBuff));
+      }
+
+      public Il2CppSystem.Object BoxIl2CppObject()
+      {
+        return new Il2CppSystem.Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<LightningRodMenu.InitData>.NativeClassPtr, (System.IntPtr) ref this));
+      }
+    }
+  }
+}

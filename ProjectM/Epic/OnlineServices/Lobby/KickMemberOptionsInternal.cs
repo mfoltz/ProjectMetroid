@@ -1,0 +1,126 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Epic.OnlineServices.Lobby.KickMemberOptionsInternal
+// Assembly: ProjectM, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: 83E42B70-D81B-4F1F-9FB5-6B5ABD5FF9FC
+// Assembly location: C:\Users\mitch\.nuget\packages\vrising.unhollowed.client\0.6.5.57575090\lib\net6.0\ProjectM.dll
+
+using Il2CppInterop.Common.Attributes;
+using Il2CppInterop.Runtime;
+using Il2CppInterop.Runtime.InteropTypes;
+using System.Runtime.InteropServices;
+
+#nullable disable
+namespace Epic.OnlineServices.Lobby
+{
+  [StructLayout(LayoutKind.Explicit)]
+  public struct KickMemberOptionsInternal
+  {
+    private static readonly System.IntPtr NativeFieldInfoPtr_m_ApiVersion;
+    private static readonly System.IntPtr NativeFieldInfoPtr_m_LobbyId;
+    private static readonly System.IntPtr NativeFieldInfoPtr_m_LocalUserId;
+    private static readonly System.IntPtr NativeFieldInfoPtr_m_TargetUserId;
+    private static readonly System.IntPtr NativeMethodInfoPtr_set_LobbyId_Public_set_Void_Utf8String_0;
+    private static readonly System.IntPtr NativeMethodInfoPtr_set_LocalUserId_Public_set_Void_ProductUserId_0;
+    private static readonly System.IntPtr NativeMethodInfoPtr_set_TargetUserId_Public_set_Void_ProductUserId_0;
+    private static readonly System.IntPtr NativeMethodInfoPtr_Set_Public_Virtual_Final_New_Void_byref_KickMemberOptions_0;
+    private static readonly System.IntPtr NativeMethodInfoPtr_Set_Public_Virtual_Final_New_Void_byref_Nullable_1_KickMemberOptions_0;
+    private static readonly System.IntPtr NativeMethodInfoPtr_Dispose_Public_Virtual_Final_New_Void_0;
+    [FieldOffset(0)]
+    public int m_ApiVersion;
+    [FieldOffset(8)]
+    public System.IntPtr m_LobbyId;
+    [FieldOffset(16)]
+    public System.IntPtr m_LocalUserId;
+    [FieldOffset(24)]
+    public System.IntPtr m_TargetUserId;
+
+    public unsafe Epic.OnlineServices.Utf8String LobbyId
+    {
+      [CallerCount(0), CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 955134, XrefRangeEnd = 955138, MetadataInitTokenRva = 0, MetadataInitFlagRva = 0)] set
+      {
+        System.IntPtr* numPtr = stackalloc System.IntPtr[1];
+        numPtr[0] = IL2CPP.Il2CppObjectBaseToPtr((Il2CppObjectBase) value);
+        System.IntPtr exc;
+        IL2CPP.il2cpp_runtime_invoke(KickMemberOptionsInternal.NativeMethodInfoPtr_set_LobbyId_Public_set_Void_Utf8String_0, (System.IntPtr) ref this, (void**) numPtr, ref exc);
+        Il2CppException.RaiseExceptionIfNecessary(exc);
+      }
+    }
+
+    public unsafe ProductUserId LocalUserId
+    {
+      [CallerCount(0), CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 955138, XrefRangeEnd = 955142, MetadataInitTokenRva = 0, MetadataInitFlagRva = 0)] set
+      {
+        System.IntPtr* numPtr = stackalloc System.IntPtr[1];
+        numPtr[0] = IL2CPP.Il2CppObjectBaseToPtr((Il2CppObjectBase) value);
+        System.IntPtr exc;
+        IL2CPP.il2cpp_runtime_invoke(KickMemberOptionsInternal.NativeMethodInfoPtr_set_LocalUserId_Public_set_Void_ProductUserId_0, (System.IntPtr) ref this, (void**) numPtr, ref exc);
+        Il2CppException.RaiseExceptionIfNecessary(exc);
+      }
+    }
+
+    public unsafe ProductUserId TargetUserId
+    {
+      [CallerCount(0), CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 955142, XrefRangeEnd = 955146, MetadataInitTokenRva = 0, MetadataInitFlagRva = 0)] set
+      {
+        System.IntPtr* numPtr = stackalloc System.IntPtr[1];
+        numPtr[0] = IL2CPP.Il2CppObjectBaseToPtr((Il2CppObjectBase) value);
+        System.IntPtr exc;
+        IL2CPP.il2cpp_runtime_invoke(KickMemberOptionsInternal.NativeMethodInfoPtr_set_TargetUserId_Public_set_Void_ProductUserId_0, (System.IntPtr) ref this, (void**) numPtr, ref exc);
+        Il2CppException.RaiseExceptionIfNecessary(exc);
+      }
+    }
+
+    [CallerCount(1)]
+    [CachedScanResults(RefRangeStart = 955158, RefRangeEnd = 955159, XrefRangeStart = 955146, XrefRangeEnd = 955158, MetadataInitTokenRva = 0, MetadataInitFlagRva = 0)]
+    public virtual unsafe void Set(ref KickMemberOptions other)
+    {
+      System.IntPtr* numPtr = stackalloc System.IntPtr[1];
+      numPtr[0] = IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) other);
+      System.IntPtr exc;
+      IL2CPP.il2cpp_runtime_invoke(KickMemberOptionsInternal.NativeMethodInfoPtr_Set_Public_Virtual_Final_New_Void_byref_KickMemberOptions_0, (System.IntPtr) ref this, (void**) numPtr, ref exc);
+      Il2CppException.RaiseExceptionIfNecessary(exc);
+    }
+
+    [CallerCount(0)]
+    [CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 955159, XrefRangeEnd = 955179, MetadataInitTokenRva = 0, MetadataInitFlagRva = 0)]
+    public virtual unsafe void Set(ref Il2CppSystem.Nullable<KickMemberOptions> other)
+    {
+      System.IntPtr* numPtr = stackalloc System.IntPtr[1];
+      numPtr[0] = IL2CPP.Il2CppObjectBaseToPtrNotNull((Il2CppObjectBase) other);
+      System.IntPtr exc;
+      IL2CPP.il2cpp_runtime_invoke(KickMemberOptionsInternal.NativeMethodInfoPtr_Set_Public_Virtual_Final_New_Void_byref_Nullable_1_KickMemberOptions_0, (System.IntPtr) ref this, (void**) numPtr, ref exc);
+      Il2CppException.RaiseExceptionIfNecessary(exc);
+    }
+
+    [CallerCount(0)]
+    [CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 955179, XrefRangeEnd = 955185, MetadataInitTokenRva = 0, MetadataInitFlagRva = 0)]
+    public virtual unsafe void Dispose()
+    {
+      System.IntPtr* numPtr = (System.IntPtr*) null;
+      System.IntPtr exc;
+      IL2CPP.il2cpp_runtime_invoke(KickMemberOptionsInternal.NativeMethodInfoPtr_Dispose_Public_Virtual_Final_New_Void_0, (System.IntPtr) ref this, (void**) numPtr, ref exc);
+      Il2CppException.RaiseExceptionIfNecessary(exc);
+    }
+
+    static KickMemberOptionsInternal()
+    {
+      Il2CppClassPointerStore<KickMemberOptionsInternal>.NativeClassPtr = IL2CPP.GetIl2CppClass("ProjectM.dll", "Epic.OnlineServices.Lobby", nameof (KickMemberOptionsInternal));
+      IL2CPP.il2cpp_runtime_class_init(Il2CppClassPointerStore<KickMemberOptionsInternal>.NativeClassPtr);
+      KickMemberOptionsInternal.NativeFieldInfoPtr_m_ApiVersion = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<KickMemberOptionsInternal>.NativeClassPtr, nameof (m_ApiVersion));
+      KickMemberOptionsInternal.NativeFieldInfoPtr_m_LobbyId = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<KickMemberOptionsInternal>.NativeClassPtr, nameof (m_LobbyId));
+      KickMemberOptionsInternal.NativeFieldInfoPtr_m_LocalUserId = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<KickMemberOptionsInternal>.NativeClassPtr, nameof (m_LocalUserId));
+      KickMemberOptionsInternal.NativeFieldInfoPtr_m_TargetUserId = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<KickMemberOptionsInternal>.NativeClassPtr, nameof (m_TargetUserId));
+      KickMemberOptionsInternal.NativeMethodInfoPtr_set_LobbyId_Public_set_Void_Utf8String_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<KickMemberOptionsInternal>.NativeClassPtr, 100669966);
+      KickMemberOptionsInternal.NativeMethodInfoPtr_set_LocalUserId_Public_set_Void_ProductUserId_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<KickMemberOptionsInternal>.NativeClassPtr, 100669967);
+      KickMemberOptionsInternal.NativeMethodInfoPtr_set_TargetUserId_Public_set_Void_ProductUserId_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<KickMemberOptionsInternal>.NativeClassPtr, 100669968);
+      KickMemberOptionsInternal.NativeMethodInfoPtr_Set_Public_Virtual_Final_New_Void_byref_KickMemberOptions_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<KickMemberOptionsInternal>.NativeClassPtr, 100669969);
+      KickMemberOptionsInternal.NativeMethodInfoPtr_Set_Public_Virtual_Final_New_Void_byref_Nullable_1_KickMemberOptions_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<KickMemberOptionsInternal>.NativeClassPtr, 100669970);
+      KickMemberOptionsInternal.NativeMethodInfoPtr_Dispose_Public_Virtual_Final_New_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<KickMemberOptionsInternal>.NativeClassPtr, 100669971);
+    }
+
+    public Il2CppSystem.Object BoxIl2CppObject()
+    {
+      return new Il2CppSystem.Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<KickMemberOptionsInternal>.NativeClassPtr, (System.IntPtr) ref this));
+    }
+  }
+}

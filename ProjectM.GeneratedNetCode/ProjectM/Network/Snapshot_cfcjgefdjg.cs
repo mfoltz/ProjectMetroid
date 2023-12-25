@@ -1,0 +1,1151 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: ProjectM.Network.Snapshot_cfcjgefdjg
+// Assembly: ProjectM.GeneratedNetCode, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: 974A3FD3-059B-42E2-9255-83E537AA7BC4
+// Assembly location: C:\Users\mitch\.nuget\packages\vrising.unhollowed.client\0.6.5.57575090\lib\net6.0\ProjectM.GeneratedNetCode.dll
+
+using Il2CppInterop.Common.Attributes;
+using Il2CppInterop.Runtime;
+using ProjectM.Tiles;
+using Stunlock.Network;
+using System.Runtime.InteropServices;
+using Unity.Entities;
+using Unity.Mathematics;
+
+#nullable disable
+namespace ProjectM.Network
+{
+  [StructLayout(LayoutKind.Explicit)]
+  public struct Snapshot_cfcjgefdjg
+  {
+    private static readonly System.IntPtr NativeFieldInfoPtr_PrefabGuid;
+    private static readonly System.IntPtr NativeFieldInfoPtr_SnapshotType;
+    private static readonly System.IntPtr NativeFieldInfoPtr_BuffableFlagState_Value;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Health_IsDead;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Health_MaxHealth;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Health_MaxRecoveryHealth;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Health_TimeOfDeath;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Health_Value;
+    private static readonly System.IntPtr NativeFieldInfoPtr_HybridModelSeed_Seed;
+    private static readonly System.IntPtr NativeFieldInfoPtr_LifeTime_Duration;
+    private static readonly System.IntPtr NativeFieldInfoPtr_StaticTransformCompatible_NonStaticTransform_Height;
+    private static readonly System.IntPtr NativeFieldInfoPtr_StaticTransformCompatible_NonStaticTransform_Pos;
+    private static readonly System.IntPtr NativeFieldInfoPtr_StaticTransformCompatible_NonStaticTransform_Rotation;
+    private static readonly System.IntPtr NativeFieldInfoPtr_StaticTransformCompatible_StaticTransform;
+    private static readonly System.IntPtr NativeFieldInfoPtr_StaticTransformCompatible_UseStaticTransform;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Team_FactionIndex;
+    private static readonly System.IntPtr NativeFieldInfoPtr_Team_Value;
+    private static readonly System.IntPtr NativeFieldInfoPtr_TileModel_DisabledTileTypes;
+    private static readonly System.IntPtr NativeFieldInfoPtr_CodeGen_EstimatedSnapshotSize;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChanged_IndexCount;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChanged_ComponentCount;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedFields_BuffableFlagState_Start;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedFields_BuffableFlagState_Count;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedFields_Health_Start;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedFields_Health_Count;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedFields_HybridModelSeed_Start;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedFields_HybridModelSeed_Count;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedFields_LifeTime_Start;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedFields_LifeTime_Count;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedFields_StaticTransformCompatible_Start;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedFields_StaticTransformCompatible_Count;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedFields_Team_Start;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedFields_Team_Count;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedFields_TileModel_Start;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedFields_TileModel_Count;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_BuffableFlagState;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_Health;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_HybridModelSeed;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_LifeTime;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_Team;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_TileModel;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_CastleBuildingAttachedChildrenBuffer;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_BuffableFlagState_Value;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_Health_IsDead;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_Health_MaxHealth;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_Health_MaxRecoveryHealth;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_Health_TimeOfDeath;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_Health_Value;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_HybridModelSeed_Seed;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_LifeTime_Duration;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible_NonStaticTransform_Height;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible_NonStaticTransform_Pos;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible_NonStaticTransform_Rotation;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible_StaticTransform;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible_UseStaticTransform;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_Team_FactionIndex;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_Team_Value;
+    private static readonly System.IntPtr NativeFieldInfoPtr_FrameChangedIndex_TileModel_DisabledTileTypes;
+    private static readonly System.IntPtr NativeFieldInfoPtr_ComponentDataStartOffset_BuffableFlagState;
+    private static readonly System.IntPtr NativeFieldInfoPtr_ComponentDataSize_BuffableFlagState;
+    private static readonly System.IntPtr NativeFieldInfoPtr_ComponentDataStartOffset_Health;
+    private static readonly System.IntPtr NativeFieldInfoPtr_ComponentDataSize_Health;
+    private static readonly System.IntPtr NativeFieldInfoPtr_ComponentDataStartOffset_HybridModelSeed;
+    private static readonly System.IntPtr NativeFieldInfoPtr_ComponentDataSize_HybridModelSeed;
+    private static readonly System.IntPtr NativeFieldInfoPtr_ComponentDataStartOffset_LifeTime;
+    private static readonly System.IntPtr NativeFieldInfoPtr_ComponentDataSize_LifeTime;
+    private static readonly System.IntPtr NativeFieldInfoPtr_ComponentDataStartOffset_StaticTransformCompatible;
+    private static readonly System.IntPtr NativeFieldInfoPtr_ComponentDataSize_StaticTransformCompatible;
+    private static readonly System.IntPtr NativeFieldInfoPtr_ComponentDataStartOffset_Team;
+    private static readonly System.IntPtr NativeFieldInfoPtr_ComponentDataSize_Team;
+    private static readonly System.IntPtr NativeFieldInfoPtr_ComponentDataStartOffset_TileModel;
+    private static readonly System.IntPtr NativeFieldInfoPtr_ComponentDataSize_TileModel;
+    private static readonly System.IntPtr NativeFieldInfoPtr_CompBit_BuffableFlagState;
+    private static readonly System.IntPtr NativeFieldInfoPtr_CompBit_Health;
+    private static readonly System.IntPtr NativeFieldInfoPtr_CompBit_HybridModelSeed;
+    private static readonly System.IntPtr NativeFieldInfoPtr_CompBit_LifeTime;
+    private static readonly System.IntPtr NativeFieldInfoPtr_CompBit_StaticTransformCompatible;
+    private static readonly System.IntPtr NativeFieldInfoPtr_CompBit_Team;
+    private static readonly System.IntPtr NativeFieldInfoPtr_CompBit_TileModel;
+    private static readonly System.IntPtr NativeFieldInfoPtr_CompBit_CastleBuildingAttachedChildrenBuffer;
+    private static readonly System.IntPtr NativeMethodInfoPtr_SerializeSnapshot_Public_Void_byref_NetBufferOut_ptr_SnapshotFrameChangedBuffer_byref_SerializeEntityParams_byref_BufferFromEntity_1_Snapshot_CastleBuildingAttachedChildrenBuffer_0;
+    private static readonly System.IntPtr NativeMethodInfoPtr_DeserializeSnapshot_Public_Void_byref_NetBufferIn_byref_DeserializeEntityParams_DynamicBuffer_1_Snapshot_CastleBuildingAttachedChildrenBuffer_0;
+    [FieldOffset(0)]
+    public PrefabGUID PrefabGuid;
+    [FieldOffset(4)]
+    public NetworkSnapshotType SnapshotType;
+    [FieldOffset(8)]
+    public ModifiableLong BuffableFlagState_Value;
+    [FieldOffset(24)]
+    public bool Health_IsDead;
+    [FieldOffset(25)]
+    public ModifiableFloat Health_MaxHealth;
+    [FieldOffset(33)]
+    public float Health_MaxRecoveryHealth;
+    [FieldOffset(37)]
+    public double Health_TimeOfDeath;
+    [FieldOffset(45)]
+    public float Health_Value;
+    [FieldOffset(49)]
+    public ushort HybridModelSeed_Seed;
+    [FieldOffset(51)]
+    public float LifeTime_Duration;
+    [FieldOffset(55)]
+    public float StaticTransformCompatible_NonStaticTransform_Height;
+    [FieldOffset(59)]
+    public float2 StaticTransformCompatible_NonStaticTransform_Pos;
+    [FieldOffset(67)]
+    public TileRotation StaticTransformCompatible_NonStaticTransform_Rotation;
+    [FieldOffset(68)]
+    public StaticTransformIndex StaticTransformCompatible_StaticTransform;
+    [FieldOffset(80)]
+    public bool StaticTransformCompatible_UseStaticTransform;
+    [FieldOffset(81)]
+    public int Team_FactionIndex;
+    [FieldOffset(85)]
+    public int Team_Value;
+    [FieldOffset(89)]
+    public ProjectM.TileType TileModel_DisabledTileTypes;
+
+    [CallerCount(0)]
+    [CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1568215, XrefRangeEnd = 1568394, MetadataInitTokenRva = 0, MetadataInitFlagRva = 0)]
+    public unsafe void SerializeSnapshot(
+      ref NetBufferOut netBuffer,
+      SnapshotFrameChangedBuffer* frameChanged,
+      ref SerializeEntityParams data,
+      ref BufferFromEntity<Snapshot_CastleBuildingAttachedChildrenBuffer> get_buffer_CastleBuildingAttachedChildrenBuffer)
+    {
+      System.IntPtr* numPtr = stackalloc System.IntPtr[4];
+      numPtr[0] = (System.IntPtr) ref netBuffer;
+      *(System.IntPtr*) ((System.IntPtr) numPtr + checked (new System.IntPtr(1) * sizeof (System.IntPtr))) = (System.IntPtr) (void*) frameChanged;
+      *(System.IntPtr*) ((System.IntPtr) numPtr + checked (new System.IntPtr(2) * sizeof (System.IntPtr))) = (System.IntPtr) ref data;
+      *(System.IntPtr*) ((System.IntPtr) numPtr + checked (new System.IntPtr(3) * sizeof (System.IntPtr))) = (System.IntPtr) ref get_buffer_CastleBuildingAttachedChildrenBuffer;
+      System.IntPtr exc;
+      IL2CPP.il2cpp_runtime_invoke(Snapshot_cfcjgefdjg.NativeMethodInfoPtr_SerializeSnapshot_Public_Void_byref_NetBufferOut_ptr_SnapshotFrameChangedBuffer_byref_SerializeEntityParams_byref_BufferFromEntity_1_Snapshot_CastleBuildingAttachedChildrenBuffer_0, (System.IntPtr) ref this, (void**) numPtr, ref exc);
+      Il2CppException.RaiseExceptionIfNecessary(exc);
+    }
+
+    [CallerCount(1)]
+    [CachedScanResults(RefRangeStart = 1568462, RefRangeEnd = 1568463, XrefRangeStart = 1568394, XrefRangeEnd = 1568462, MetadataInitTokenRva = 0, MetadataInitFlagRva = 0)]
+    public unsafe void DeserializeSnapshot(
+      ref NetBufferIn netBuffer,
+      ref DeserializeEntityParams data,
+      DynamicBuffer<Snapshot_CastleBuildingAttachedChildrenBuffer> buffer_CastleBuildingAttachedChildrenBuffer)
+    {
+      System.IntPtr* numPtr = stackalloc System.IntPtr[3];
+      numPtr[0] = (System.IntPtr) ref netBuffer;
+      *(System.IntPtr*) ((System.IntPtr) numPtr + checked (new System.IntPtr(1) * sizeof (System.IntPtr))) = (System.IntPtr) ref data;
+      *(System.IntPtr*) ((System.IntPtr) numPtr + checked (new System.IntPtr(2) * sizeof (System.IntPtr))) = (System.IntPtr) &buffer_CastleBuildingAttachedChildrenBuffer;
+      System.IntPtr exc;
+      IL2CPP.il2cpp_runtime_invoke(Snapshot_cfcjgefdjg.NativeMethodInfoPtr_DeserializeSnapshot_Public_Void_byref_NetBufferIn_byref_DeserializeEntityParams_DynamicBuffer_1_Snapshot_CastleBuildingAttachedChildrenBuffer_0, (System.IntPtr) ref this, (void**) numPtr, ref exc);
+      Il2CppException.RaiseExceptionIfNecessary(exc);
+    }
+
+    static Snapshot_cfcjgefdjg()
+    {
+      Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr = IL2CPP.GetIl2CppClass("ProjectM.GeneratedNetCode.dll", "ProjectM.Network", nameof (Snapshot_cfcjgefdjg));
+      IL2CPP.il2cpp_runtime_class_init(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr);
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_PrefabGuid = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (PrefabGuid));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_SnapshotType = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (SnapshotType));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_BuffableFlagState_Value = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (BuffableFlagState_Value));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_Health_IsDead = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (Health_IsDead));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_Health_MaxHealth = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (Health_MaxHealth));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_Health_MaxRecoveryHealth = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (Health_MaxRecoveryHealth));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_Health_TimeOfDeath = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (Health_TimeOfDeath));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_Health_Value = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (Health_Value));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_HybridModelSeed_Seed = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (HybridModelSeed_Seed));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_LifeTime_Duration = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (LifeTime_Duration));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_StaticTransformCompatible_NonStaticTransform_Height = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (StaticTransformCompatible_NonStaticTransform_Height));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_StaticTransformCompatible_NonStaticTransform_Pos = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (StaticTransformCompatible_NonStaticTransform_Pos));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_StaticTransformCompatible_NonStaticTransform_Rotation = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (StaticTransformCompatible_NonStaticTransform_Rotation));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_StaticTransformCompatible_StaticTransform = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (StaticTransformCompatible_StaticTransform));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_StaticTransformCompatible_UseStaticTransform = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (StaticTransformCompatible_UseStaticTransform));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_Team_FactionIndex = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (Team_FactionIndex));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_Team_Value = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (Team_Value));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_TileModel_DisabledTileTypes = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (TileModel_DisabledTileTypes));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CodeGen_EstimatedSnapshotSize = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (CodeGen_EstimatedSnapshotSize));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChanged_IndexCount = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChanged_IndexCount));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChanged_ComponentCount = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChanged_ComponentCount));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_BuffableFlagState_Start = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedFields_BuffableFlagState_Start));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_BuffableFlagState_Count = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedFields_BuffableFlagState_Count));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_Health_Start = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedFields_Health_Start));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_Health_Count = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedFields_Health_Count));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_HybridModelSeed_Start = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedFields_HybridModelSeed_Start));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_HybridModelSeed_Count = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedFields_HybridModelSeed_Count));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_LifeTime_Start = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedFields_LifeTime_Start));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_LifeTime_Count = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedFields_LifeTime_Count));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_StaticTransformCompatible_Start = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedFields_StaticTransformCompatible_Start));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_StaticTransformCompatible_Count = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedFields_StaticTransformCompatible_Count));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_Team_Start = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedFields_Team_Start));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_Team_Count = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedFields_Team_Count));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_TileModel_Start = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedFields_TileModel_Start));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_TileModel_Count = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedFields_TileModel_Count));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_BuffableFlagState = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_BuffableFlagState));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Health = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_Health));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_HybridModelSeed = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_HybridModelSeed));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_LifeTime = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_LifeTime));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_StaticTransformCompatible));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Team = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_Team));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_TileModel = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_TileModel));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_CastleBuildingAttachedChildrenBuffer = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_CastleBuildingAttachedChildrenBuffer));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_BuffableFlagState_Value = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_BuffableFlagState_Value));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Health_IsDead = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_Health_IsDead));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Health_MaxHealth = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_Health_MaxHealth));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Health_MaxRecoveryHealth = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_Health_MaxRecoveryHealth));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Health_TimeOfDeath = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_Health_TimeOfDeath));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Health_Value = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_Health_Value));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_HybridModelSeed_Seed = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_HybridModelSeed_Seed));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_LifeTime_Duration = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_LifeTime_Duration));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible_NonStaticTransform_Height = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_StaticTransformCompatible_NonStaticTransform_Height));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible_NonStaticTransform_Pos = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_StaticTransformCompatible_NonStaticTransform_Pos));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible_NonStaticTransform_Rotation = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_StaticTransformCompatible_NonStaticTransform_Rotation));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible_StaticTransform = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_StaticTransformCompatible_StaticTransform));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible_UseStaticTransform = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_StaticTransformCompatible_UseStaticTransform));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Team_FactionIndex = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_Team_FactionIndex));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Team_Value = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_Team_Value));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_TileModel_DisabledTileTypes = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (FrameChangedIndex_TileModel_DisabledTileTypes));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataStartOffset_BuffableFlagState = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (ComponentDataStartOffset_BuffableFlagState));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataSize_BuffableFlagState = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (ComponentDataSize_BuffableFlagState));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataStartOffset_Health = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (ComponentDataStartOffset_Health));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataSize_Health = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (ComponentDataSize_Health));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataStartOffset_HybridModelSeed = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (ComponentDataStartOffset_HybridModelSeed));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataSize_HybridModelSeed = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (ComponentDataSize_HybridModelSeed));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataStartOffset_LifeTime = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (ComponentDataStartOffset_LifeTime));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataSize_LifeTime = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (ComponentDataSize_LifeTime));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataStartOffset_StaticTransformCompatible = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (ComponentDataStartOffset_StaticTransformCompatible));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataSize_StaticTransformCompatible = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (ComponentDataSize_StaticTransformCompatible));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataStartOffset_Team = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (ComponentDataStartOffset_Team));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataSize_Team = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (ComponentDataSize_Team));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataStartOffset_TileModel = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (ComponentDataStartOffset_TileModel));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataSize_TileModel = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (ComponentDataSize_TileModel));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_BuffableFlagState = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (CompBit_BuffableFlagState));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_Health = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (CompBit_Health));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_HybridModelSeed = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (CompBit_HybridModelSeed));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_LifeTime = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (CompBit_LifeTime));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_StaticTransformCompatible = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (CompBit_StaticTransformCompatible));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_Team = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (CompBit_Team));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_TileModel = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (CompBit_TileModel));
+      Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_CastleBuildingAttachedChildrenBuffer = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, nameof (CompBit_CastleBuildingAttachedChildrenBuffer));
+      Snapshot_cfcjgefdjg.NativeMethodInfoPtr_SerializeSnapshot_Public_Void_byref_NetBufferOut_ptr_SnapshotFrameChangedBuffer_byref_SerializeEntityParams_byref_BufferFromEntity_1_Snapshot_CastleBuildingAttachedChildrenBuffer_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, 100664514);
+      Snapshot_cfcjgefdjg.NativeMethodInfoPtr_DeserializeSnapshot_Public_Void_byref_NetBufferIn_byref_DeserializeEntityParams_DynamicBuffer_1_Snapshot_CastleBuildingAttachedChildrenBuffer_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, 100664515);
+    }
+
+    public Il2CppSystem.Object BoxIl2CppObject()
+    {
+      return new Il2CppSystem.Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Snapshot_cfcjgefdjg>.NativeClassPtr, (System.IntPtr) ref this));
+    }
+
+    public static unsafe int CodeGen_EstimatedSnapshotSize
+    {
+      get
+      {
+        int estimatedSnapshotSize;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CodeGen_EstimatedSnapshotSize, (void*) &estimatedSnapshotSize);
+        return estimatedSnapshotSize;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CodeGen_EstimatedSnapshotSize, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChanged_IndexCount
+    {
+      get
+      {
+        int changedIndexCount;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChanged_IndexCount, (void*) &changedIndexCount);
+        return changedIndexCount;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChanged_IndexCount, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChanged_ComponentCount
+    {
+      get
+      {
+        int changedComponentCount;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChanged_ComponentCount, (void*) &changedComponentCount);
+        return changedComponentCount;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChanged_ComponentCount, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedFields_BuffableFlagState_Start
+    {
+      get
+      {
+        int buffableFlagStateStart;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_BuffableFlagState_Start, (void*) &buffableFlagStateStart);
+        return buffableFlagStateStart;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_BuffableFlagState_Start, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedFields_BuffableFlagState_Count
+    {
+      get
+      {
+        int buffableFlagStateCount;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_BuffableFlagState_Count, (void*) &buffableFlagStateCount);
+        return buffableFlagStateCount;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_BuffableFlagState_Count, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedFields_Health_Start
+    {
+      get
+      {
+        int fieldsHealthStart;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_Health_Start, (void*) &fieldsHealthStart);
+        return fieldsHealthStart;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_Health_Start, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedFields_Health_Count
+    {
+      get
+      {
+        int fieldsHealthCount;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_Health_Count, (void*) &fieldsHealthCount);
+        return fieldsHealthCount;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_Health_Count, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedFields_HybridModelSeed_Start
+    {
+      get
+      {
+        int hybridModelSeedStart;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_HybridModelSeed_Start, (void*) &hybridModelSeedStart);
+        return hybridModelSeedStart;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_HybridModelSeed_Start, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedFields_HybridModelSeed_Count
+    {
+      get
+      {
+        int hybridModelSeedCount;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_HybridModelSeed_Count, (void*) &hybridModelSeedCount);
+        return hybridModelSeedCount;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_HybridModelSeed_Count, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedFields_LifeTime_Start
+    {
+      get
+      {
+        int fieldsLifeTimeStart;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_LifeTime_Start, (void*) &fieldsLifeTimeStart);
+        return fieldsLifeTimeStart;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_LifeTime_Start, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedFields_LifeTime_Count
+    {
+      get
+      {
+        int fieldsLifeTimeCount;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_LifeTime_Count, (void*) &fieldsLifeTimeCount);
+        return fieldsLifeTimeCount;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_LifeTime_Count, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedFields_StaticTransformCompatible_Start
+    {
+      get
+      {
+        int transformCompatibleStart;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_StaticTransformCompatible_Start, (void*) &transformCompatibleStart);
+        return transformCompatibleStart;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_StaticTransformCompatible_Start, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedFields_StaticTransformCompatible_Count
+    {
+      get
+      {
+        int transformCompatibleCount;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_StaticTransformCompatible_Count, (void*) &transformCompatibleCount);
+        return transformCompatibleCount;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_StaticTransformCompatible_Count, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedFields_Team_Start
+    {
+      get
+      {
+        int changedFieldsTeamStart;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_Team_Start, (void*) &changedFieldsTeamStart);
+        return changedFieldsTeamStart;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_Team_Start, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedFields_Team_Count
+    {
+      get
+      {
+        int changedFieldsTeamCount;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_Team_Count, (void*) &changedFieldsTeamCount);
+        return changedFieldsTeamCount;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_Team_Count, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedFields_TileModel_Start
+    {
+      get
+      {
+        int fieldsTileModelStart;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_TileModel_Start, (void*) &fieldsTileModelStart);
+        return fieldsTileModelStart;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_TileModel_Start, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedFields_TileModel_Count
+    {
+      get
+      {
+        int fieldsTileModelCount;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_TileModel_Count, (void*) &fieldsTileModelCount);
+        return fieldsTileModelCount;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedFields_TileModel_Count, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_BuffableFlagState
+    {
+      get
+      {
+        int buffableFlagState;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_BuffableFlagState, (void*) &buffableFlagState);
+        return buffableFlagState;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_BuffableFlagState, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_Health
+    {
+      get
+      {
+        int changedIndexHealth;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Health, (void*) &changedIndexHealth);
+        return changedIndexHealth;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Health, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_HybridModelSeed
+    {
+      get
+      {
+        int indexHybridModelSeed;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_HybridModelSeed, (void*) &indexHybridModelSeed);
+        return indexHybridModelSeed;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_HybridModelSeed, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_LifeTime
+    {
+      get
+      {
+        int changedIndexLifeTime;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_LifeTime, (void*) &changedIndexLifeTime);
+        return changedIndexLifeTime;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_LifeTime, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_StaticTransformCompatible
+    {
+      get
+      {
+        int transformCompatible;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible, (void*) &transformCompatible);
+        return transformCompatible;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_Team
+    {
+      get
+      {
+        int changedIndexTeam;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Team, (void*) &changedIndexTeam);
+        return changedIndexTeam;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Team, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_TileModel
+    {
+      get
+      {
+        int changedIndexTileModel;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_TileModel, (void*) &changedIndexTileModel);
+        return changedIndexTileModel;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_TileModel, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_CastleBuildingAttachedChildrenBuffer
+    {
+      get
+      {
+        int attachedChildrenBuffer;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_CastleBuildingAttachedChildrenBuffer, (void*) &attachedChildrenBuffer);
+        return attachedChildrenBuffer;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_CastleBuildingAttachedChildrenBuffer, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_BuffableFlagState_Value
+    {
+      get
+      {
+        int buffableFlagStateValue;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_BuffableFlagState_Value, (void*) &buffableFlagStateValue);
+        return buffableFlagStateValue;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_BuffableFlagState_Value, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_Health_IsDead
+    {
+      get
+      {
+        int indexHealthIsDead;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Health_IsDead, (void*) &indexHealthIsDead);
+        return indexHealthIsDead;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Health_IsDead, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_Health_MaxHealth
+    {
+      get
+      {
+        int indexHealthMaxHealth;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Health_MaxHealth, (void*) &indexHealthMaxHealth);
+        return indexHealthMaxHealth;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Health_MaxHealth, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_Health_MaxRecoveryHealth
+    {
+      get
+      {
+        int maxRecoveryHealth;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Health_MaxRecoveryHealth, (void*) &maxRecoveryHealth);
+        return maxRecoveryHealth;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Health_MaxRecoveryHealth, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_Health_TimeOfDeath
+    {
+      get
+      {
+        int healthTimeOfDeath;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Health_TimeOfDeath, (void*) &healthTimeOfDeath);
+        return healthTimeOfDeath;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Health_TimeOfDeath, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_Health_Value
+    {
+      get
+      {
+        int indexHealthValue;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Health_Value, (void*) &indexHealthValue);
+        return indexHealthValue;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Health_Value, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_HybridModelSeed_Seed
+    {
+      get
+      {
+        int hybridModelSeedSeed;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_HybridModelSeed_Seed, (void*) &hybridModelSeedSeed);
+        return hybridModelSeedSeed;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_HybridModelSeed_Seed, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_LifeTime_Duration
+    {
+      get
+      {
+        int lifeTimeDuration;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_LifeTime_Duration, (void*) &lifeTimeDuration);
+        return lifeTimeDuration;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_LifeTime_Duration, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_StaticTransformCompatible_NonStaticTransform_Height
+    {
+      get
+      {
+        int staticTransformHeight;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible_NonStaticTransform_Height, (void*) &staticTransformHeight);
+        return staticTransformHeight;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible_NonStaticTransform_Height, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_StaticTransformCompatible_NonStaticTransform_Pos
+    {
+      get
+      {
+        int staticTransformPos;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible_NonStaticTransform_Pos, (void*) &staticTransformPos);
+        return staticTransformPos;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible_NonStaticTransform_Pos, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_StaticTransformCompatible_NonStaticTransform_Rotation
+    {
+      get
+      {
+        int transformRotation;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible_NonStaticTransform_Rotation, (void*) &transformRotation);
+        return transformRotation;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible_NonStaticTransform_Rotation, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_StaticTransformCompatible_StaticTransform
+    {
+      get
+      {
+        int compatibleStaticTransform;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible_StaticTransform, (void*) &compatibleStaticTransform);
+        return compatibleStaticTransform;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible_StaticTransform, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_StaticTransformCompatible_UseStaticTransform
+    {
+      get
+      {
+        int useStaticTransform;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible_UseStaticTransform, (void*) &useStaticTransform);
+        return useStaticTransform;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_StaticTransformCompatible_UseStaticTransform, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_Team_FactionIndex
+    {
+      get
+      {
+        int teamFactionIndex;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Team_FactionIndex, (void*) &teamFactionIndex);
+        return teamFactionIndex;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Team_FactionIndex, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_Team_Value
+    {
+      get
+      {
+        int changedIndexTeamValue;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Team_Value, (void*) &changedIndexTeamValue);
+        return changedIndexTeamValue;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_Team_Value, (void*) &value);
+      }
+    }
+
+    public static unsafe int FrameChangedIndex_TileModel_DisabledTileTypes
+    {
+      get
+      {
+        int disabledTileTypes;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_TileModel_DisabledTileTypes, (void*) &disabledTileTypes);
+        return disabledTileTypes;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_FrameChangedIndex_TileModel_DisabledTileTypes, (void*) &value);
+      }
+    }
+
+    public static unsafe int ComponentDataStartOffset_BuffableFlagState
+    {
+      get
+      {
+        int buffableFlagState;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataStartOffset_BuffableFlagState, (void*) &buffableFlagState);
+        return buffableFlagState;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataStartOffset_BuffableFlagState, (void*) &value);
+      }
+    }
+
+    public static unsafe int ComponentDataSize_BuffableFlagState
+    {
+      get
+      {
+        int buffableFlagState;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataSize_BuffableFlagState, (void*) &buffableFlagState);
+        return buffableFlagState;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataSize_BuffableFlagState, (void*) &value);
+      }
+    }
+
+    public static unsafe int ComponentDataStartOffset_Health
+    {
+      get
+      {
+        int startOffsetHealth;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataStartOffset_Health, (void*) &startOffsetHealth);
+        return startOffsetHealth;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataStartOffset_Health, (void*) &value);
+      }
+    }
+
+    public static unsafe int ComponentDataSize_Health
+    {
+      get
+      {
+        int componentDataSizeHealth;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataSize_Health, (void*) &componentDataSizeHealth);
+        return componentDataSizeHealth;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataSize_Health, (void*) &value);
+      }
+    }
+
+    public static unsafe int ComponentDataStartOffset_HybridModelSeed
+    {
+      get
+      {
+        int offsetHybridModelSeed;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataStartOffset_HybridModelSeed, (void*) &offsetHybridModelSeed);
+        return offsetHybridModelSeed;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataStartOffset_HybridModelSeed, (void*) &value);
+      }
+    }
+
+    public static unsafe int ComponentDataSize_HybridModelSeed
+    {
+      get
+      {
+        int sizeHybridModelSeed;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataSize_HybridModelSeed, (void*) &sizeHybridModelSeed);
+        return sizeHybridModelSeed;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataSize_HybridModelSeed, (void*) &value);
+      }
+    }
+
+    public static unsafe int ComponentDataStartOffset_LifeTime
+    {
+      get
+      {
+        int startOffsetLifeTime;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataStartOffset_LifeTime, (void*) &startOffsetLifeTime);
+        return startOffsetLifeTime;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataStartOffset_LifeTime, (void*) &value);
+      }
+    }
+
+    public static unsafe int ComponentDataSize_LifeTime
+    {
+      get
+      {
+        int dataSizeLifeTime;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataSize_LifeTime, (void*) &dataSizeLifeTime);
+        return dataSizeLifeTime;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataSize_LifeTime, (void*) &value);
+      }
+    }
+
+    public static unsafe int ComponentDataStartOffset_StaticTransformCompatible
+    {
+      get
+      {
+        int transformCompatible;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataStartOffset_StaticTransformCompatible, (void*) &transformCompatible);
+        return transformCompatible;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataStartOffset_StaticTransformCompatible, (void*) &value);
+      }
+    }
+
+    public static unsafe int ComponentDataSize_StaticTransformCompatible
+    {
+      get
+      {
+        int transformCompatible;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataSize_StaticTransformCompatible, (void*) &transformCompatible);
+        return transformCompatible;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataSize_StaticTransformCompatible, (void*) &value);
+      }
+    }
+
+    public static unsafe int ComponentDataStartOffset_Team
+    {
+      get
+      {
+        int dataStartOffsetTeam;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataStartOffset_Team, (void*) &dataStartOffsetTeam);
+        return dataStartOffsetTeam;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataStartOffset_Team, (void*) &value);
+      }
+    }
+
+    public static unsafe int ComponentDataSize_Team
+    {
+      get
+      {
+        int componentDataSizeTeam;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataSize_Team, (void*) &componentDataSizeTeam);
+        return componentDataSizeTeam;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataSize_Team, (void*) &value);
+      }
+    }
+
+    public static unsafe int ComponentDataStartOffset_TileModel
+    {
+      get
+      {
+        int startOffsetTileModel;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataStartOffset_TileModel, (void*) &startOffsetTileModel);
+        return startOffsetTileModel;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataStartOffset_TileModel, (void*) &value);
+      }
+    }
+
+    public static unsafe int ComponentDataSize_TileModel
+    {
+      get
+      {
+        int dataSizeTileModel;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataSize_TileModel, (void*) &dataSizeTileModel);
+        return dataSizeTileModel;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_ComponentDataSize_TileModel, (void*) &value);
+      }
+    }
+
+    public static unsafe ulong CompBit_BuffableFlagState
+    {
+      get
+      {
+        ulong buffableFlagState;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_BuffableFlagState, (void*) &buffableFlagState);
+        return buffableFlagState;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_BuffableFlagState, (void*) &value);
+      }
+    }
+
+    public static unsafe ulong CompBit_Health
+    {
+      get
+      {
+        ulong compBitHealth;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_Health, (void*) &compBitHealth);
+        return compBitHealth;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_Health, (void*) &value);
+      }
+    }
+
+    public static unsafe ulong CompBit_HybridModelSeed
+    {
+      get
+      {
+        ulong bitHybridModelSeed;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_HybridModelSeed, (void*) &bitHybridModelSeed);
+        return bitHybridModelSeed;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_HybridModelSeed, (void*) &value);
+      }
+    }
+
+    public static unsafe ulong CompBit_LifeTime
+    {
+      get
+      {
+        ulong compBitLifeTime;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_LifeTime, (void*) &compBitLifeTime);
+        return compBitLifeTime;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_LifeTime, (void*) &value);
+      }
+    }
+
+    public static unsafe ulong CompBit_StaticTransformCompatible
+    {
+      get
+      {
+        ulong transformCompatible;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_StaticTransformCompatible, (void*) &transformCompatible);
+        return transformCompatible;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_StaticTransformCompatible, (void*) &value);
+      }
+    }
+
+    public static unsafe ulong CompBit_Team
+    {
+      get
+      {
+        ulong compBitTeam;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_Team, (void*) &compBitTeam);
+        return compBitTeam;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_Team, (void*) &value);
+      }
+    }
+
+    public static unsafe ulong CompBit_TileModel
+    {
+      get
+      {
+        ulong compBitTileModel;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_TileModel, (void*) &compBitTileModel);
+        return compBitTileModel;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_TileModel, (void*) &value);
+      }
+    }
+
+    public static unsafe ulong CompBit_CastleBuildingAttachedChildrenBuffer
+    {
+      get
+      {
+        ulong attachedChildrenBuffer;
+        IL2CPP.il2cpp_field_static_get_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_CastleBuildingAttachedChildrenBuffer, (void*) &attachedChildrenBuffer);
+        return attachedChildrenBuffer;
+      }
+      [param: In] set
+      {
+        IL2CPP.il2cpp_field_static_set_value(Snapshot_cfcjgefdjg.NativeFieldInfoPtr_CompBit_CastleBuildingAttachedChildrenBuffer, (void*) &value);
+      }
+    }
+  }
+}

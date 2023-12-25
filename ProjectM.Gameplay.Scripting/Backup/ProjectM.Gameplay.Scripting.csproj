@@ -1,0 +1,675 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\mitch\.nuget\packages\vrising.unhollowed.client\0.6.5.57575090\lib\net6.0\ProjectM.Gameplay.Scripting.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9AA46798-9D2D-4F3C-9C8A-62BE4628AE8B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>ProjectM.Gameplay.Scripting</AssemblyName>
+    <ApplicationVersion>0.0.0.0</ApplicationVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Il2CppInterop.Common">
+      <HintPath>lib\Il2CppInterop.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>lib\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Core">
+      <HintPath>lib\Il2CppSystem.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>lib\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Malee.ReorderableList">
+      <HintPath>lib\Malee.ReorderableList.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectM">
+      <HintPath>lib\ProjectM.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectM.Shared">
+      <HintPath>lib\ProjectM.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="Stunlock.Core">
+      <HintPath>lib\Stunlock.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Stunlock.Localization">
+      <HintPath>lib\Stunlock.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>lib\Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities">
+      <HintPath>lib\Unity.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.Hybrid">
+      <HintPath>lib\Unity.Entities.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>lib\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Transforms">
+      <HintPath>lib\Unity.Transforms.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>lib\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Script_Example_Buffers.cs" />
+    <Compile Include="__JobReflectionRegistrationOutput__2653468759.cs" />
+    <Compile Include="ObjectPrivateAbstractSealedInVo8.cs" />
+    <Compile Include="Il2CppMicrosoft\CodeAnalysis\EmbeddedAttribute.cs" />
+    <Compile Include="Il2CppSystem\Runtime\CompilerServices\IsReadOnlyAttribute.cs" />
+    <Compile Include="ProjectM\Script_BloodBuff_Innocent_80.cs" />
+    <Compile Include="ProjectM\Script_BloodBuff_Brute_HealthRegenBonus.cs" />
+    <Compile Include="ProjectM\Script_BloodBuff_Brute_NulifyAndEmpower.cs" />
+    <Compile Include="ProjectM\Script_BloodBuff_ChanceToResetCooldownOnSpellCast_.cs" />
+    <Compile Include="ProjectM\Script_BloodBuff_FirstStrike.cs" />
+    <Compile Include="ProjectM\Script_BloodBuff_ResetCooldownOnSpellCast.cs" />
+    <Compile Include="ProjectM\Script_BloodBuff_Rogue_MountDamageBonus.cs" />
+    <Compile Include="ProjectM\Script_BloodBuff_Scholar_MovementSpeedOnCast.cs" />
+    <Compile Include="ProjectM\RemovePvPSafeBuffOnCastleEntrySystem.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_FollowerStationaryBuff_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_FollowerStationaryBuff.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Mantrap_Standard_InCombat_Buff_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Mantrap_Standard_InCombat_Buff.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Modify_Combat_Movement_Buff_Data.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Modify_Combat_Movement_Buff_State.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Modify_Combat_Movement_Buff.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_UndeadLeader_Teleport_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_UndeadLeader_Teleport.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodAltar_TrackVBloodUnit_Entry.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodAltar_TrackVBloodUnit_Server.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodAltar_TrackVBloodUnit_Client.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodAltar_TrackVBloodUnit.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Convert_Item_OnConsume_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Convert_Item_OnConsume_Entry.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Convert_Item_OnConsume_Entry_Editor.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Convert_Item_OnConsume.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BiteFinishedEvent.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateEventOnBite.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BiteKillFinishedEvent.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateEventOnBiteKill.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\ResourceNodeDestroyEvent.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateEventOnResourceNodeDestroy.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\EnterShapeshiftEvent.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateEventOnShapeshift.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Demount_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Demount.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Fly_CheckLanding_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Fly_CheckLanding.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_KillOnDestroy.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Knockback_Wall_Buff_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Knockback_Wall_Buff.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_LifeLeech.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Mount_Travel_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Mount_Travel.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_PlaySequenceInSun_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_PlaySequenceInSun.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_PlaySequenceWhenHasBuff_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_PlaySequenceWhenHasBuff.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_PreCast_TakeFlight_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_PreCast_TakeFlight.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ProjectileSpread_Channel_Data.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ProjectileSpread_Channel.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Siphon_Blood_Buff_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Siphon_Blood_Buff_DataClient.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Siphon_Blood_Buff.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Stagger.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Stagger.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SubdueMount_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SubdueMount.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_TriggerCooldownOnSpawn_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_TriggerCooldownOnSpawn.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\UpdateBuffTargetSpawnPosition_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\UpdateBuffTargetSpawnPositionWhen.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_UpdateBuffTargetSpawnPosition.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Wounded_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Wounded.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_PreCast_Roll_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_PreCast_Roll.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Roll_Jump_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Roll_Jump.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\AbilityChargeBuff_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\AbilityChargeBuff_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\AbilityChargeBuff_DataClient.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_AbilityChargeBuff.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\AbilityChargeCooldowns.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\CooldownPerSlot.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_AbilityChargeCooldown.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_AbilityChargeRechargeOnSpawn_Server.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\AbilityRechargeType.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_AbilityChargeRechargeOnSpawn.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\AbilityChargeResetOnUse.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_AbilityChargeResetOnUse.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\AbilityProjectileFanOnGameplayEvent_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_AbilityProjectileFanOnGameplayEvent.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\AbilityProjectileFanOnTick_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_AbilityProjectileFanOnTick.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_AbilityResetAbilityComboOnGameplayEvent_Ser.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_AbilityResetAbilityComboOnGameplayEvent.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\AbilityThrowMultipleWithSpreadOnTick_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_AbilityThrowMultipleWithSpreadOnTick.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\AbilityThrowTowardsEventHitTarget_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_AbilityThrowTowardsEventHitTarget.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ApplyBuffOnAllWithBuff_Cast_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ApplyBuffOnAllWithBuff_Cast.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BouncingProjectile_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BouncingProjectileData.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\TieBreakerType.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\TieBreakerValue.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BouncingProjectileData_Editor.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BouncingProjectile.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BouncingProjectile_Delay_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BouncingProjectile_Delay.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnTickAfterDelay_DataSer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnTickAfterDelay.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnTickRandomChance_DataS.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnTickRandomChance.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\ProfessorCoilEventType.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateProfessorCoilEvent_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateProfessorCoilEvent.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_DestroyBuffOnNoAbilityCharges_Server.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_DestroyBuffOnNoAbilityCharges.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\EvenSpreadCluster_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_EvenSpreadCluster.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Throw_Prefabs_To_Spawn.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\EvenSpreadCluster_Tick_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_EvenSpreadCluster_Tick.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_FindClosestSpellTarget_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_FindClosestSpellTarget.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_GetLifeTimeFromRespawnSettings.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_GetOwnerTranslationOnUpdate.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_HomingSpell_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_HomingSpell.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\LaunchProjectileFromKiller_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_LaunchProjectileFromKiller.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\LaunchProjectileTowardsTargetOnGameplayEvent_DataS.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_LaunchProjectileTowardsTargetOnGameplayEven.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_LightningProjectile_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_LightningProjectile_Nodes.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_LightningProjectile.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ModifyBuffResistancesDuringCast_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ModifyBuffResistancesDuringCast.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_MultiShot_Cast_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_MultiShot_Cast.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_MultiThrow_Cast_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_MultiThrow_Cast.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ProfessorProjectileOnGameplayEvent_DataServ.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ProfessorProjectileOnGameplayEvent.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_RemoveBuffOnAbilityUseData.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_RemoveBuffOnAbilityUse.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ResetDealDamageOnGameplayEvent.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\RingAoE_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\HitList.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_RingAoE.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SetLastTranslation.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SetSpellTargetToOwner.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\SpawnThrowFromBuff_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SpawnThrowFromBuff.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SpawnTravelToTargetOriginPosition_DataServe.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SpawnTravelToTargetOriginPosition.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_StormPolarityShift_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_StormPolarityShift.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\ThrowMultiple_PlayerHitCount_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ThrowMultiple_PlayerHitCount.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Blood_CrimsonBeam_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Blood_CrimsonBeam_HitElement.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Blood_CrimsonBeam_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Blood_CrimsonBeam_DataClient.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Blood_CrimsonBeam_HitSequenceElement.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Blood_CrimsonBeam.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Gorgon_Rush_Consume_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Gorgon_Rush_Consume.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Gorgon_Venom_Debuff_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Gorgon_Venom_Debuff.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Raven_Projectile_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Raven_Projectile.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Raven_Projectile_Channel_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Raven_Projectile_Channel.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Slashers_DashHit_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\SlashersHitList_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Slashers_DashHit.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Spectral_Empower_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Spectral_Empower_DataClient.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Spectral_Empower.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Spectral_Recharge_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Spectral_Recharge.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Unholy_BoneSpear_Debuff_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Unholy_BoneSpear_Debuff.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Unholy_BoneSpear_Projectile_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Unholy_BoneSpear_Projectile.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Unholy_Harvest_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Unholy_Harvest.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Unholy_RaiseDead_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Unholy_RaiseDead.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Frail_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Frail.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Innocent_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Innocent.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Innocent_0_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Innocent_0.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Innocent_50_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Innocent_50.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Intelligence_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Intelligence.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Labor_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Labor.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Satiated_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Satiated.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Scholar_ManaRegenBonus_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Scholar_ManaRegenBonus.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Sorcerrer_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Sorcerrer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Strength_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Strength.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Unsteady_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Unsteady.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_VBlood_0_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_VBlood_0.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Warrior_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Warrior.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_WeatherResistant_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_WeatherResistant.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_AllResistance_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_AllResistance.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_ApplyMovementSpeedOnShapeshift_DataShare.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_ApplyMovementSpeedOnShapeshift.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Assault_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Assault.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Base.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\RandomMutant.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_BiteToMutant_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_BiteToMutant.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_BloodConsumption_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_BloodConsumption.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Brute_100_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Brute_100.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Brute_ArmorLevelBonus_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Brute_ArmorLevelBonus.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Brute_PhysLifeLeech_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Brute_PhysLifeLeech.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Brute_RecoverOnKill_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Brute_RecoverOnKill.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Creature_SpeedBonus_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Creature_SpeedBonus.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_CritAmplifyProc_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_CritAmplifyProc.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_CriticalStrikeOnNextAttack_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_CriticalStrikeOnNextAttack.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_DamageReduction_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_DamageReduction.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_GarlicResistance_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_GarlicResistance.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_HealReceivedProc_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_HealReceivedProc.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_HealthRegeneration_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_HealthRegeneration.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_PhysCritChanceBonus_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_PhysCritChanceBonus.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_PhysCritPowerBonus_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_PhysCritPowerBonus.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_PhysicalLifeLeech_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_PhysicalLifeLeech.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_PrimaryAttackLifeLeech_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_PrimaryAttackLifeLeech.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_PrimaryProc_FreeCast_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_PrimaryProc_FreeCast.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_ReducedTravelCooldown_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_ReducedTravelCooldown.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Rogue_100_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Rogue_100.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Rogue_AttackSpeedBonus_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Rogue_AttackSpeedBonus.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Rogue_SpeedBonus_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Rogue_SpeedBonus.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Scholar_MaxManaBonus_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Scholar_MaxManaBonus.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Scholar_SpellCooldown_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Scholar_SpellCooldown.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Scholar_SpellCritChanceBonus_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Scholar_SpellCritChanceBonus.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Scholar_SpellLevelBonus_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Scholar_SpellLevelBonus.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Scholar_SpellPowerBonus_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Scholar_SpellPowerBonus.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_SilverResistance_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_SilverResistance.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_SpellLifeLeech_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_SpellLifeLeech.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_SunResistance_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_SunResistance.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Warrior_100_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Warrior_100.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Warrior_DamageReduction_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Warrior_DamageReduction.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Warrior_PhysCritDamageBonus_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Warrior_PhysCritDamageBonus.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Warrior_PhysDamageBonus_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Warrior_PhysDamageBonus.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Warrior_PhysicalBonus_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Warrior_PhysicalBonus.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Warrior_WeaponCooldown_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Warrior_WeaponCooldown.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Warrior_WeaponLevelBonus_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Warrior_WeaponLevelBonus.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Worker_100_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Worker_100.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Worker_Gallop_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Worker_Gallop.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Worker_IncreaseYield_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Worker_IncreaseYield.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Worker_Pulverize_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Worker_Pulverize.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Worker_ReducedDurability.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BloodBuff_Worker_ResourceDamageBonus_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BloodBuff_Worker_ResourceDamageBonus.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\RelicBuff_NoBloodDrain_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_RelicBuff_NoBloodDrain.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_AggroRangeFactor_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_AggroRangeFactor.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Buff_ApplyBuffOnDamageTypeDealt_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_ApplyBuffOnDamageTypeDealt.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Buff_ApplyBuffOnPrimaryHit_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_ApplyBuffOnPrimaryHit.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Buff_ApplyBuffWithAdjustedLifetime_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_ApplyBuffWithAdjustedLifetime.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_ApplyNewBuffOnOwnerDeath_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_ApplyNewBuffOnOwnerDeath.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_BatFormInfo_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_BatFormInfo.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Buff_EmpowerDamageDealtByType_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_EmpowerDamageDealtByType.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_FreeCast_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_FreeCast.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_GenerateAggro_Target.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_GenerateAggro_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_GenerateAggro.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_GrabToOwner_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_GrabToOwner.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Buff_HealAttackerOnDamageType_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_HealAttackerOnDamageType.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Buff_HealAttackerOnPrimaryAttack_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_HealAttackerOnPrimaryAttack.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_IgnoresPathfindingLineOfSight_DataServ.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_IgnoresPathfindingLineOfSight.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_ModifyAggroFactor_Target.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_ModifyAggroFactor_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_ModifyAggroFactor.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_ModifyAiPointOfInterestTarget_DataServ.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_ModifyAiPointOfInterestTarget.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_ModifyBuffResistances_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_ModifyBuffResistances.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\ModifyDynamicCollisionTargets.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_ModifyDynamicCollision_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_ModifyDynamicCollision.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_ModifyFaction_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_ModifyFaction.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_MountSpeed_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_MountSpeed.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_MoveToBusStop.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_ObserveRemoveTileModel.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_PowerMod_Stacking_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_PowerMod_Stacking.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_PvPProtection_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_PvPProtection.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Buff_Reduce_Cooldown_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_Reduce_Cooldown.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Buff_Reduce_SpellCooldown_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_Reduce_SpellCooldown.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_ServantMission.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_SetHybridModel_DataClient.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_SetHybridModel.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\DeclareSetHybridModelReferencesSystem.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_Shapeshift_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_Shapeshift.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_Spellblock_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_Spellblock.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_Stealth_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_Stealth.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_Stealth_Duration_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_Stealth_Duration.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_StopPatrol_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_StopPatrol.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_TrueForm_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_TrueForm.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_VisionRangeModification_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_VisionRangeModification.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_VisionStackModification_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_VisionStackModification.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_Werewolf_AttackSpeed_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_Werewolf_AttackSpeed.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CursedAreaDebuff.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_GarlicAreaDebuff.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_GarlicAreaLeaveZoneDebuff_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_GarlicAreaLeaveZoneDebuff.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_GarlicFeverDebuff_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_GarlicFeverDebuff.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_IgniteDebuff_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_IgniteDebuff.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_PassiveRegen_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_PassiveRegen.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ProfessorOverloadOrb_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ProfessorOverloadOrb.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ProfessorTeleportMid.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_RatHoleForceAiming_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_RatHoleForceAiming.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SilverDebuff_DataClient.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SilverDebuff.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\SpawnStructure_WeakenState_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SpawnStructure_WeakenState.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_TeleportNearSpellTarget_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_TeleportNearSpellTarget.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_UnitBloodQualityBuff_Brute_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_UnitBloodQualityBuff_Brute.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_UnitBloodQualityBuff_Creature_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_UnitBloodQualityBuff_Creature.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_UnitBloodQualityBuff_Mutant_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_UnitBloodQualityBuff_Mutant.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_UnitBloodQualityBuff_Rogue_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_UnitBloodQualityBuff_Rogue.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_UnitBloodQualityBuff_Scholar_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_UnitBloodQualityBuff_Scholar.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_UnitBloodQualityBuff_Warrior_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_UnitBloodQualityBuff_Warrior.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_UnitBloodQualityBuff_Worker_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_UnitBloodQualityBuff_Worker.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\CastAbilityInStateScript_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\CastAbilityInStateScript.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\SpiderCocoon_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\SpiderCocoonSpawns_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SpiderCocoon.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_DamageZone_SingleTarget_HitConditions.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_DamageZone_SingleTarget_HitConditions_Edito.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_DamageZone_SingleTarget_Shared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_DamageZone_SingleTarget_HitTarget.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_DamageZone_SingleTarget.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_StealthBush_Environment_Data.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_StealthBush_Environment_HitSpheres.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_StealthBush_Environment_ActiveStealths.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_StealthBush_Environment.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ToggleNearbyArmorRacks_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ToggleNearbyArmorRacks.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_TransitionInteractedOnSpawn_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_TransitionInteractedOnSpawn.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_WerewolfChieftain_ToggleGates_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_WerewolfChieftain_ToggleGates.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\ExampleScript_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\ExampleScript_DataClient.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Example.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Example_BossBarrel_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Example_BossBarrel.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Example_Buffer_Entry.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Example_Buffers.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Example_GameplayEvent_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Example_GameplayEvent.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Example_ExplodeCloseBarrelOnCast_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Example_ExplodeCloseBarrel_Event.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Example_ExplodeCloseBarrelOnCast.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Example_ExplosiveBarrel_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Example_ExplosiveBarrel.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Example_Modifications_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Example_Modifications.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\AbilityChargeRechargeOnGameplayEvent_Server.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\RechargeType.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_AbilityChargeRechargeOnGameplayEvent.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BranchOnRandomGameplayEventData.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BranchOnRandomGameplayEvent.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnAreaEnterExit_DataServ.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnAreaEnterExit_Entry.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnAreaEnterExit.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnBuffTargetDeath_DataSe.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\EventTriggerTarget.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnBuffTargetDeath.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnDamageDealtToEntityCat.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnDamageDealt.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnDamageTakenToEntityCat.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnDamageTaken.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnDestroyHitOrMiss_DataS.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnDestroyHitOrMiss.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnDetectNoMovementOnTick.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\1Script_CreateGameplayEventOnDetectNoMovementOnTick.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnHitBuffPriority_DataSe.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BuffPriority_HitList_Previous.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnHitBuffPriority.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnHitConsumableProjectil.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\ConsumableProjectile_HitList.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\1Script_CreateGameplayEventOnHitConsumableProjectil.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnHitDetection_DataServe.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnHitDetection.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnTargetKilled_DataServe.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\KillTriggerTarget.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnTargetKilled.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnTeleporterMatch_DataSe.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_CreateGameplayEventOnTeleporterMatch.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_DetachFromSpawnerOnGameplayEvent.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_KillAllMinionsOnGameplayEvent.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ModifyAbilityCooldownOnGameplayEvent_DataSe.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ModifyAbilityCooldownOnGameplayEvent.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ModifySpellAbilityCooldownOnGameplayEvent_D.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ModifySpellAbilityCooldownOnGameplayEvent.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SetAbilityCooldownOnGameplayEvent_DataServe.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SetAbilityCooldownOnGameplayEvent.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SetBehaviourTreeStateOnGameplayEvent_DataSe.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SetBehaviourTreeStateOnGameplayEvent.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ApplyBuffOnAggroListTarget_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ApplyBuffOnAggroListTarget.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ApplyBuffUnderHealthThreshhold_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ApplyBuffUnderHealthThreshhold.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ApplyBuffUnderHealthThreshhold_MonsterVBloo.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\1Script_ApplyBuffUnderHealthThreshhold_MonsterVBloo.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ApplyBuffUnderThreeHealthThreshholds_DataSe.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ApplyBuffUnderThreeHealthThreshholds.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ApplyBuffUnderThreeHealthThreshholdsDataCar.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\1Script_ApplyBuffUnderThreeHealthThreshholdsDataCar.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ApplyExclusiveSiegeBuff_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ApplyExclusiveSiegeBuff.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BatformSCT_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_BatformSCTScript.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Buff_HealthThreshold_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_HealthThreshold.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_Buff_Mount.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ClusterBomb_Cast_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ClusterBomb_Cast.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ConfuseDummy.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_DisableTileCollision.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_DisableTileLineOfSight.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\EtherialState_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_EtherialState.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_GrowingProjectile_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_GrowingProjectile.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_HomingProjectileBoostOverLifetime_DataServe.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BoostProjectileHitList.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_HomingProjectileBoostOverLifetime.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_IceMovementBuff_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_IceMovementBuff.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\MountBuff_Sequence_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_MountBuff_Sequence.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\MountedAbilityCastSequence_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_MountedAbilityCastSequence.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_PlayTileModelBlueprintDestroySequenceCompon.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_PrisonInteract_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_PrisonInteract.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_RemoteImprison_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_RemoteImprison.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_RemoveImmortality_Buff.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_RemoveSheltInvulnerability.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_ResetBuffSpawnerOnDestroy.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\RotationTarget.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\RotationType.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\RotateOverTimeData.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_RotateOverTime.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SCTChatOnAggro_Data.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SCTChatOnAggro_Buffer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\SCTChatOnAggro_Entry.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\AggroSCTChatType.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SCTChatOnAggro.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SCTChatOnSpawn_Data.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SCTChatOnSpawn_Buffer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\SCTChatOnSpawn_Entry.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SCTChatOnSpawn.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SetFlyingHeightVision_Buff_DataShared.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SetFlyingHeightVision_Buff.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SetHealthToOwnerPercentage_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SetHealthToOwnerPercentage.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SetWeaponRunCycle_DataClient.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SetWeaponRunCycle.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SharedHealthPoolBuff_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SharedHealthPoolBuff.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SommelierBarrelDance_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SommelierBarrelDance.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SommelierBarrelFountain_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SommelierBarrelFountain.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\BarrelIds.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SommelierHorizontalBarrels_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SommelierHorizontalBarrels.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SpawnAnotherThrowSameDirection_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SpawnAnotherThrowSameDirection.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SpawnPrefabOnMiss_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SpawnPrefabOnMiss.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SpawnThrowTowardsNearbyVampires_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SpawnThrowTowardsNearbyVampires.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_SuperShield.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_UnitSpawn_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_UnitSpawn.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_VampireInteractionSequence_Data.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_VampireInteractionSequence.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_WarningCircle_Buff_Visuals_DataClient.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_WarningCircle_Buff_Visuals.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_WarningCircle_Visuals_DataClient.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\Script_WarningCircle_Visuals.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\SmurfMultiShot_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\SmurfMultiShotAuthoring.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\SmurfProjectile_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\SmurfProjectile_HitListServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\SmurfProjectile_DataClient.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\SmurfProjectileAuthoring.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\TestScript_DataServer.cs" />
+    <Compile Include="ProjectM\Gameplay\Scripting\TestScript.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
